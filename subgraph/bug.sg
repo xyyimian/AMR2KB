@@ -1,0 +1,25 @@
+--------------------------------------------------
+# ::id PROXY_AFP_ENG_20020626_0144.27 ::date 2013-05-24T21:35:48 ::snt-type body ::annotator UCO-AMR-05 ::preferred
+# ::snt Health Minister Sudarat Keyuraphan reported to Princess ubolratana that the event was meant to demonstrate the Government's strong determination to eradicate the drug problem.
+# ::save-date Mon Sep 16, 2013 ::file PROXY_AFP_ENG_20020626_0144_27.txt
+(1)(r / report-01
+      :ARG0 (p3 / person :name (n / name :op1 "Sudarat" :op2 "Keyuraphan")
+            :ARG0-of (h2 / have-org-role-91
+                  :ARG2 (m / minister
+                        :mod (h / health))))
+      :ARG1 (m2 / mean-01
+            :ARG1 (e / event)
+            :ARG2 (d / demonstrate-01
+                  :ARG0 e
+                  :ARG1 (d2 / determine-01
+                        :ARG0 (g / government-organization
+                              :ARG0-of (g2 / govern-01))
+                        :ARG1 (e2 / eradicate-01
+                              :ARG0 g
+                              :ARG1 (p2 / problem
+                                    :mod (d3 / drug)))
+                        :manner (s / strong))))
+      :ARG2 (p / person :name (n2 / name :op1 "Ubolratana")
+            :ARG0-of (h3 / have-org-role-91
+                  :ARG2 (p4 / princess))))
+

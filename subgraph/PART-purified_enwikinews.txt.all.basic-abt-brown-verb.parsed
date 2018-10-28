@@ -1,0 +1,1399 @@
+# ::id 1
+# ::snt ARTICLE 736
+(x1 / article)
+
+# ::id 2
+# ::snt President of China lunches with Brazilian President
+(x4 / lunch-01
+	:ARG0 (xap0 / person
+		:ARG0-of (x1 / have-org-role-91
+			:ARG2 (p / president)
+			:ARG1 (x3 / country
+				:name (n / name
+					:op1 "China"))))
+	:ARG2 (xap1 / person
+		:ARG0-of (x7 / have-org-role-91
+			:ARG2 (p1 / president)
+			:ARG1 (x6 / country
+				:name (n1 / name
+					:op1 "Brazil")))))
+
+# ::id 3
+# ::snt Hu Jintao, the President of the People's Republic of China had lunch today with the President of Brazil, Luiz Inácio Lula da Silva, at the ''Granja do Torto'', the President's country residence in the Brazilian Federal District.
+(x13 / have-03
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Hu"
+			:op2 "Jintao")
+		:ARG0-of (x5 / have-org-role-91
+			:ARG2 (p / president)
+			:null_edge (x8 / name
+				:op1 "People"
+				:op2 "'s"
+				:null_edge (x12 / country
+					:name (n1 / name
+						:op1 "China")
+					:null_edge "Republic"))))
+	:ARG1 (x14 / lunch-01)
+	:time (x15 / today)
+	:ARG1 (xap0 / location
+		:ARG1-of (x40 / reside-01
+			:null_edge (x18 / have-org-role-91
+				:ARG2 (p1 / president)
+				:ARG1 (x20 / organization
+					:name (n2 / name
+						:op1 "Brazil"
+						:op2 ","
+						:op3 "Luiz"
+						:op4 "Inácio"
+						:op5 "Lula"
+						:op6 "da"
+						:op7 "Silva"))
+				:location (x33 / country
+					:name (n3 / name
+						:op1 "Torto")
+					:null_edge (x31 / country
+						:name (n5 / name
+							:op1 "Granja"))))
+			:null_edge (x37 / have-org-role-91
+				:ARG2 (p2 / president))
+			:mod (x39 / country
+				:name (x45 / country
+					:name (n4 / name
+						:op1 "District")
+					:null_edge (x43 / country
+						:name (n6 / name
+							:op1 "Brazil")))))))
+
+# ::id 4
+# ::snt Lunch was a traditional Brazilian barbecue with different kinds of meat.
+(x6 / barbecue
+	:domain (x1 / lunch-01)
+	:mod (x4 / tradition)
+	:mod (x5 / country
+		:name (n / name
+			:op1 "Brazil"))
+	:ARG1 (x11 / meat
+		:mod (x9 / kind
+			:ARG1-of (x8 / differ-02))))
+
+# ::id 5
+# ::snt Some Brazilian ministers were present at the event: Antonio Palocci (Economy), Eduardo Campos (Science and Technology), Roberto Rodrigues (Agriculture), Luiz Fernando Furlan (Development), Celso Amorim (Exterior Relations), Dilma Rousseff (Mines and Energy).
+(x5 / present-01
+	:subevent-of (x8 / event)
+	:name (x10 / name
+		:op1 "Antonio"
+		:op2 "Palocci"
+		:ARG0-of (x13 / economy)
+		:name (x16 / name
+			:op1 "Eduardo"
+			:op2 "Campos")
+		:name (x24 / name
+			:op1 "Roberto"
+			:op2 "Rodrigues")
+		:ARG0-of (x27 / agriculture)
+		:name (x30 / name
+			:op1 "Luiz"
+			:op2 "Fernando"
+			:op3 "Furlan")
+		:ARG0-of (x34 / develop-01)
+		:name (x37 / name
+			:op1 "Celso"
+			:op2 "Amorim")
+		:ARG0-of (x41 / relations)
+		:name (x44 / name
+			:op1 "Dilma"
+			:op2 "Rousseff")
+		:purpose (x48 / and
+			:op2 (x20 / and
+				:op1 (x19 / science)
+				:op2 (x21 / technology)
+				:op1 (xap0 / person
+					:quant (x1 / some)
+					:ARG0-of (x3 / have-org-role-91
+						:ARG2 (m / minister)
+						:ARG1 (x2 / country
+							:name (n / name
+								:op1 "Brazil")))))
+			:op2 (x47 / mines))))
+
+# ::id 6
+# ::snt Also present were Roger Agnelli (Vale do Rio Doce company president) and Eduardo Dutra (Petrobras, government oil company, president).
+(x1 / also
+	:ARG2 (x2 / present-01)
+	:ARG1 (x14 / and
+		:op4 (x22 / company
+			:domain (x4 / newspaper
+				:name (n / name
+					:op1 "Roger"
+					:op2 "Agnelli"))
+			:mod (x7 / vale
+				:ARG1 (x10 / country
+					:name (n2 / name
+						:op1 "Doce")
+					:null_edge (x9 / country
+						:name (n3 / name
+							:op1 "Rio"))
+					:ARG0-of (x12 / have-org-role-91
+						:ARG2 (p / president)
+						:ARG0 (x11 / company))))
+			:name (x15 / name
+				:op1 "Eduardo"
+				:op2 "Dutra")
+			:mod (x18 / country
+				:name (n1 / name
+					:op1 "Petrobras"))
+			:mod (x20 / government-organization
+				:ARG0-of (g / govern-01))
+			:mod (x21 / oil))))
+
+# ::id 7
+# ::snt This meeting is part of a new political economy agreement between Brazil and China where Brazil has recognized mainland China's market economy status, and China has promised to buy more Brazilian products.
+(x2 / meet-03
+	:mod (x1 / this)
+	:ARG0 (x10 / agree-01
+		:mod (x7 / new)
+		:mod (x8 / politics)
+		:ARG1 (x9 / economy)
+		:ARG0 (x13 / and
+			:op1 (x12 / country
+				:name (n / name
+					:op1 "Brazil"))
+			:op2 (x14 / country
+				:name (n1 / name
+					:op1 "China")))
+		:ARG1-of (x18 / recognize-02
+			:ARG0 (x16 / country
+				:name (n2 / name
+					:op1 "Brazil"))
+			:ARG1 (x24 / status
+				:poss (x20 / country
+					:name (n3 / name
+						:op1 "China")
+					:mod (x19 / mainland))
+				:mod (x22 / market)
+				:mod (x23 / economy))
+			:ARG1-of (x29 / promise-01
+				:ARG0 (x27 / country
+					:name (n4 / name
+						:op1 "China"))
+				:ARG2 (x31 / buy-01
+					:ARG0 x27
+					:ARG1 (x34 / product
+						:degree (x32 / more)))))))
+
+# ::id 8
+# ::snt ARTICLE 741
+(x1 / article
+	:quant (x2 / 741))
+
+# ::id 9
+# ::snt Palestinians to elect new president on January 9
+(x3 / elect-01
+	:ARG0 (x1 / newspaper
+		:name (n / name
+			:op1 "Palestinians"))
+	:ARG1 (x5 / have-org-role-91
+		:ARG2 (p / president)
+		:mod (x4 / new))
+	:time (x7 / date-entity))
+
+# ::id 10
+# ::snt November 14, 2004
+(x1 / person
+	:name (n / name
+		:op1 "November"
+		:op2 "14"
+		:op3 ","
+		:op4 "2004"))
+
+# ::id 11
+# ::snt Acting president Rawhi Fattuh has announced today that Palestinian elections will be held on January 9.
+(x6 / announce-01
+	:ARG0 (x3 / newspaper
+		:name (n / name
+			:op1 "Rawhi"
+			:op2 "Fattuh")
+		:ARG0-of (x1 / acting)
+		:ARG0-of (x2 / have-org-role-91
+			:ARG2 (p / president)))
+	:time (x7 / today)
+	:ARG1 (x13 / hold-01
+		:ARG1 (x10 / elect-01
+			:mod (x9 / country
+				:name (n1 / name
+					:op1 "Palestinian")))
+		:time (x15 / date-entity)))
+
+# ::id 12
+# ::snt Futtuh, head of the Palestinian parliament, was sworn in hours after the death of Yasser Arafat on Thursday, and Palestinian Basic Law dictates that he may only serve up to two months before elections are held.
+(x22 / and
+	:op1 (x10 / swear-01
+		:ARG1 (x1 / futtuh
+			:location (x3 / head-01
+				:ARG1 (x7 / government-organization
+					:name (n1 / name
+						:op1 "parliament")
+					:mod (x6 / country
+						:name (n2 / name
+							:op1 "Palestinian")))))
+		:duration (x12 / temporal-quantity
+			:unit (h / hour)
+			:time (x13 / after
+				:op1 (x15 / die-01
+					:name (x17 / name
+						:op1 "Yasser"
+						:op2 "Arafat")
+					:time (xap0 / date-entity
+						:weekday (x20 / thursday))))))
+	:op2 (x26 / dictate-01
+		:ARG0 (x25 / law
+			:null_edge (x23 / country
+				:name (n / name
+					:op1 "Palestinian"))
+			:mod (x24 / basic))
+		:ARG1 (x29 / possible
+			:domain (x31 / serve-01
+				:ARG0 (x28 / he)
+				:mod (x30 / only)
+				:ARG1 (x35 / temporal-quantity
+					:unit (m / month)
+					:quant 2)
+				:time (x36 / before
+					:op1 (x39 / hold-04
+						:ARG1 (x37 / elect-01)))))))
+
+# ::id 13
+# ::snt New leadership could prove to be the key to revitalizing the peace process in the Middle East, as both Israel and the United States had refused to work with Arafat.
+(x3 / possible
+	:domain (x4 / prove-01
+		:null_edge (x1 / null_tag)
+		:ARG1 (x8 / key
+			:ARG1 (x10 / revitalize-01
+				:ARG1 (x13 / process
+					:mod (x12 / peace))
+				:null_edge (x16 / null_tag
+					:null_edge "East"))
+			:condition (x27 / refuse-01
+				:ARG0 (x22 / and
+					:mod (x20 / both)
+					:op1 (x21 / country
+						:name (n / name
+							:op1 "Israel"))
+					:op2 (x24 / country
+						:name (n1 / name
+							:op1 "United"
+							:op2 "States")))
+				:ARG1 (x29 / work-01
+					:ARG0 x22
+					:prep-with (x31 / person
+						:name (n2 / name
+							:op1 "Arafat")))))))
+
+# ::id 14
+# ::snt The ''Haaretz had initially reported that former prime minister Mahmoud Abbas was selected by the Fatah central committee as their candidate for president, but Abbas has denied this, saying, "the matter is still being discussed.
+(x26 / contrast-01
+	:ARG1 (x6 / report-01
+		:ARG0 (x3 / publication
+			:name (n / name
+				:op1 "Haaretz"))
+		:time (x5 / initial)
+		:ARG1 (x14 / select-01
+			:ARG1 (x11 / person
+				:name (n2 / name
+					:op1 "Mahmoud"
+					:op2 "Abbas")
+				:ARG0-of (x10 / have-org-role-91
+					:ARG2 (m / minister)
+					:mod (x8 / former)
+					:mod (x9 / prime)))
+			:ARG0 (x19 / committee
+				:mod (x17 / organization
+					:name (n3 / name
+						:op1 "Fatah"))
+				:mod (x18 / central))
+			:ARG3 (x24 / have-org-role-91
+				:ARG2 (p / president))))
+	:ARG2 (x29 / deny-01
+		:ARG0 (x27 / person
+			:name (n1 / name
+				:op1 "Abbas"))
+		:ARG1 (x30 / this)
+		:ARG1 (x32 / say-01
+			:ARG0 x27
+			:ARG1 (x40 / discuss-01
+				:time (x38 / still)))))
+
+# ::id 15
+# ::snt " There have also been conflicting reports on whether or not jailed Palestinian leader Marwan Barghouti will run.
+(x7 / report-01
+	:mod (x4 / also)
+	:ARG0-of (x6 / conflict-01)
+	:topic (x10 / or
+		:op1 (x18 / run-01
+			:ARG0 (x15 / newspaper
+				:name (n / name
+					:op1 "Marwan"
+					:op2 "Barghouti")
+				:ARG1-of (x12 / jail-01)
+				:ARG0-of (x14 / lead-02
+					:ARG1 (x13 / country
+						:name (n1 / name
+							:op1 "Palestinian")))))))
+
+# ::id 16
+# ::snt Barghouti is currently serving five life sentences in Israel for attacks against Israelis.
+(x4 / serve-01
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Barghouti"))
+	:time (x3 / current)
+	:ARG1 (x7 / sentence-01
+		:quant 5
+		:mod (x6 / life))
+	:location (x9 / country
+		:name (n1 / name
+			:op1 "Israel"))
+	:ARG1 (x11 / attack-01
+		:ARG1 (x13 / person
+			:mod (c / country
+				:name (n2 / name
+					:op1 "Israelis")))))
+
+# ::id 17
+# ::snt Nonetheless, he remains a popular figure among Palestinians for his role in the Palestinian uprising, and could potentially win the election if he decided to run.
+(x4 / remain-01
+	:ARG2 (x7 / figure
+		:domain (x3 / he)
+		:ARG1-of (x6 / popular-41)
+		:ARG1 (x16 / uprising
+			:ARG2 (x12 / role
+				:poss (x9 / publication
+					:name (n1 / name
+						:op1 "Palestinians")))
+			:ARG0 (x15 / country
+				:name (n / name
+					:op1 "Palestinian")))
+		:ARG1 (x19 / possible
+			:domain (x21 / win-01
+				:ARG0 (x18 / and)
+				:mod (x20 / potential)
+				:ARG1 (x23 / elect-01))
+			:domain (x26 / decide-01
+				:ARG1 (x28 / run-01)))))
+
+# ::id 18
+# ::snt A win by Barghouti could put Israel in an awkward spot; however an Israeli official said this week that he would not be freed, and a landslide win by Barghouti would signify to them that the Palestinians were not yet ready for peace.
+(x5 / possible
+	:domain (x6 / put-01
+		:ARG0 (x2 / win-01
+			:ARG0 (x4 / person
+				:name (n1 / name
+					:op1 "Barghouti")))
+		:ARG1 (x7 / country
+			:name (n / name
+				:op1 "Israel"))
+		:ARG2 (x11 / spot
+			:mod (x10 / awkward)))
+	:domain (x27 / and
+		:op2 (x17 / say-01
+			:time (x19 / week
+				:mod (x18 / this))
+			:ARG1 (x25 / free-01)
+			:ARG0 (xap0 / person
+				:ARG0-of (x16 / have-org-role-91
+					:ARG2 (o / official)
+					:ARG1 (x15 / country
+						:name (n2 / name
+							:op1 "Israel")))))))
+
+# ::id 19
+# ::snt ARTICLE 743
+(x1 / article
+	:quant (x2 / 743))
+
+# ::id 20
+# ::snt Brazilian delegation returns from Arafat funeral
+(x3 / return-01
+	:ARG1 (x2 / delegation
+		:mod (x1 / country
+			:name (n / name
+				:op1 "Brazil")))
+	:ARG3 (x6 / funeral))
+
+# ::id 21
+# ::snt November 13, 2004
+(x1 / person
+	:name (n / name
+		:op1 "November"
+		:op2 "13"
+		:op3 ","
+		:op4 "2004"))
+
+# ::id 22
+# ::snt The delegation representing Brazil at the funeral of Yasser Arafat returned today, November 13, 2004.
+(x11 / return-01
+	:ARG1 (x2 / delegation
+		:ARG0-of (x3 / represent-01
+			:ARG1 (x4 / country
+				:name (n / name
+					:op1 "Brazil"))
+			:ARG0 (x7 / funeral
+				:name (x9 / name
+					:op1 "Yasser"
+					:op2 "Arafat"))))
+	:time (x12 / today
+		:name (x14 / name
+			:op1 "November"
+			:op2 "13"
+			:op3 ","
+			:op4 "2004")))
+
+# ::id 23
+# ::snt The chief-minister of Civil House José Dirceu was a member of the delegation.
+(x10 / have-org-role-91
+	:ARG2 (m / member)
+	:ARG0 (x2 / chief-minister
+		:poss (x7 / person
+			:name (n / name
+				:op1 "Dirceu")
+			:null_edge (x5 / government-organization
+				:name (n1 / name
+					:op1 "House")
+				:mod (x4 / civil))
+			:null_edge (x6 / person
+				:name (n2 / name
+					:op1 "José"))))
+	:ARG1 (x13 / delegation))
+
+# ::id 24
+# ::snt Unfortunately they arrived too late for the funeral and the delegation watched only part of the funeral activities.
+(x9 / and
+	:op1 (x3 / arrive-01
+		:mod (x1 / unfortunate)
+		:ARG1 (x2 / they)
+		:time (x5 / late
+			:degree (x4 / too))
+		:purpose (x8 / funeral))
+	:op2 (x12 / watch-01
+		:ARG0 x2
+		:ARG0 (x11 / delegation)
+		:ARG1 (x14 / participate-01
+			:mod (x13 / only)
+			:ARG1 (x18 / activity
+				:mod (x17 / funeral)))))
+
+# ::id 25
+# ::snt PCdoB (Brazilian communist political party)
+(x1 / pcdob
+	:mod (x4 / communism
+		:mod (x5 / politics)))
+
+# ::id 26
+# ::snt Deputy Jamil Murad, member of the delegation, said there was a "deep mourning" feeling.
+(x10 / say-01
+	:ARG0 (x2 / newspaper
+		:name (n / name
+			:op1 "Jamil"
+			:op2 "Murad")
+		:ARG0-of (x1 / deputy)
+		:ARG0-of (x5 / member
+			:ARG1 (x8 / delegation)))
+	:ARG1 (x18 / feel-01
+		:mod (x15 / deep)
+		:ARG1-of (x16 / mourning)))
+
+# ::id 27
+# ::snt Jamil Murad had visited Yasser Arafat in April 2004, along with nine other Brazilian deputies.
+(x4 / visit-01
+	:ARG0 (x1 / newspaper
+		:name (n / name
+			:op1 "Jamil"
+			:op2 "Murad")
+		:ARG0-of (x3 / have-org-role-91))
+	:ARG1 (x5 / name
+		:op1 "Yasser"
+		:op2 "Arafat")
+	:time (x8 / date-entity
+		:year 2004)
+	:location (x11 / along
+		:op1 (xap0 / person
+			:quant 9
+			:ARG0-of (x16 / have-org-role-91
+				:ARG2 (d / deputy)
+				:mod (x14 / other)
+				:mod (x15 / country
+					:name (n1 / name
+						:op1 "Brazil"))))))
+
+# ::id 28
+# ::snt According to Jamil Murad: "Yasser Arafat was a Palestinian leader who became a world projection leader".
+(x14 / become-01
+	:ARG2 (x12 / person
+		:ARG0-of (l / lead-02)
+		:name (x3 / name
+			:op1 "Jamil"
+			:op2 "Murad")
+		:ARG0 (x7 / newspaper
+			:name (n / name
+				:op1 "Yasser"
+				:op2 "Arafat"))
+		:ARG1 (x11 / country
+			:name (n1 / name
+				:op1 "Palestinian")))
+	:ARG2 (x18 / person
+		:ARG0-of (l1 / lead-02)
+		:ARG1 (x16 / world)
+		:ARG1 (x17 / project-01)))
+
+# ::id 29
+# ::snt He said Arafat had written him a letter thanking the Brazilian people for their support of the Palestinian cause and saying that he, Arafat, considered President Luiz Inácio Lula da Silva a great world leader.
+(x2 / say-01
+	:ARG0 (x1 / he)
+	:ARG1 (x5 / write-01
+		:ARG0 (x3 / person
+			:name (n / name
+				:op1 "Arafat"))
+		:ARG1 (x8 / letter
+			:ARG0-of (x9 / thank-01
+				:beneficiary (x15 / support-01
+					:ARG1 (x19 / cause
+						:ARG0 (x18 / country
+							:name (n1 / name
+								:op1 "Palestinian"))
+						:consist-of (x21 / say-01
+							:ARG1 (x20 / and)
+							:ARG1 (x27 / consider-01
+								:ARG0 (x23 / he)
+								:ARG0 (x25 / person
+									:name (n2 / name
+										:op1 "Arafat"))
+								:ARG1 (x37 / lead-02
+									:domain (x29 / name
+										:op1 "Luiz"
+										:op2 "Inácio"
+										:op3 "Lula"
+										:op4 "da"
+										:op5 "Silva"
+										:ARG0-of (x28 / have-org-role-91
+											:ARG2 (p / president)))
+									:mod (x35 / great)
+									:ARG1 (x36 / world))))))))))
+
+# ::id 30
+# ::snt ARTICLE 764
+(x1 / article
+	:quant (x2 / 764))
+
+# ::id 31
+# ::snt Hearing begins over David Hookes death
+(x2 / begin-01
+	:ARG0 (x1 / hearing)
+	:topic (x6 / die-01
+		:mod (x4 / person
+			:name (n / name
+				:op1 "David"))
+		:ARG1 (x5 / person
+			:name (n1 / name
+				:op1 "Hookes"))))
+
+# ::id 32
+# ::snt Crime and law
+(x2 / and
+	:op1 (x1 / crime)
+	:op2 (x3 / law))
+
+# ::id 33
+# ::snt November 15, 2004
+(x1 / person
+	:name (n / name
+		:op1 "November"
+		:op2 "15"
+		:op3 ","
+		:op4 "2004"))
+
+# ::id 34
+# ::snt MELBOURNE, Victoria
+(x3 / state
+	:name (n / name
+		:op1 "Victoria")
+	:null_edge (x1 / country
+		:name (n1 / name
+			:op1 "MELBOURNE")))
+
+# ::id 35
+# ::snt A hearing started today over the death of Australian cricket coach David Hookes.
+(x3 / start-01
+	:ARG0 (x2 / hearing)
+	:time (x4 / today)
+	:ARG2 (x7 / die-01
+		:name (x12 / name
+			:op1 "David"
+			:op2 "Hookes"
+			:mod (x9 / country
+				:name (n / name
+					:op1 "Australia"))
+			:ARG0-of (x11 / person
+				:ARG0-of (c / coach-01)
+				:ARG1 (x10 / cricket)))))
+
+# ::id 36
+# ::snt Hookes died after an incident outside a hotel in Melbourne, Australia on the 19th of January.
+(x2 / die-01
+	:ARG1 (x1 / person
+		:name (n / name
+			:op1 "Hookes"))
+	:time (x3 / after
+		:op1 (x5 / incident
+			:location (x6 / outside
+				:op1 (x8 / hotel
+					:location (x10 / city
+						:name (n1 / name
+							:op1 "Melbourne"))
+					:location (x12 / country
+						:name (n2 / name
+							:op1 "Australia"))
+					:time (x15 / date-entity
+						:op1 (x17 / date-entity)))))))
+
+# ::id 37
+# ::snt Bouncer Zdravko Micevic, 22, is charged with manslaughter.
+(x8 / charge-05
+	:ARG1 (x2 / name
+		:op1 "Zdravko"
+		:op2 "Micevic"
+		:ARG0-of (x1 / bouncer)
+		:mod (x5 / person
+			:op 22))
+	:ARG2 (x10 / manslaughter))
+
+# ::id 38
+# ::snt ARTICLE 779
+(x1 / article
+	:quant (x2 / 779))
+
+# ::id 39
+# ::snt Iran close to decision on nuclear program
+(x2 / close-41
+	:ARG2 (x4 / decide-01
+		:location (x1 / country
+			:name (n / name
+				:op1 "Iran"))
+		:ARG1 (x7 / program
+			:mod (x6 / nucleus))))
+
+# ::id 40
+# ::snt November 13, 2004
+(x1 / person
+	:name (n / name
+		:op1 "November"
+		:op2 "13"
+		:op3 ","
+		:op4 "2004"))
+
+# ::id 41
+# ::snt Iran nuclear program
+(x3 / program
+	:mod (x2 / nucleus))
+
+# ::id 42
+# ::snt Iranian representatives say negotiations with Europe on its nuclear program are in the final stages.
+(x3 / say-01
+	:ARG0 (x2 / person
+		:ARG0-of (r / represent-01)
+		:ARG1 (x1 / country
+			:name (n / name
+				:op1 "Iran")))
+	:ARG1 (x4 / negotiate-01
+		:ARG1 (x6 / continent
+			:name (n1 / name
+				:op1 "Europe"))
+		:ARG1 (x10 / program
+			:mod (x9 / nucleus))
+		:time (x15 / stage
+			:mod (x14 / final))))
+
+# ::id 43
+# ::snt Iran's foreign minister, Kamal Kharazi, told state television Saturday Iranian negotiators have given their final response to a European Union proposal to suspend Iran's uranium enrichment program.
+(x9 / tell-01
+	:ARG0 (x6 / person
+		:name (n / name
+			:op1 "Kamal"
+			:op2 "Kharazi")
+		:ARG0-of (x4 / have-org-role-91
+			:ARG2 (m / minister)
+			:ARG1 (x1 / country
+				:name (n1 / name
+					:op1 "Iran"))
+			:mod (x3 / foreign)))
+	:ARG2 (x11 / television
+		:mod (x10 / state)
+		:ARG2-of (x19 / respond-01
+			:ARG0 (x14 / person
+				:ARG0-of (n2 / negotiate-01)
+				:mod (x13 / country
+					:name (n3 / name
+						:op1 "Iran"))
+				:time (xap0 / date-entity
+					:weekday (x12 / saturday)))
+			:mod (x18 / final)
+			:ARG1 (x24 / thing
+				:ARG1-of (p / propose-01)
+				:ARG0 (x22 / organization
+					:name (n4 / name
+						:op1 "European"))
+				:ARG1 (x26 / suspend-01
+					:ARG1 (x31 / program
+						:poss (x27 / country
+							:name (n5 / name
+								:op1 "Iran"))
+						:topic (x29 / uranium)
+						:topic (x30 / enrich-01)))))))
+
+# ::id 44
+# ::snt He said it is now up to the Europeans to decide whether or not to accept their decision.
+(x2 / say-01
+	:ARG0 (x1 / he)
+	:time (x5 / now
+		:null_edge (x9 / person
+			:mod (c / continent
+				:name (n / name
+					:op1 "Europeans")))
+		:time-of (x11 / decide-01
+			:ARG1 (x13 / or
+				:op1 (x16 / accept-01
+					:ARG1 (x18 / decide-01))))))
+
+# ::id 45
+# ::snt Iran and the European Union's big three powers — Britain, Germany, and France — have been negotiating a deal under which Tehran would agree to freeze sensitive nuclear work to avoid possible U.N. Security Council sanctions.
+(x20 / negotiate-01
+	:ARG0 (x2 / and
+		:op1 (x1 / country
+			:name (n / name
+				:op1 "Iran"))
+		:op2 (x9 / power
+			:ARG0 (x4 / organization
+				:name (n4 / name
+					:op1 "European"
+					:op2 "Union"))
+			:mod (x7 / big)
+			:quant 3))
+	:ARG1 (x15 / and
+		:op1 (x11 / country
+			:name (n1 / name
+				:op1 "Britain"))
+		:op3 (x13 / country
+			:name (n2 / name
+				:op1 "Germany"))
+		:op2 (x16 / country
+			:name (n3 / name
+				:op1 "France")))
+	:ARG2 (x22 / deal-01
+		:ARG1 (x27 / agree-01
+			:ARG0 (x25 / government-organization
+				:name (n5 / name
+					:op1 "Tehran"))
+			:ARG1 (x29 / freeze-01
+				:ARG0 x25
+				:ARG1 (x32 / work-01
+					:mod (x30 / sensitive)
+					:mod (x31 / nucleus))
+				:purpose (x34 / avoid-01
+					:ARG1 (x39 / thing
+						:ARG2-of (s / sanction-02)
+						:mod (x35 / possible)
+						:ARG0 (x36 / organization
+							:name (n6 / name
+								:op1 "U.N."))
+						:null_edge (x37 / null_tag)
+						:null_edge (x38 / null_tag)))))))
+
+# ::id 46
+# ::snt U.S. Secretary of State Colin Powell, says that Iran's nuclear program is intended to make nuclear weapons.
+(x8 / say-01
+	:ARG0 (x5 / person
+		:name (n / name
+			:op1 "Colin"
+			:op2 "Powell")
+		:quant-of (xap0 / person
+			:ARG0-of (x2 / have-org-role-91
+				:ARG2 (s / secretary)
+				:ARG1 (x1 / country
+					:name (n2 / name
+						:op1 "U.S."))
+				:ARG1 (x4 / state))))
+	:ARG1 (x15 / intend-01
+		:ARG1 (x13 / program
+			:poss (x10 / country
+				:name (n1 / name
+					:op1 "Iran"))
+			:mod (x12 / nucleus))
+		:ARG1 (x17 / make-01
+			:ARG1 (x19 / weapon
+				:mod (x18 / nucleus)))))
+
+# ::id 47
+# ::snt Iran authorities have insisted that their nuclear ambitions are limited to generating electricity from atomic energy plants, not making bombs.
+(x4 / insist-01
+	:ARG0 (x2 / authority
+		:mod (x1 / country
+			:name (n / name
+				:op1 "Iran")))
+	:ARG1 (x10 / limit-01
+		:ARG1 (x8 / ambition
+			:mod (x7 / nucleus))
+		:ARG1 (x12 / generate-01
+			:ARG1 (x13 / electricity)
+			:ARG2 (x17 / plant
+				:mod (x16 / energy
+					:mod (x15 / atom)))
+			:ARG1 (x21 / bomb))))
+
+# ::id 48
+# ::snt Critics of the position of the United States point to Israel's nuclear program.
+(x9 / point
+	:ARG0 (x1 / person
+		:ARG0-of (c / criticize-01)
+		:ARG1 (x4 / position
+			:poss (x7 / country
+				:name (n1 / name
+					:op1 "United"
+					:op2 "States"))))
+	:ARG2 (x14 / program
+		:poss (x11 / country
+			:name (n / name
+				:op1 "Israel"))
+		:mod (x13 / nucleus)))
+
+# ::id 49
+# ::snt Israel maintains a policy of nuclear ambiguity, but is widely believed to possess at least 82 nuclear weapons.
+(x9 / contrast-01
+	:ARG1 (x2 / maintain-01
+		:ARG0 (x1 / country
+			:name (n / name
+				:op1 "Israel"))
+		:ARG1 (x4 / policy
+			:topic (x7 / ambiguity
+				:mod (x6 / nucleus))))
+	:ARG2 (x12 / believe-01
+		:ARG0 x1
+		:degree (x11 / wide)
+		:ARG1 (x14 / possess-01
+			:ARG1 (x19 / weapon
+				:quant 82
+				:mod (x18 / nucleus)))))
+
+# ::id 50
+# ::snt The program has not been condemned by the United States.
+(x6 / condemn-01
+	:ARG1 (x2 / program)
+	:ARG0 (x9 / country
+		:name (n / name
+			:op1 "United"
+			:op2 "States")))
+
+# ::id 51
+# ::snt ARTICLE 783
+(x1 / article
+	:quant (x2 / 783))
+
+# ::id 52
+# ::snt Iran Agrees to Suspend Uranium Conversion
+(x2 / agree-01
+	:ARG0 (x1 / country
+		:name (n / name
+			:op1 "Iran"))
+	:ARG1 (x4 / suspend-01
+		:ARG1 (x6 / conversion
+			:mod (x5 / uranium))))
+
+# ::id 53
+# ::snt Iran nuclear program
+(x3 / program
+	:mod (x2 / nucleus))
+
+# ::id 54
+# ::snt November 15, 2004
+(x1 / person
+	:name (n / name
+		:op1 "November"
+		:op2 "15"
+		:op3 ","
+		:op4 "2004"))
+
+# ::id 55
+# ::snt Hassan Rowhani, head of the Supreme National Security Council for Iran, announced Monday that the country would temporarily suspend conversion of uranium as of November 22.
+(x14 / announce-01
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Hassan"
+			:op2 "Rowhani")
+		:ARG0-of (x4 / head-01
+			:ARG1 (x7 / government-organization
+				:name (n1 / name
+					:op1 "Supreme"
+					:op2 "National"
+					:op3 "Security"
+					:op4 "Council")
+				:name (x12 / name
+					:op1 "Iran"))))
+	:ARG1 (x21 / suspend-01
+		:ARG0 (x18 / country)
+		:duration (x20 / temporary)
+		:ARG1 (x22 / convert-01
+			:ARG1 (x24 / uranium))
+		:time (x27 / date-entity))
+	:time (xap0 / date-entity
+		:weekday (x15 / monday)))
+
+# ::id 56
+# ::snt "Iran is planning to suspend uranium conversion activities from November 22," Rowhani said during a news conference.
+(x16 / say-01
+	:ARG1 (x4 / plan-01
+		:ARG0 (x2 / country
+			:name (n1 / name
+				:op1 "Iran"))
+		:ARG1 (x6 / suspend-01
+			:ARG0 x2
+			:ARG1 (x9 / activity
+				:mod (x8 / convert-01
+					:ARG1 (x7 / uranium)))
+			:time (x11 / date-entity)))
+	:ARG0 (x15 / person
+		:name (n / name
+			:op1 "Rowhani"))
+	:time (x20 / conference
+		:mod (x19 / news)))
+
+# ::id 57
+# ::snt Uranium is a chemical element which can be used in nuclear weapons and nuclear power plants.
+(x5 / element
+	:domain (x1 / uranium)
+	:mod (x4 / chemical)
+	:ARG1-of (x9 / use-01
+		:mod (x7 / possible)
+		:ARG2 (x13 / and
+			:op1 (x12 / weapon
+				:mod (x11 / nucleus))
+			:op2 (x16 / plant
+				:mod (x15 / power
+					:mod (x14 / nucleus))))))
+
+# ::id 58
+# ::snt The process of conversion modifies the uranium oxydes into uranium hexafluoride.
+(x5 / modify-01
+	:ARG0 (x2 / process
+		:mod (x4 / convert-01))
+	:ARG1 (x11 / hexafluoride
+		:ARG1 (x7 / uranium)
+		:ARG1 (x10 / uranium)))
+
+# ::id 59
+# ::snt The purpose of such a conversion process is usually an intermediate step in the production of nuclear fuel.
+(x12 / step-01
+	:ARG1 (x7 / process
+		:mod (x4 / such)
+		:mod (x6 / convert-01))
+	:mod (x9 / usual)
+	:mod (x11 / intermediate)
+	:ARG2 (x15 / produce-01
+		:ARG1 (x18 / fuel
+			:mod (x17 / nucleus))))
+
+# ::id 60
+# ::snt Uranium hexafluoride cannot itself be used in a nuclear weapon, but can be enriched into weapons-grade uranium, or it can be converted into plutonium in a nuclear reactor.
+(x3 / possible
+	:ARG1-of (x13 / contrast-01
+		:ARG1 (x2 / hexafluoride
+			:ARG1 (x1 / uranium))
+		:ARG2 (x11 / weapon
+			:mod (x10 / nucleus))
+		:ARG2 (x14 / possible
+			:domain (x16 / enrich-01
+				:ARG2 (x19 / uranium
+					:mod (x18 / weapons-grade))))
+		:null_edge (x21 / or)
+		:ARG2 (x23 / possible
+			:domain (x25 / convert-01
+				:ARG2 (x27 / plutonium)
+				:ARG2 (x31 / reactor
+					:mod (x30 / nucleus))))))
+
+# ::id 61
+# ::snt Iran has claimed to be using its nuclear program for only peaceful nuclear energy, rather than for nuclear weapons, but there are concerns in the European Union and the USA as to whether they are being truthful.
+(x22 / contrast-01
+	:ARG1 (x3 / claim-01
+		:ARG0 (x1 / country
+			:name (n / name
+				:op1 "Iran"))
+		:ARG1 (x6 / use-01
+			:ARG0 x1
+			:ARG1 (x9 / program
+				:mod (x8 / nucleus))
+			:purpose (x14 / energy
+				:mod (x11 / only)
+				:mod (x12 / peaceful)
+				:mod (x13 / nucleus)
+				:purpose (x20 / weapon
+					:mod (x19 / nucleus))))
+		:time (x25 / concern-01
+			:ARG0 (x28 / organization
+				:name (n1 / name
+					:op1 "European"
+					:op2 "Union")
+				:mod (x32 / country
+					:name (n2 / name
+						:op1 "USA")))
+			:mod (x39 / truthful))))
+
+# ::id 62
+# ::snt ARTICLE 797
+(x1 / article)
+
+# ::id 63
+# ::snt Brazilian soccer player's mother has been kidnapped
+(x8 / kidnap-01
+	:ARG1 (x5 / mother
+		:poss (x3 / play-01
+			:ARG1 (x2 / soccer))))
+
+# ::id 64
+# ::snt November 15, 2004
+(x1 / person
+	:name (n / name
+		:op1 "November"
+		:op2 "15"
+		:op3 ","
+		:op4 "2004"))
+
+# ::id 65
+# ::snt PRAIA GRANDE, Brazil
+(x2 / country
+	:name (n / name
+		:op1 "GRANDE")
+	:null_edge (x1 / country
+		:name (n1 / name
+			:op1 "PRAIA"))
+	:null_edge (x4 / country
+		:name (n2 / name
+			:op1 "Brazil")))
+
+# ::id 66
+# ::snt Miss Marina Souza, aged 43, was kidnapped last Saturday, November 6, in Praia Grande, São Paulo, during a barbecue with her relatives.
+(x9 / kidnap-01
+	:ARG1 (x2 / name
+		:op1 "Marina"
+		:op2 "Souza"
+		:ARG0-of (x1 / miss))
+	:ARG1 43
+	:ARG1 (x11 / name
+		:op1 "Saturday"
+		:op2 ","
+		:op3 "November"
+		:op4 "6"
+		:mod (x10 / last))
+	:location (x18 / country
+		:name (n / name
+			:op1 "Grande")
+		:null_edge (x17 / country
+			:name (n1 / name
+				:op1 "Praia"))
+		:name (x20 / name
+			:op1 "São"
+			:op2 "Paulo"))
+	:time (x25 / barbecue
+		:ARG1 (x28 / relative)))
+
+# ::id 67
+# ::snt She is the mother of Robson de Souza, known as Robinho (Little Robin), a Brazilian soccer player for the Santos Football Club.
+(x4 / mother
+	:domain (x1 / she)
+	:name (x6 / name
+		:op1 "Robson"
+		:op2 "de"
+		:op3 "Souza")
+	:ARG1-of (x10 / know-01
+		:ARG2 x1
+		:ARG2 (x21 / play-01
+			:null_edge (x12 / country
+				:name (n / name
+					:op1 "Robinho"))
+			:null_edge (x15 / robin
+				:ARG0-of (x14 / little))
+			:mod (x20 / soccer)
+			:beneficiary (x26 / organization
+				:name (n1 / name
+					:op1 "Club")
+				:null_edge (x24 / person
+					:name (n2 / name
+						:op1 "Santos"))
+				:null_edge (x25 / organization
+					:name (n3 / name
+						:op1 "Football"))))))
+
+# ::id 68
+# ::snt Since the incident, Robson De Souza ('Robinho') has made few public appearances and stopped playing soccer, troubling his team Santos.
+(x18 / and
+	:op2 (x17 / appear-01
+		:time (x1 / since
+			:op1 (x3 / incident))
+		:ARG1 (x5 / person
+			:name (n / name
+				:op1 "Robson"
+				:op2 "De"
+				:op3 "Souza"
+				:op4 "-LRB-"
+				:op5 "`"
+				:op6 "Robinho"))
+		:quant (x15 / few)
+		:mod (x16 / public))
+	:op2 (x19 / stop-01
+		:ARG1 (x20 / play-01
+			:ARG1 (x21 / soccer)
+			:ARG1 (x23 / trouble-01
+				:ARG1 (x25 / team)))))
+
+# ::id 69
+# ::snt "I hope this all finishes well and that I can go back to playing football again," he was quoted by ''Reuters'' on November 9.
+(x22 / quote-01
+	:ARG1 (x3 / hope-01
+		:ARG0 (x2 / i)
+		:ARG1 (x8 / and
+			:quant (x5 / all)
+			:op1 (x6 / finish)
+			:op2 (x11 / possible
+				:domain (x4 / this)
+				:domain (x12 / go-01
+					:ARG1 (x10 / i)
+					:ARG2 (x15 / play-01
+						:ARG0 x10
+						:ARG1 (x16 / football)
+						:mod (x17 / again))))))
+	:ARG1 (x20 / he)
+	:ARG0 (x25 / organization
+		:name (n / name
+			:op1 "Reuters"))
+	:time (x28 / date-entity))
+
+# ::id 70
+# ::snt Robinho is considered one of the best Brazilian forward players at the present time and he is an important player for Santos.
+(x15 / and
+	:op1 (x3 / consider-01
+		:ARG1 (x1 / country
+			:name (n / name
+				:op1 "Robinho"))
+		:ARG1 (x5 / include-91
+			:ARG2 (x10 / person
+				:ARG0-of (p / play-01)
+				:mod (x7 / good
+					:degree (m / most))
+				:mod (x9 / forward))))
+	:time (x14 / time
+		:mod (x13 / present))
+	:op2 (x20 / play-01
+		:ARG1 x1
+		:mod (x19 / important)
+		:beneficiary (x22 / person
+			:name (n1 / name
+				:op1 "Santos"))))
+
+# ::id 71
+# ::snt The authorities are cautious to release any information concerning the case, as this could jeopardize both the investigations and Ms. Souza's life.
+(x4 / cautious
+	:domain (x2 / authority)
+	:domain (x6 / release-01
+		:ARG0 x2
+		:ARG1 (x8 / information
+			:mod (x7 / any)
+			:ARG0-of (x9 / concern-02
+				:ARG1 (x11 / case))))
+	:condition (x15 / possible
+		:domain (x16 / jeopardize-01
+			:ARG0 (x14 / this)
+			:ARG1 (x20 / and
+				:op1 (x19 / investigate-01)
+				:op2 (x24 / life
+					:poss (x22 / person
+						:name (n / name
+							:op1 "Souza")
+						:null_edge (x21 / ms.)))))))
+
+# ::id 72
+# ::snt ARTICLE 798
+(x1 / article)
+
+# ::id 73
+# ::snt Colin Powell Resigns as U.S. Secretary of State, Rice Likely Successor
+(x1 / name
+	:op1 "Colin"
+	:op2 "Powell"
+	:op3 "Resigns"
+	:ARG0-of (x6 / have-org-role-91
+		:ARG2 (s / secretary)
+		:mod (x5 / country
+			:name (n / name
+				:op1 "U.S."))
+		:poss (x8 / state)
+		:ARG2-of (x10 / person
+			:name (n1 / name
+				:op1 "Rice"
+				:op2 "Likely"
+				:op3 "Successor")
+			:mod (x11 / likely))))
+
+# ::id 74
+# ::snt United States infobox
+(x3 / infobox
+	:null_edge (x1 / null_tag))
+
+# ::id 75
+# ::snt November 16, 2004
+(x1 / person
+	:name (n / name
+		:op1 "November"
+		:op2 "16"
+		:op3 ","
+		:op4 "2004"))
+
+# ::id 76
+# ::snt UNITED STATES OF AMERICA
+(x4 / america
+	:name (x2 / name
+		:op1 "STATES"))
+
+# ::id 77
+# ::snt Secretary of State Colin Powell submitted his long-expected resignation as of Monday, November 15, and his resignation was accepted by President George W. Bush.
+(x17 / and
+	:op1 (x6 / submit-01
+		:ARG0 (x4 / person
+			:name (n / name
+				:op1 "Colin"
+				:op2 "Powell")
+			:ARG0-of (x1 / have-org-role-91
+				:ARG2 (s / secretary)
+				:ARG1 (x3 / state)))
+		:ARG1 (x9 / resignation
+			:mod (x8 / long-expected))
+		:time (x12 / monday
+			:null_edge (x14 / name
+				:op1 "November"
+				:op2 "15")))
+	:op2 (x21 / accept-01
+		:ARG1 (x19 / resignation)
+		:ARG0 (x24 / person
+			:name (n1 / name
+				:op1 "George"
+				:op2 "W."
+				:op3 "Bush")
+			:ARG0-of (x23 / have-org-role-91
+				:ARG2 (p / president)))))
+
+# ::id 78
+# ::snt His resignation letter was sent to the President on Friday.
+(x5 / send-01
+	:ARG1 (x3 / letter
+		:mod (x2 / resignation))
+	:ARG2 (x8 / have-org-role-91
+		:ARG2 (p / president))
+	:time (xap0 / date-entity
+		:weekday (x10 / friday)))
+
+# ::id 79
+# ::snt Powell has said that it was always his intention to serve only one term.
+(x3 / say-01
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Powell"))
+	:ARG1 (x9 / intend-01
+		:time (x7 / always)
+		:ARG1 (x11 / serve-01
+			:ARG1 (x14 / term
+				:mod (x12 / only)
+				:quant 1))))
+
+# ::id 80
+# ::snt The ''San Gabriel Valley Tribune'' said that Powell often had disputes with Bush Administration officials holding what the newspaper termed "more hawkish" views.
+(x8 / say-01
+	:ARG0 (x3 / government-organization
+		:name (n / name
+			:op1 "San"
+			:op2 "Gabriel"
+			:op3 "Valley"
+			:op4 "Tribune"))
+	:ARG1 (x12 / have-03
+		:ARG0 (x10 / person
+			:name (n1 / name
+				:op1 "Powell"))
+		:frequency (x11 / often)
+		:ARG1 (x13 / dispute-01
+			:ARG0-of (x18 / hold-01
+				:ARG1 (x22 / term-01
+					:ARG0 (x21 / newspaper)
+					:ARG1 (x27 / view-02
+						:mod (x25 / hawkish
+							:degree (x24 / more))))
+				:ARG0 (xap0 / person
+					:ARG0-of (x17 / have-org-role-91
+						:ARG2 (o / official)
+						:ARG1 (x15 / person
+							:name (n2 / name
+								:op1 "Bush"))
+						:ARG1 (x16 / government-organization
+							:name (n3 / name
+								:op1 "Administration"))))))))
+
+# ::id 81
+# ::snt On Tuesday, President Bush announced his nomination of National Security Advisor Dr. Condoleezza Rice as Powell's successor. ''
+(x6 / announce-01
+	:ARG0 (x5 / person
+		:name (n / name
+			:op1 "Bush")
+		:ARG0-of (x4 / have-org-role-91
+			:ARG2 (p / president)))
+	:ARG1 (x8 / nominate-01
+		:ARG0 (x14 / person
+			:name (n1 / name
+				:op1 "Condoleezza"
+				:op2 "Rice")
+			:mod (x11 / security
+				:mod (x10 / nation))
+			:ARG0-of (x12 / advisor)))
+	:medium (x19 / succeed-02
+		:poss (x17 / person
+			:name (n2 / name
+				:op1 "Powell")))
+	:time (xap0 / date-entity
+		:weekday (x2 / tuesday)))
+
+# ::id 82
+# ::snt Reuters'' cited senior Bush administration officials as saying that her deputy, Stephen Hadley, will succeed her in her role as Assistant to the President for National Security Affairs if she is confirmed as Secretary of State.
+(x3 / cite-01
+	:ARG0 (x1 / organization
+		:name (n / name
+			:op1 "Reuters"))
+	:ARG1 (x9 / say-01
+		:ARG1 (x18 / succeed-01
+			:ARG0 (x12 / deputy
+				:name (x14 / name
+					:op1 "Stephen"
+					:op2 "Hadley"))
+			:ARG2 (x22 / role
+				:poss (x23 / product
+					:name (n1 / name
+						:op1 "as")
+					:null_edge (x24 / null_tag
+						:null_edge (x29 / null_tag)
+						:null_edge (x30 / null_tag))))
+			:null_edge (x35 / confirm-01
+				:ARG2 (x37 / have-org-role-91
+					:ARG2 (s / secretary)
+					:poss (x39 / state)))))
+	:ARG0 (xap0 / person
+		:ARG0-of (x7 / have-org-role-91
+			:ARG2 (o / official)
+			:mod (x4 / senior)
+			:ARG1 (x6 / administer-01
+				:mod (x5 / person
+					:name (n2 / name
+						:op1 "Bush"))))))
+

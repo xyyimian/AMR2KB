@@ -1,0 +1,199 @@
+# ::id 1
+# ::snt 736
+(x / xconcept)
+
+# ::id 2
+# ::snt President of China lunches with Brazilian President
+(x4 / lunch-01
+	:ARG0 (xap0 / person
+		:ARG0-of (x1 / have-org-role-91
+			:ARG2 (p / president)
+			:ARG1 (x3 / country
+				:name (n / name
+					:op1 "China"))))
+	:ARG2 (xap1 / person
+		:ARG0-of (x7 / have-org-role-91
+			:ARG2 (p1 / president)
+			:ARG1 (x6 / country
+				:name (n1 / name
+					:op1 "Brazil")))))
+
+# ::id 3
+# ::snt November 13, 2004
+(x1 / person
+	:name (n / name
+		:op1 "November"
+		:op2 "13"
+		:op3 ","
+		:op4 "2004"))
+
+# ::id 4
+# ::snt Brazil
+(x1 / country
+	:name (n / name
+		:op1 "Brazil"))
+
+# ::id 5
+# ::snt Hu Jintao, the President of the People's Republic of China had lunch today with the President of Brazil, Luiz Inácio Lula da Silva, at the ''Granja do Torto'', the President's country residence in the Brazilian Federal District.
+(x13 / have-03
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Hu"
+			:op2 "Jintao")
+		:ARG0-of (x5 / have-org-role-91
+			:ARG2 (p / president)
+			:null_edge (x8 / name
+				:op1 "People"
+				:op2 "'s"
+				:null_edge (x12 / country
+					:name (n1 / name
+						:op1 "China")
+					:null_edge "Republic"))))
+	:ARG1 (x14 / lunch-01)
+	:time (x15 / today)
+	:ARG1 (xap0 / location
+		:ARG1-of (x40 / reside-01
+			:null_edge (x18 / have-org-role-91
+				:ARG2 (p1 / president)
+				:ARG1 (x20 / organization
+					:name (n2 / name
+						:op1 "Brazil"
+						:op2 ","
+						:op3 "Luiz"
+						:op4 "Inácio"
+						:op5 "Lula"
+						:op6 "da"
+						:op7 "Silva"))
+				:location (x33 / country
+					:name (n3 / name
+						:op1 "Torto")
+					:null_edge (x31 / country
+						:name (n5 / name
+							:op1 "Granja"))))
+			:null_edge (x37 / have-org-role-91
+				:ARG2 (p2 / president))
+			:mod (x39 / country
+				:name (x45 / country
+					:name (n4 / name
+						:op1 "District")
+					:null_edge (x43 / country
+						:name (n6 / name
+							:op1 "Brazil")))))))
+
+# ::id 6
+# ::snt Lunch was a traditional Brazilian barbecue with different kinds of meat.
+(x6 / barbecue
+	:domain (x1 / lunch-01)
+	:mod (x4 / tradition)
+	:mod (x5 / country
+		:name (n / name
+			:op1 "Brazil"))
+	:ARG1 (x11 / meat
+		:mod (x9 / kind
+			:ARG1-of (x8 / differ-02))))
+
+# ::id 7
+# ::snt Some Brazilian ministers were present at the event: Antonio Palocci (Economy), Eduardo Campos (Science and Technology), Roberto Rodrigues (Agriculture), Luiz Fernando Furlan (Development), Celso Amorim (Exterior Relations), Dilma Rousseff (Mines and Energy).
+(x5 / present-01
+	:subevent-of (x8 / event)
+	:name (x10 / name
+		:op1 "Antonio"
+		:op2 "Palocci"
+		:ARG0-of (x13 / economy)
+		:name (x16 / name
+			:op1 "Eduardo"
+			:op2 "Campos")
+		:name (x24 / name
+			:op1 "Roberto"
+			:op2 "Rodrigues")
+		:ARG0-of (x27 / agriculture)
+		:name (x30 / name
+			:op1 "Luiz"
+			:op2 "Fernando"
+			:op3 "Furlan")
+		:ARG0-of (x34 / develop-01)
+		:name (x37 / name
+			:op1 "Celso"
+			:op2 "Amorim")
+		:ARG0-of (x41 / relations)
+		:name (x44 / name
+			:op1 "Dilma"
+			:op2 "Rousseff")
+		:purpose (x48 / and
+			:op2 (x20 / and
+				:op1 (x19 / science)
+				:op2 (x21 / technology)
+				:op1 (xap0 / person
+					:quant (x1 / some)
+					:ARG0-of (x3 / have-org-role-91
+						:ARG2 (m / minister)
+						:ARG1 (x2 / country
+							:name (n / name
+								:op1 "Brazil")))))
+			:op2 (x47 / mines))))
+
+# ::id 8
+# ::snt Also present were Roger Agnelli (Vale do Rio Doce company president) and Eduardo Dutra (Petrobras, government oil company, president).
+(x1 / also
+	:ARG2 (x2 / present-01)
+	:ARG1 (x14 / and
+		:op4 (x22 / company
+			:domain (x4 / newspaper
+				:name (n / name
+					:op1 "Roger"
+					:op2 "Agnelli"))
+			:mod (x7 / vale
+				:ARG1 (x10 / country
+					:name (n2 / name
+						:op1 "Doce")
+					:null_edge (x9 / country
+						:name (n3 / name
+							:op1 "Rio"))
+					:ARG0-of (x12 / have-org-role-91
+						:ARG2 (p / president)
+						:ARG0 (x11 / company))))
+			:name (x15 / name
+				:op1 "Eduardo"
+				:op2 "Dutra")
+			:mod (x18 / country
+				:name (n1 / name
+					:op1 "Petrobras"))
+			:mod (x20 / government-organization
+				:ARG0-of (g / govern-01))
+			:mod (x21 / oil))))
+
+# ::id 9
+# ::snt This meeting is part of a new political economy agreement between Brazil and China where Brazil has recognized mainland China's market economy status, and China has promised to buy more Brazilian products.
+(x2 / meet-03
+	:mod (x1 / this)
+	:ARG0 (x10 / agree-01
+		:mod (x7 / new)
+		:mod (x8 / politics)
+		:ARG1 (x9 / economy)
+		:ARG0 (x13 / and
+			:op1 (x12 / country
+				:name (n / name
+					:op1 "Brazil"))
+			:op2 (x14 / country
+				:name (n1 / name
+					:op1 "China")))
+		:ARG1-of (x18 / recognize-02
+			:ARG0 (x16 / country
+				:name (n2 / name
+					:op1 "Brazil"))
+			:ARG1 (x24 / status
+				:poss (x20 / country
+					:name (n3 / name
+						:op1 "China")
+					:mod (x19 / mainland))
+				:mod (x22 / market)
+				:mod (x23 / economy))
+			:ARG1-of (x29 / promise-01
+				:ARG0 (x27 / country
+					:name (n4 / name
+						:op1 "China"))
+				:ARG2 (x31 / buy-01
+					:ARG0 x27
+					:ARG1 (x34 / product
+						:degree (x32 / more)))))))
+

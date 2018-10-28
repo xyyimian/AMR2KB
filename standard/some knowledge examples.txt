@@ -1,0 +1,90 @@
+
+# ::id PROXY_APW_ENG_20080514_1125.21 ::date 2013-07-20T00:37:27 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt NATO's top commander in charge of military modernization U.S. Gen. James Mattis stated --
+# ::save-date Wed Aug 21, 2013 ::file PROXY_APW_ENG_20080514_1125_21.txt
+(s / state-01
+      :ARG0 (p2 / person :name (n2 / name :op1 "James" :op2 "Mattis")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (m / military :name (n / name :op1 "NATO"))
+                  :ARG2 (c / commander
+                        :mod (t / top))
+                  :ARG3 (m2 / modernize-01
+                        :ARG1 (m3 / military)))
+            :ARG0-of (h2 / have-org-role-91
+                  :ARG2 (g / general
+                        :mod (c2 / country :name (n3 / name :op1 "U.S."))))))
+
+arg1: James Mattis
+rel:  have-org-role
+arg1: top commander/ modernize/ military named NATO
+
+
+
+
+
+
+# ::id PROXY_APW_ENG_20080515_0628.8 ::date 2013-07-20T03:36:31 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Lavrov's intentions were not immediately clear since neither Russia nor India has a border with Afghanistan and China's border with Afghanistan is only 76 kilometers (45 miles).
+# ::save-date Wed Aug 14, 2013 ::file PROXY_APW_ENG_20080515_0628_8.txt
+(c6 / clear-04 :polarity -
+      :ARG1 (i / intend-01
+            :ARG0 (p / person :name (n / name :op1 "Lavrov")))
+      :time (i2 / immediate)
+      :ARG1-of (c7 / cause-01
+            :ARG0 (a / and
+                  :op1 (b4 / border-01 :polarity -
+                        :ARG1 (a2 / and
+                              :op1 (c / country :name (n2 / name :op1 "Russia"))
+                              :op2 (c2 / country :name (n3 / name :op1 "India")))
+                        :ARG2 (c5 / country :name (n6 / name :op1 "Afghanistan")))
+                  :op2 (b3 / border-01
+                        :ARG1 (c4 / country :name (n5 / name :op1 "China"))
+                        :ARG2 c5
+                        :mod (d / distance-quantity :quant 76
+                              :unit (k / kilometer)
+                              :mod (o / only))))))
+
+
+# ::id PROXY_APW_ENG_20080515_0931.14 ::date 2013-07-20T21:52:11 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt Dmitry Medvedev was sworn in on May 7, 2008 as the Russian Federation's President and has so far portrayed an image of a liberal and avoided the harsh anti-western rhetoric of Vladimir Putin.
+# ::save-date Mon Sep 16, 2013 ::file PROXY_APW_ENG_20080515_0931_14.txt
+(a / and
+      :op1 (s / swear-06
+            :ARG1 (p / person :name (n / name :op1 "Dmitry" :op2 "Medvedev")
+                  :ARG0-of (h2 / have-org-role-91
+                        :ARG1 (c / country :name (n2 / name :op1 "Russian" :op2 "Federation"))
+                        :ARG2 (p4 / president)))
+            :time (d / date-entity :month 5 :day 7 :year 2008))
+      :op2 (p3 / portray-01
+            :ARG0 p
+            :ARG1 (i / image
+                  :mod (l / liberal))
+            :time (s2 / so-far))
+      :op3 (a2 / avoid-01
+            :ARG0 p
+            :ARG1 (r / rhetoric
+                  :mod (h / harsh)
+                  :ARG0-of (o / oppose-01
+                        :ARG1 (w / world-region :name (n4 / name :op1 "West")))
+                  :poss (p2 / person :name (n3 / name :op1 "Vladimir" :op2 "Putin")))))
+----------------------------------
+           :ARG1 (p / person :name (n / name :op1 "Dmitry" :op2 "Medvedev")
+                  :ARG0-of (h2 / have-org-role-91
+                        :ARG1 (c / country :name (n2 / name :op1 "Russian" :op2 "Federation"))
+                        :ARG2 (p4 / president)))
+----------------------------------                        
+
+
+
+template:
+
+(n / name :op1)
+(n / name :op1 :op2)
+
+(\s+ / have-org-role-91
+      :ARG\d 
+      :ARG\d
+)
+
+
+

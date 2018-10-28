@@ -1,0 +1,99 @@
+# ::id PROXY_APW_ENG_20080514_1125.5 ::date 2013-07-19T11:40:06 ::snt-type summary ::annotator SDL-AMR-09 ::preferred
+# ::snt NATO allies have signed an agreement to fund a research center to bolster defenses against cyber attacks.
+# ::save-date Wed Aug 14, 2013 ::file PROXY_APW_ENG_20080514_1125_5.txt
+(s / sign-01
+      :ARG0 (p / person
+            :ARG0-of (a / ally-01)
+            :mod (m / military :name (n / name :op1 "NATO")))
+      :ARG1 (a2 / agree-01
+            :ARG0 p
+            :ARG1 (f / fund-01
+                  :ARG0 p
+                  :ARG1 (c / center
+                        :mod (r / research-01))
+                  :purpose (b / bolster-01
+                        :ARG0 p
+                        :ARG1 (d / defend-01
+                              :prep-against (a3 / attack
+                                    :mod (c2 / cyber)))))))
+
+en1: NATO
+en2: research center --> x1                                    
+rel: fund
+
+# ::id PROXY_APW_ENG_20080514_1125.6 ::date 2013-07-19T11:47:23 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt On 14 May 2008 7 NATO allies signed an agreement to fund a research center.
+# ::save-date Wed Aug 14, 2013 ::file PROXY_APW_ENG_20080514_1125_6.txt
+(s / sign-01
+      :ARG0 (p / person :quant 7
+            :ARG0-of (a / ally-01)
+            :mod (m / military :name (n / name :op1 "NATO")))
+      :ARG1 (a2 / agree-01
+            :ARG1 (f / fund-01
+                  :ARG0 p
+                  :ARG1 (c / center
+                        :mod (r / research-01))))
+      :time (d / date-entity :month 5 :day 14 :year 2008))
+
+en1: agreement
+attribute: time
+value: 14 May 2008
+
+
+# ::id PROXY_APW_ENG_20080514_1125.15 ::date 2013-07-19T12:46:41 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt In 2007 the Estonian Government was struck by cyber attacks.
+# ::save-date Sat Jul 20, 2013 ::file PROXY_APW_ENG_20080514_1125_15.txt
+(s / strike-01
+      :ARG0 (a / attack-01
+            :mod (c2 / cyber))
+      :ARG1 (g / government-organization
+            :ARG0-of (g2 / govern-01
+                  :ARG1 (c / country :name (n / name :op1 "Estonia"))))
+      :time (d / date-entity :year 2007))
+
+en1: cyber attacks
+rel: strike
+en2: the Estonian Government
+time: 2007
+
+# ::id PROXY_APW_ENG_20080514_1125.21 ::date 2013-07-20T00:37:27 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt NATO's top commander in charge of military modernization U.S. Gen. James Mattis stated --
+# ::save-date Wed Aug 21, 2013 ::file PROXY_APW_ENG_20080514_1125_21.txt
+(s / state-01
+      :ARG0 (p2 / person :name (n2 / name :op1 "James" :op2 "Mattis")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (m / military :name (n / name :op1 "NATO"))
+                  :ARG2 (c / commander
+                        :mod (t / top))
+                  :ARG3 (m2 / modernize-01
+                        :ARG1 (m3 / military)))
+            :ARG0-of (h2 / have-org-role-91
+                  :ARG2 (g / general
+                        :mod (c2 / country :name (n3 / name :op1 "U.S."))))))
+
+en1: James Mattis
+rel: have-org-role
+en2: top commander of military modernization U.S.Gen.
+
+# ::id PROXY_APW_ENG_20080515_0628.5 ::date 2013-07-20T02:59:23 ::snt-type summary ::annotator SDL-AMR-09 ::preferred
+# ::snt Afghanistan is 1 of the world's major opium producers and supplies Western markets through transit countries such as Russia.
+# ::save-date Wed Aug 14, 2013 ::file PROXY_APW_ENG_20080515_0628_5.txt
+(a / and
+      :op1 (p / produce-01
+            :ARG0 (c / country :name (n / name :op1 "Afghanistan")
+                  :ARG1-of (i / include-91
+                        :ARG2 (w / world)))
+            :ARG1 (o / opium)
+            :mod (m / major))
+      :op2 (s / supply-01
+            :ARG0 c
+            :ARG2 (m2 / market
+                  :location (w2 / world-region :name (n3 / name :op1 "West")))
+            :path (c3 / country
+                  :ARG2-of (t / transit-01)
+                  :example-of (c2 / country :name (n2 / name :op1 "Russia")))))
+
+en1: Afghanistan
+rel: one of the major
+en2: opium producer  
+

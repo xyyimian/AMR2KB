@@ -1,0 +1,65 @@
+none
+
+none
+
+none
+
+# ::id PROXY_APW_ENG_20080514_1125.4
+
+s / strike-01
+                  :ARG0 (a4 / attack
+                        :mod (c6 / cyber))
+                  :ARG1 (g / government-organization
+                        :ARG0-of (g2 / govern-01
+                              :ARG1 (c5 / country :name (n3 / name :op1 "Estonia"))))
+                  :time (d / date-entity :year 2007)
+
+# ::id PROXY_APW_ENG_20080514_1125.5
+
+
+
+(f / follow-01
+      :ARG1 (a / attack-01
+            :mod (c3 / cyber))
+      :ARG2 (d / dispute-01
+            :ARG2 (r / relocate-01
+                  :ARG1 (m / memorial
+                        :mod (w / war)
+                        :mod (c / country :name (n / name :op1 "Soviet" :op2 "Union")))
+                  :ARG2 (c4 / capital
+                        :mod (c2 / country :name (n2 / name :op1 "Estonia"))))))
+
+
+# ::snt The treaty regulating the global arms trade would apply only to arms sales among nations and not commercial sales involving individuals.
+
+(c / contrast-01
+      :ARG1 (a / apply-02
+            :ARG1 (t / treaty
+                  :ARG0-of (r / regulate-01
+                        :ARG1 (t2 / trade-01
+                              :ARG1 (a2 / arm)
+                              :mod (g / globe))))
+            :ARG2 (s / sell-01
+                  :ARG0 (n / nation)
+                  :ARG1 a2)
+            :mod (o / only))
+      :ARG2 (a3 / apply-02 :polarity -
+            :ARG1 t
+            :ARG2 (s2 / sell-01
+                  :mod (c2 / commerce)
+                  :ARG2-of (i / involve-01
+                        :ARG1 (i2 / individual)))))
+
+这个句子体现的是一个对比关系，前者是一个apply及其如何apply，后者是如何不apply，现在的问题是我们如何从中抽取出知识。sth apply to other thing. 
+
+apply就应该是关系，apply两边的事物就应该是concept，在这个地方，我们取
+ treaty-apply-arm sales among notions 作为一组知识
+ 另外treaty - apply - commercial sales involving individuals作为另一组知识
+ 但是这组知识独立出来是没有任何意义的，因为我们并不知道这个treaty到底是什么，以及其对应的arm sales到底是什么，这个就需要我们就行指代消解。即the treaty的the指的到底是什么treaty。对于指称的上下文关联，目前想到的办法只是前后句之间确定对象，比如后面的代词一定是前面出现过的句子中的某个对象。也许这个我们可以通过bidirectional LSTM来实现信息流动，确定指代的到底是什么。所以我们的处理目标是一整篇文章，在这篇文章中，我们对于每一个出现的实体（不一定是命名实体）进行注册，之后对于后面的每一个对象进行前面的关联和替代。比如，我们可以对后续生成的amr进行改进，用我们的注册编号来代替本来这个实体的原有编号。
+
+ 就是，在一篇新闻中，可能某一个命名实体会关联一个对象，比如build一个center，但是没有介绍这个center的具体名称，但是后续的介绍展开都是对于这个center进行的，这样的话我们就需要对这个center进行一个自我命名的过程，并对后续出现的center在注册的表中进行查找。
+
+ 现在有两种想法，一种是我们呢能不能再知识图谱的抽取中更加上下文一点，这意味这我们的知识图谱的抽取分类器具有长短期记忆性，而不仅仅是普通的二分类，它应当具有识别以前出现过的实体的能力。另一种是我能不能改进camr来添加这个功能。
+
+ 也就是说在amr中非常麻烦的一点是它把所有的修饰词全部都变成了动词谓词，（几乎所有的），这样就导致了你不知道什么应该作为中心词，对于知识图谱来说，我们首先要确定的是我们的句子需要围绕的是哪几个中心概念。
+ 这样的话我们甚至还需要联系每一个动词的framework看一看这个动词的Arg2在这个动词的语义框架中起到了什么角色，这样就非常麻烦了。我们更希望的而是能够通过比如说我们能非常准确的定位中心词，之后围绕这个中心词展开意义。我觉得对于一个知识来说，AMR的优点确实是在共指和消歧一块做的不错，但是

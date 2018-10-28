@@ -1,0 +1,1 @@
+-m parse --model ./model/ar-anno-1.0/amr-anno-1.0.train.basic-abt-brown-verb.m ../text/enwikinews142.txt
