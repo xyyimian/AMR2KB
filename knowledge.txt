@@ -1,0 +1,1814 @@
+(u / university
+          :name (n / name
+                  :op1 "Naif"
+                  :op2 "Arab"
+                  :op3 "Academy"
+                  :op4 "for"
+                  :op5 "Security"
+                  :op6 "Sciences")
+          :ARG1-of (b / base-01
+                     :location (c / city
+                                 :name (n2 / name
+                                         :op1 "Riyadh"))))
+
+(r / reopen-01
+      :ARG1 (u / university :name (n / name :op1 "Naif" :op2 "Arab" :op3 "Academy" :op4 "for" :op5 "Security" :op6 "Sciences")
+            :purpose (o / oppose-01
+                  :ARG1 (t / terror))
+            :mod (e / ethnic-group :name (n3 / name :op1 "Arab")
+                  :mod (p / pan)))
+      :time (d / date-entity :year 2002 :month 1 :day 5)
+      :frequency (f / first
+            :time (s / since
+                  :op1 (a3 / attack-01
+                        :ARG1 (c / country :name (n2 / name :op1 "US"))
+                        :time (d2 / date-entity :year 2001 :month 9)))))
+
+(u / university :name (n / name :op1 "Naif" :op2 "Arab" :op3 "Academy" :op4 "for" :op5 "Security" :op6 "Sciences")
+            :purpose (o / oppose-01
+                  :ARG1 (t / terror))
+            :mod (e / ethnic-group :name (n3 / name :op1 "Arab")
+                  :mod (p / pan)))
+
+(b / base-01
+  :ARG1 (u / university
+          :name (n / name
+                  :op1 "Naif"
+                  :op2 "Arab"
+                  :op3 "Academy"
+                  :op4 "for"
+                  :op5 "Security"
+                  :op6 "Sciences"))
+  :location (c / city
+              :name (n2 / name
+                      :op1 "Riyadh")))
+
+(r / run-01
+  :ARG0 (o / organization
+          :name (n / name
+                  :op1 "Arab"
+                  :op2 "Interior"
+                  :op3 "Ministers'"
+                  :op4 "Council"))
+  :ARG1 (u / university
+          :name (n2 / name
+                  :op1 "Naif"
+                  :op2 "Arab"
+                  :op3 "Academy"
+                  :op4 "for"
+                  :op5 "Security"
+                  :op6 "Sciences")))
+
+(i / include-91
+      :ARG1 (a / and
+            :op1 (c / country :name (n / name :op1 "Algeria"))
+            :op2 (c2 / country :name (n2 / name :op1 "Bahrain"))
+            :op3 (c3 / country :name (n3 / name :op1 "Egypt"))
+            :op4 (c4 / country :name (n4 / name :op1 "Jordan"))
+            :op5 (c5 / country :name (n5 / name :op1 "Lebanon"))
+            :op6 (c6 / country :name (n6 / name :op1 "Mauritania"))
+            :op7 (c7 / country :name (n7 / name :op1 "Morocco"))
+            :op8 (c8 / country :name (n8 / name :op1 "Saudi" :op2 "Arabia"))
+            :op9 (c9 / country :name (n9 / name :op1 "Sudan"))
+            :op10 (c10 / country :name (n10 / name :op1 "Syria"))
+            :op11 (c11 / country :name (n11 / name :op1 "Yemen")))
+      :ARG2 (c12 / country :quant 11
+            :source-of (p / person
+                  :ARG1-of (e / expert-41
+                        :ARG2 (o / oppose-01
+                              :ARG1 (t / terrorism)))
+                  :poss (w / workshop))
+            :mod (e2 / ethnic-group :name (n12 / name :op1 "Arab"))))
+
+(c / complex
+                              :mod (n / nucleus)
+                              :mod (c2 / county
+                                     :name (n2 / name
+                                             :op1 "Yongbyon"))
+                              :location (r / relative-position
+                                          :op1 (c3 / capital
+                                                 :name (n3 / name
+                                                         :op1 "Pyongyang")
+                                                 :poss (c4 / country
+                                                         :name (n5 / name
+                                                                 :op1 "North"
+                                                                 :op2 "Korea")))
+                                          :direction (n4 / north)))
+
+(c3 / capital
+     :name (n3 / name
+             :op1 "Pyongyang")
+     :poss (c4 / country
+             :name (n5 / name
+                     :op1 "North"
+                     :op2 "Korea")))
+
+(s / supervise-01
+         :ARG0 o
+         :ARG1 (o2 / organization
+                 :name (n3 / name
+                         :op1 "UN"))
+         :topic (n4 / nucleus))
+
+(b / base-01
+         :ARG1 (o / organization
+                 :name (n / name
+                         :op1 "IAEA"))
+         :location (c / city
+                     :name (n2 / name
+                             :op1 "Vienna")))
+
+(e / exchange-01
+  :ARG0 (c / country
+          :name (n / name
+                  :op1 "North"
+                  :op2 "Korea"))
+  :ARG1 (f / freeze-01
+          :ARG0 c
+          :ARG1 (p / program
+                  :mod (w / weapons
+                         :mod (n2 / nucleus))
+                  :location (c2 / county
+                              :name (n3 / name
+                                      :op1 "Yongbyon"))
+                  :ARG1-of (s / suspect-01)))
+  :ARG3 (r / receive-01
+          :ARG0 c
+          :ARG1 (r2 / reactor
+                  :mod (n4 / nucleus)
+                  :quant 2
+                  :ARG0-of (p2 / produce-01
+                             :ARG1 (p3 / plutonium
+                                     :mod (w2 / weapons-grade)
+                                     :degree (l / less))))
+          :prep-under (a / accord
+                        :time (d / date-entity
+                                :year 1994)
+                        :prep-with (c3 / country
+                                     :name (n5 / name
+                                             :op1 "United"
+                                             :op2 "States")))))
+
+(p / program
+                  :mod (w / weapons
+                         :mod (n2 / nucleus))
+                  :location (c2 / county
+                              :name (n3 / name
+                                      :op1 "Yongbyon"))
+                  :ARG1-of (s / suspect-01))
+
+(c / company :name (n2 / name :op1 "Warner" :op2 "Bros.")
+                        :mod (m / media)
+                        :ARG1-of (b / base-01
+                              :location (c5 / country :name (n4 / name :op1 "U.S."))))
+
+(c / company :name (n2 / name :op1 "Warner" :op2 "Bros.")
+	:ARG1-of (b / base-01
+                              :location (c5 / country :name (n4 / name :op1 "U.S."))))
+
+(c / company :name (n2 / name :op1 "Warner" :op2 "Bros.")
+	:mod (m / media))
+
+(b / body :name (n / name :op1 "FIFA")
+	:ARG0-of (g / govern-01
+                  :ARG1 (f2 / football)))
+
+(p / person :name (n / name :op1 "An" :op2 "Yong-Geun")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (u / university :name (n2 / name :op1 "Chung" :op2 "Chong" :op3 "College"))
+                  :ARG2 (s2 / scientist
+                        :topic (f / food))))
+
+(p / person
+                 :name (n / name
+                         :op1 "Brigitte"
+                         :op2 "Bardot")
+	:source (c2 / country
+                           :name (n2 / name
+                                   :op1 "France")))
+
+(p / person :name (n / name :op1 "Sepp" :op2 "Blatter")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (o / organization :name (n2 / name :op1 "FIFA"))
+                  :ARG2 (p2 / president)))
+
+(a / ahead
+  :domain (i / it)
+  :compared-to (g / game
+                 :name (n / name
+                         :op1 "World"
+                         :op2 "Cup")
+                 :ARG1-of (s / start-01
+                            :time (d / date-entity
+                                    :year 2002
+                                    :month 5
+                                    :day 31))))
+
+(p / person :name (n / name :op1 "Chung" :op2 "Mong-Joon")
+	:ARG0-of (h3 / have-org-role-91
+                  :ARG1 (o2 / organization :name (n3 / name :op1 "FIFA"))
+                  :ARG2 (p2 / president
+                        :mod (v / vice))))
+
+(p / person :name (n / name :op1 "Chung" :op2 "Mong-Joon")
+	:ARG0-of (h / head-01
+                  :ARG1 (o / organization :name (n2 / name :op1 "Korean" :op2 "Football" :op3 "Association"))))
+
+(p / person :name (n / name :op1 "Chung" :op2 "Mong-Joon")
+            :ARG0-of (h / head-01
+                  :ARG1 (o / organization :name (n2 / name :op1 "Korean" :op2 "Football" :op3 "Association")))
+            :ARG0-of (h3 / have-org-role-91
+                  :ARG1 (o2 / organization :name (n3 / name :op1 "FIFA"))
+                  :ARG2 (p2 / president
+                        :mod (v / vice))))
+
+(h / host-01
+          :ARG0 (c2 / city
+                  :name (n / name
+                          :op1 "Seoul"))
+          :ARG1 (g2 / game
+                  :name (n2 / name
+                          :op1 "Olympics")
+                  :time (d2 / date-entity
+                          :year 1988)))
+
+(s / state-01
+      :ARG0 (s2 / survey-01
+            :time (r / recent))
+      :ARG1 (a / and
+            :op1 (s3 / sell-01
+                  :ARG1 (d / dog
+                        :quant (a4 / about :op1 1000000))
+                  :purpose (e / eat-01
+                        :ARG1 d)
+                  :location (c / country :name (n / name :op1 "South" :op2 "Korea"))
+                  :frequency (t2 / temporal-quantity :quant 1
+                        :unit (y / year)
+                        :mod (e2 / every)))
+            :op2 (t / taste-01
+                  :ARG0 (a2 / and
+                        :op1 (m2 / men
+                              :ARG1-of (i / include-91
+                                    :ARG2 (m3 / men
+                                          :age (a5 / at-least
+                                                :op1 (t3 / temporal-quantity :quant 20
+                                                      :unit (y2 / year))))
+                                    :ARG3 (p / percentage-entity :value 92)))
+                        :op2 (w / women
+                              :ARG1-of (i2 / include-91
+                                    :ARG2 (w2 / women
+                                          :mod (a3 / adult))
+                                    :ARG3 (p2 / percentage-entity :value 68))))
+                  :ARG1 (m / meat
+                        :consist-of d))))
+
+(w / war
+                                    :mod (h / holy)
+                                    :mod (r / religious-group :name (n4 / name :op1 "Islam"))
+                                    :location (w2 / world-region :name (n5 / name :op1 "Kashmir")))
+
+(p2 / person
+      :domain (p / person :name (n2 / name :op1 "Iftikhar" :op2 "Ahmed"))
+      :ARG0-of (h / have-org-role-91
+            :ARG1 (m / ministry
+                  :topic (i / interior)
+                  :poss (c / country :name (n / name :op1 "Pakistan")))
+            :ARG2 (o / official)))
+
+(p2 / person :name (n / name :op1 "Tariq" :op2 "Jamil")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (c2 / city :name (n3 / name :op1 "Karachi"))
+                  :ARG2 (c / chief
+                        :topic (p / police))))
+
+(p2 / publication :name (n2 / name :op1 "Islam" :op2 "Daily")
+                              :ARG1-of (p3 / publish-01
+                                    :ARG0 (o / organization :name (n3 / name :op1 "Al-Rashid" :op2 "Trust"))))
+
+(p4 / publication :name (n4 / name :op1 "Zarb-e-Taiba" :op2 "Weekly")
+                              :ARG1-of (p5 / publish-01
+                                    :ARG0 (o2 / organization :name (n5 / name :op1 "Lashkar-i-Taiba"))))
+
+(u / urge-01
+            :ARG0 (e / elder
+                  :poss p)
+            :ARG1 p
+            :ARG2 (r / read-01
+                  :ARG0 p
+                  :ARG1 (j / jihad)
+                  :medium (a / and
+                        :op1 (p2 / publication :name (n2 / name :op1 "Islam" :op2 "Daily")
+                              :ARG1-of (p3 / publish-01
+                                    :ARG0 (o / organization :name (n3 / name :op1 "Al-Rashid" :op2 "Trust"))))
+                        :op2 (p4 / publication :name (n4 / name :op1 "Zarb-e-Taiba" :op2 "Weekly")
+                              :ARG1-of (p5 / publish-01
+                                    :ARG0 (o2 / organization :name (n5 / name :op1 "Lashkar-i-Taiba")))))))
+
+(p2 / person
+      :age (t / temporal-quantity :quant 18
+            :unit (y / year))
+      :mod (s2 / seminary
+            :mod (r / religion))
+      :domain (p / person :name (n / name :op1 "Qari" :op2 "Mohammad" :op3 "Zafar"))
+      :ARG0-of (s / study-01))
+
+(o2 / organization :name (n3 / name :op1 "Taliban" :op2 "Fund")
+            :ARG1-of (l / link-01
+                  :ARG1 (n4 / network
+                        :poss (p2 / person :name (n5 / name :op1 "Osama" :op2 "bin" :op3 "Laden"))
+                        :mod (n7 / network :name (n6 / name :op1 "al-Qaeda")))))
+
+(s / support-01
+      :ARG0 (p / publication :name (n / name :op1 "The" :op2 "Islam" :op3 "Daily")
+            :poss (o / organization :name (n2 / name :op1 "Al-Rashid" :op2 "Trust")))
+      :ARG1 (o2 / organization :name (n3 / name :op1 "Taliban" :op2 "Fund")
+            :ARG1-of (l / link-01
+                  :ARG1 (n4 / network
+                        :poss (p2 / person :name (n5 / name :op1 "Osama" :op2 "bin" :op3 "Laden"))
+                        :mod (n7 / network :name (n6 / name :op1 "al-Qaeda"))))))
+
+(m / mean-01
+            :ARG0 (e / event :name (n2 / name :op1 "Val" :op2 "Fajr"))
+            :ARG1 (s / swear-01
+                  :ARG1 (w / win-01)
+                  :medium (l / language :name (n3 / name :op1 "Arabic"))))
+
+(s / state-01
+  :ARG0 (l / law
+          :source (c / country
+                    :name (n / name
+                            :op1 "Iran")))
+  :ARG1 (p / penalize-01
+          :ARG0 l
+          :ARG2 (t / trafficking
+                  :mod (d / drug))
+          :manner (d2 / die-01)))
+
+(a / agency :name (n / name :op1 "IRNA")
+            :mod (n2 / news)
+            :poss (g / government-organization
+                  :ARG0-of (g2 / govern-01
+                        :ARG1 (c / country :name (n3 / name :op1 "Iran")))))
+
+(a / agency :name (n / name :op1 "IRNA")
+	:mod (n2 / news))
+
+(a / agency :name (n / name :op1 "IRNA")
+	:poss (g / government-organization
+                  :ARG0-of (g2 / govern-01
+                        :ARG1 (c / country :name (n3 / name :op1 "Iran")))))
+
+(p4 / province :name (n3 / name :op1 "Fars" :op2 "Province")
+                  :part-of (c2 / country :name (n4 / name :op1 "Iran")
+                        :mod (s3 / south)))
+
+(a / apply-02
+  :ARG0 (l / law
+          :mod (c / country
+                 :name (n / name
+                         :op1 "Iran")))
+  :ARG1 (p / penalty
+          :mod (d / death))
+  :ARG2 (t / traffic-00
+          :ARG1 (d2 / drug)))
+
+(p / person :name (n / name :op1 "Francis" :op2 "Bradley")
+            :ARG0-of (h2 / have-org-role-91
+                  :ARG1 (c / company :name (n2 / name :op1 "Canadian" :op2 "Electricity" :op3 "Association"))
+                  :ARG2 (p3 / president
+                        :mod (v / vice))))
+
+(g / government-organization :name (n / name :op1 "Office" :op2 "of" :op3 "Critical" :op4 "Infrastructure" :op5 "Protection" :op6 "and" :op7 "Emergency" :op8 "Service")
+                        :part-of (g2 / government-organization :name (n2 / name :op1 "Canadian" :op2 "Department" :op3 "of" :op4 "National" :op5 "Defense")))
+
+(g / government-organization :name (n2 / name :op1 "Office" :op2 "of" :op3 "Critical" :op4 "Infrastructure" :op5 "Protection" :op6 "and" :op7 "Emergency" :op8 "Service")
+                        :part-of (g2 / government-organization :name (n3 / name :op1 "Canadian" :op2 "Department" :op3 "of" :op4 "National" :op5 "Defense")))
+
+(p / person :name (n / name :op1 "Brenda" :op2 "Hensler-Hobbs")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (g / government-organization :name (n2 / name :op1 "Office" :op2 "of" :op3 "Critical" :op4 "Infrastructure" :op5 "Protection" :op6 "and" :op7 "Emergency" :op8 "Service")
+                        :part-of (g2 / government-organization :name (n3 / name :op1 "Canadian" :op2 "Department" :op3 "of" :op4 "National" :op5 "Defense")))
+                  :ARG2 (d2 / director
+                        :topic (a / analyze-01
+                              :ARG1 (t / threaten-01)))))
+
+(p2 / plot-01
+                              :ARG1 (b / bomb-01
+                                    :ARG0 p)
+                              :time (e / event :name (n4 / name :op1 "Millennium")))
+
+(i / include-91
+                  :ARG1 (p / person :name (n3 / name :op1 "Ahmed" :op2 "Ressam")
+                        :ARG0-of (p2 / plot-01
+                              :ARG1 (b / bomb-01
+                                    :ARG0 p)
+                              :time (e / event :name (n4 / name :op1 "Millennium"))))
+                  :ARG2 (m / militant
+                        :ARG0-of (h / have-org-role-91
+                              :ARG1 (c2 / criminal-organization :name (n / name :op1 "al-Qaeda"))))
+                  :ARG3 (n2 / number))
+
+(r / remain-01
+            :ARG1 (i / include-91
+                  :ARG1 (p / person :name (n3 / name :op1 "Ahmed" :op2 "Ressam")
+                        :ARG0-of (p2 / plot-01
+                              :ARG1 (b / bomb-01
+                                    :ARG0 p)
+                              :time (e / event :name (n4 / name :op1 "Millennium"))))
+                  :ARG2 (m / militant
+                        :ARG0-of (h / have-org-role-91
+                              :ARG1 (c2 / criminal-organization :name (n / name :op1 "al-Qaeda"))))
+                  :ARG3 (n2 / number))
+            :location (c / country :name (n5 / name :op1 "Canada")))
+
+(p / person :name (n3 / name :op1 "Ahmed" :op2 "Ressam")
+                        :ARG0-of (p2 / plot-01
+                              :ARG1 (b / bomb-01
+                                    :ARG0 p)
+                              :time (e / event :name (n4 / name :op1 "Millennium"))))
+
+(p2 / person :name (n2 / name :op1 "MafiaBoy")
+                  :ARG0-of (h / hack-04)
+                  :ARG0-of (a / attack-01
+                        :ARG1 (w / website
+                              :mod (c2 / country :name (n3 / name :op1 "U.S."))
+                              :ARG2-of (i / include-91
+                                    :ARG1 (u / url-entity :value "amazon.com")))
+                        :time (d / date-entity :year 2000))
+                  :ARG1-of (b / base-01
+                        :location (c3 / city :name (n5 / name :op1 "Montreal"))))
+
+(p2 / person :name (n2 / name :op1 "MafiaBoy")
+	:ARG0-of (h / hack-04))
+
+(p2 / person :name (n2 / name :op1 "MafiaBoy")
+	:ARG0-of (a / attack-01
+                        :ARG1 (w / website
+                              :mod (c2 / country :name (n3 / name :op1 "U.S."))
+                              :ARG2-of (i / include-91
+                                    :ARG1 (u / url-entity :value "amazon.com")))
+                        :time (d / date-entity :year 2000)))
+
+(w / website
+                              :mod (c2 / country :name (n3 / name :op1 "U.S."))
+                              :ARG2-of (i / include-91
+                                    :ARG1 (u / url-entity :value "amazon.com")))
+
+(p2 / person :name (n2 / name :op1 "MafiaBoy")
+	:ARG1-of (b / base-01
+                        :location (c3 / city :name (n5 / name :op1 "Montreal"))))
+
+(g3 / group :name (n / name :op1 "Computer" :op2 "Science" :op3 "and" :op4 "Telecommunications" :op5 "Board")
+	:ARG1-of (f / fund-01
+                              :ARG0 (g / government-organization
+                                    :ARG0-of (g2 / govern-01
+                                          :ARG1 (c / country :name (n2 / name :op1 "U.S."))))))
+
+(g3 / group :name (n / name :op1 "Computer" :op2 "Science" :op3 "and" :op4 "Telecommunications" :op5 "Board")
+                        :mod (r2 / research)
+                        :ARG1-of (f / fund-01
+                              :ARG0 (g / government-organization
+                                    :ARG0-of (g2 / govern-01
+                                          :ARG1 (c / country :name (n2 / name :op1 "U.S."))))))
+
+(c2 / cause-01
+                  :ARG0 (b / bug
+                        :mod (l / love)
+                        :ARG1-of (l2 / launch-01
+                              :time (d / date-entity :year 2000 :month 5)))
+                  :ARG1 (d2 / damage
+                        :quant (m / monetary-quantity :quant 6700000000
+                              :unit (d3 / dollar
+                                    :mod (c3 / country :name (n2 / name :op1 "U.S."))))))
+
+(p3 / person :name (n / name :op1 "Andrew" :op2 "Cole")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (c / company :name (n2 / name :op1 "Bell" :op2 "Canada"))
+                  :ARG2 (s2 / spokesman)))
+
+(p / provide-01
+      :ARG0 (c / company :name (n / name :op1 "Bell" :op2 "Canada"))
+      :ARG1 (t / total
+            :quant-of (c2 / connection :quant 26000000
+                  :mod (p2 / phone)
+                  :mod (i / internet)))
+      :ARG2 (n2 / nation
+            :ARG1-of (p3 / populate-01
+                  :ARG2 (p4 / person :quant 30000000))))
+
+(p2 / peninsula
+          :name (n2 / name
+                  :op1 "Kamchatka")
+          :mod (v / vast)
+          :location (e / east
+                      :part-of (c2 / country
+                                 :name (n3 / name
+                                         :op1 "Russia"))
+                      :mod (f / far)))
+
+(p2 / peninsula
+          :name (n2 / name
+                  :op1 "Kamchatka")
+	:location (e / east
+                      :part-of (c2 / country
+                                 :name (n3 / name
+                                         :op1 "Russia"))
+                      :mod (f / far)))
+
+(p / power-01
+  :ARG0 (c / company
+          :name (n / name
+                  :op1 "Kamchatenergo"))
+  :ARG1 (p2 / peninsula
+          :name (n2 / name
+                  :op1 "Kamchatka")
+          :mod (v / vast)
+          :location (e / east
+                      :part-of (c2 / country
+                                 :name (n3 / name
+                                         :op1 "Russia"))
+                      :mod (f / far))))
+
+(p4 / peninsula :name (n3 / name :op1 "Kamchatka" :op2 "Peninsula")
+                                                      :location (w2 / world-region :name (n4 / name :op1 "Far" :op2 "East")))
+
+(p / person :name (n / name :op1 "Sergei" :op2 "Gorbunov")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (a2 / agency
+                        :mod (s2 / space)
+                        :source (c / country :name (n2 / name :op1 "Russia")))
+                  :ARG2 (s / spokesman)))
+
+(m / maintain-01
+      :ARG0 (f / facility :name (n / name :op1 "The" :op2 "Kamchatka" :op3 "Command" :op4 "Center"))
+      :ARG1 (n2 / network
+            :consist-of (s / satellite
+                  :poss (c / country :name (n3 / name :op1 "Russia")))
+            :ARG0-of (o / orbit-01)))
+
+(p / play-02
+      :ARG0 (c / center
+            :topic (c2 / command-02)
+            :location (p2 / peninsula :name (n / name :op1 "Kamchatka")))
+      :ARG1 (o / operate-01
+            :ARG1 (s / spaceship :name (n2 / name :op1 "ISS"))))
+
+(f / feed-01
+      :ARG0 (c / company :name (n / name :op1 "Kamchatenergo"))
+      :ARG1 (p / power)
+      :ARG2 (p2 / peninsula :name (n2 / name :op1 "Kamchatka" :op2 "Peninsula")))
+
+(i / include-91
+      :ARG1 (c / company :name (n / name :op1 "Kamchatenergo"))
+      :ARG2 (s / subsidiary
+            :quant (s2 / several)
+            :location (r / regional)
+            :part-of (c2 / company :name (n2 / name :op1 "United" :op2 "Energy" :op3 "Services")
+                  :domain (m / monopoly
+                        :mod (p / power)
+                        :mod (s3 / state))))
+      :ARG3 1)
+
+(b / build-01
+      :ARG0 (c / country :name (n / name :op1 "Russia"))
+      :extent (l / large))
+
+(p / provide-01
+      :ARG0 (c / country :name (n / name :op1 "Russia"))
+      :ARG1 (m / module
+            :poss (s3 / spaceship :name (n4 / name :op1 "ISS"))
+            :quant (s4 / several)
+            :ARG2-of (i / include-91
+                  :ARG1 (a / and
+                        :op1 (s / spaceship :name (n2 / name :op1 "Zvezda"))
+                        :op2 (s2 / spaceship :name (n3 / name :op1 "Zarya"))))))
+
+(m / module
+            :poss (s3 / spaceship :name (n4 / name :op1 "ISS"))
+            :quant (s4 / several)
+            :ARG2-of (i / include-91
+                  :ARG1 (a / and
+                        :op1 (s / spaceship :name (n2 / name :op1 "Zvezda"))
+                        :op2 (s2 / spaceship :name (n3 / name :op1 "Zarya")))))
+
+(b / build-01
+      :ARG0 (c / country :name (n / name :op1 "US"))
+      :ARG1 (m / module :name (n2 / name :op1 "Unity")
+            :part-of (s2 / spaceship :name (n3 / name :op1 "ISS"))))
+
+(p3 / person
+            :mod (c / country :name (n / name :op1 "Uzbekistan"))
+            :ARG0-of (h2 / have-org-role-91
+                  :ARG1 (g / game :name (n3 / name :op1 "Olympic" :op2 "Games"))
+                  :ARG2 (o / official
+                        :topic (b / boxing)))
+            :domain (p / person :name (n2 / name :op1 "Gafur" :op2 "Rakhimov")))
+
+(j / journalist
+                 :name (n / name
+                         :op1 "Andrew"
+                         :op2 "Jennings")
+                 :mod (c / country
+                        :name (n2 / name
+                                :op1 "Britain")))
+
+(w / write-01
+         :ARG0 (j / journalist
+                 :name (n / name
+                         :op1 "Andrew"
+                         :op2 "Jennings")
+                 :mod (c / country
+                        :name (n2 / name
+                                :op1 "Britain")))
+         :ARG1 (b / book
+                 :name (n3 / name
+                         :op1 "The"
+                         :op2 "Great"
+                         :op3 "Olympic"
+                         :op4 "Swindle")))
+
+(p / publish-01
+         :ARG0 (c2 / company
+                 :name (n4 / name
+                         :op1 "Simon"
+                         :op2 "and"
+                         :op3 "Schuster"))
+         :ARG1 b)
+
+(c / criticize-01
+  :ARG0 (p / person
+          :name (n / name
+                  :op1 "Jennings"))
+  :ARG1 (o / organization
+          :name (n2 / name
+                  :op1 "International"
+                  :op2 "Olympic"
+                  :op3 "Committee"))
+  :duration (l / long-time))
+
+(s2 / suspect-01
+                        :ARG0 (g / government-organization :name (n4 / name :op1 "FBI"))
+                        :ARG1 (t / traffic-00
+                              :ARG0 p2
+                              :ARG1 (d2 / drug))
+                        :ARG2 p2)
+
+(p / program :name (n2 / name :op1 "Four" :op2 "Corners")
+                  
+                  
+                  :poss p3
+	:mod (f2 / flagship))
+
+(p / program :name (n2 / name :op1 "Four" :op2 "Corners")
+                  
+                  
+                  :poss p3
+	:topic (a / affair
+                        :mod (c3 / current)))
+
+(p / program :name (n2 / name :op1 "Four" :op2 "Corners")
+                  
+                  
+                  :poss p3
+	:poss (p3 / publication :name (n / name :op1 "ABC")))
+
+(e2 / entrench-01
+                  :ARG1 (a2 / and
+                        :op1 (c / cultivate-01
+                              :ARG1 (o / opium))
+                        :op2 (t / trafficking
+                              :mod (d / drug)))
+                  :ARG2 (c2 / country :name (n / name :op1 "Afghanistan"))
+                  :degree (d2 / deep))
+
+(p / person
+          :name (n / name
+                  :op1 "Marc"
+                  :op2 "Gilbert")
+          :ARG0-of (h2 / have-org-role-91
+                     :ARG1 (o / organization
+                             :name (n2 / name
+                                     :op1 "OSCE"))
+                     :ARG2 (e / envoy
+                             :location (c / country
+                                         :name (n3 / name
+                                                 :op1 "Tajikistan")
+                                         :ARG1-of (n4 / neighbor-01)))))
+
+(r / republic
+                  :location (w / world-region :name (n2 / name :op1 "Central" :op2 "Asia"))
+                  :time (p2 / post
+                        :op1 (e / era
+                              :mod (c4 / country :name (n3 / name :op1 "Soviet")))))
+
+(p / person :name (n / name :op1 "Vladimir" :op2 "Rakhmonov")
+	:ARG0-of (h / head-01
+                  :ARG1 (g / government-organization :name (n2 / name :op1 "Tajik" :op2 "Drug" :op3 "Control" :op4 "Agency"))))
+
+(p / person :name (n / name :op1 "Vladimir" :op2 "Rakhmonov")
+	:ARG1-of (e / expert-41
+                  :ARG2 (g2 / government-organization
+                        :ARG0-of (g3 / govern-01
+                              :ARG1 (c / country :name (n3 / name :op1 "Tajikistan"))))))
+
+(p / person :name (n / name :op1 "Vladimir" :op2 "Rakhmonov")
+            :ARG0-of (h / head-01
+                  :ARG1 (g / government-organization :name (n2 / name :op1 "Tajik" :op2 "Drug" :op3 "Control" :op4 "Agency")))
+            :ARG1-of (e / expert-41
+                  :ARG2 (g2 / government-organization
+                        :ARG0-of (g3 / govern-01
+                              :ARG1 (c / country :name (n3 / name :op1 "Tajikistan"))))))
+
+(p / person :name (n / name :op1 "Yunus" :op2 "Qanooni")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (c / country :name (n2 / name :op1 "Afghanistan"))
+                  :ARG2 (m / minister
+                        :topic (i2 / interior)
+                        :mod (i / interim))))
+
+(m / member
+  :poss (o / organization
+          :name (n / name
+                  :op1 "Northern"
+                  :op2 "Alliance"))
+  :domain (p / person
+            :name (n2 / name
+                    :op1 "Qanooni")))
+
+(p2 / person :name (n2 / name :op1 "Yury" :op2 "Vorobyov")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (c / country :name (n3 / name :op1 "Russia"))
+                  :ARG2 (m / minister
+                        :mod (d / deputy)
+                        :topic (s / situation
+                              :mod (e / emergency)))))
+
+(p / person
+          :name (n / name
+                  :op1 "Hamid"
+                  :op2 "Karzai")
+          :ARG0-of (l / lead-02
+                     :ARG1 (g / government-organization
+                             :ARG0-of (g2 / govern-01
+                                        :ARG1 (c / country
+                                                :name (n2 / name
+                                                        :op1 "Afghanistan")))
+                             :duration (i / interim))))
+
+(c / country
+            :mod (w / world-region :name (n / name :op1 "West"))
+            :poss-of (p / population
+                  :mod (m / market
+                        :prep-for (a / and
+                              :op1 (h / heroin)
+                              :op2 (o / opium)
+                              :source (c2 / country :name (n2 / name :op1 "Afghanistan")))
+                        :mod (m2 / major))))
+
+(c2 / create-01
+            :ARG0 (p / police
+                  :mod (c3 / country :name (n2 / name :op1 "Afghanistan")))
+            :ARG1 (u / unit
+                  :purpose (c6 / counter-01
+                        :ARG1 (n4 / narcotics))
+                  :mod (f / first
+                        :poss p))
+            :ARG1-of (h / help-01
+                  :ARG0 (o2 / organization :name (n3 / name :op1 "United" :op2 "Nations")))
+            :ARG1-of (c4 / cause-01
+                  :ARG0 (c5 / concern-01
+                        :ARG0 (p2 / possible
+                              :domain (b / become-01
+                                    :ARG1 c3
+                                    :ARG2 (t / thing
+                                          :ARG0-of (p3 / produce-01
+                                                :ARG1 (o3 / opium)
+                                                :mod (m / major)))
+                                    :mod (a3 / again))))))
+
+(b / border
+          :quant (d4 / distance-quantity
+                   :quant 1200
+                   :unit (k2 / kilometer))
+          :quant (d / distance-quantity
+                   :quant 750
+                   :unit (m2 / mile))
+          :location (b2 / between
+                      :op1 c
+                      :op2 (c2 / country
+                             :name (n2 / name
+                                     :op1 "Afghanistan"))))
+
+(o2 / oppose-01
+            :ARG0 (o / organization :name (n / name :op1 "Northern" :op2 "Alliance"))
+            :ARG1 (c / criminal-organization :name (n2 / name :op1 "Taliban")))
+
+(t / tolerate-01
+            :ARG0 o
+            :ARG1 (h / harvest-01
+                  :ARG1 (p / poppy)
+                  :location (t2 / territory
+                        :ARG1-of (c3 / control-01
+                              :ARG0 o))))
+
+(c2 / company :name (n3 / name :op1 "Boeing")
+                              :source (c3 / country :name (n4 / name :op1 "U.S.")))
+
+(a / attack-01
+      :ARG1 (g / government-organization :name (n / name :op1 "Defense" :op2 "Ministry")
+            :poss (c4 / country :name (n5 / name :op1 "South" :op2 "Korea")))
+      :location (g2 / government-organization :name (n2 / name :op1 "Parliament"))
+      :ARG1-of (c / cause-01
+            :ARG0 (a2 / allege-01
+                  :ARG1 (f / favor-01
+                        :ARG0 g
+                        :ARG1 (c2 / company :name (n3 / name :op1 "Boeing")
+                              :source (c3 / country :name (n4 / name :op1 "U.S.")))
+                        :purpose (p / project
+                              :mod (a3 / aircraft
+                                    :ARG0-of (f2 / fight-01))
+                              :mod (m / monetary-quantity
+                                    :unit (d / dollar)
+                                    :quant (m2 / multi-billion)))))))
+
+(c2 / company :name (n3 / name :op1 "Boeing")
+                              :source (c3 / country :name (n4 / name :op1 "U.S.")))
+
+(a2 / aircraft-type
+                          :name (n3 / name
+                                  :op1 "Rafale")
+	:ARG1-of (m2 / make-01
+                                     :ARG0 (c2 / country
+                                             :name (n4 / name
+                                                     :op1 "France"))))
+
+(a2 / aircraft-type
+                          :name (n3 / name
+                                  :op1 "Rafale")
+                          :ARG0-of (f / fight-01)
+                          :ARG1-of (m2 / make-01
+                                     :ARG0 (c2 / country
+                                             :name (n4 / name
+                                                     :op1 "France"))))
+
+(b / buy-01
+                              :ARG0 g
+                              :ARG1 (a / aircraft-type :name (n4 / name :op1 "F-15K")
+                                    :poss (c3 / company :name (n5 / name :op1 "Boeing"))
+                                    :ARG1-of (a2 / age-01)))
+
+(p2 / plane :name (n3 / name :op1 "Typhoon" :op2 "2000")
+                  :poss (c3 / company :name (n4 / name :op1 "Eurofighter" :op2 "Consortium")))
+
+(p3 / plane :name (n5 / name :op1 "Su-32")
+                  :source (c4 / country :name (n6 / name :op1 "Russia"))
+                  :ARG1-of (m / make-01
+                        :ARG0 (c5 / company :name (n7 / name :op1 "Sukhoi"))))
+
+(p3 / plane :name (n5 / name :op1 "Su-32")
+	:ARG1-of (m / make-01
+                        :ARG0 (c5 / company :name (n7 / name :op1 "Sukhoi"))))
+
+(p3 / plane :name (n5 / name :op1 "Su-32")
+	:source (c4 / country :name (n6 / name :op1 "Russia")))
+
+(p / plane :name (n / name :op1 "Rafale")
+                  :poss (f / firm :name (n2 / name :op1 "Dassault")))
+
+(p / person :name (n / name :op1 "Kang" :op2 "Chang-Sung")
+	:ARG0-of (h / have-org-role-91
+                  :ARG1 (p2 / political-party :name (n2 / name :op1 "Grand" :op2 "National" :op3 "Party")
+                        :ARG0-of (o / oppose-01)
+                        :poss p)))
+
+(r / rate-01
+                  :ARG1 (a / aircraft-type :name (n2 / name :op1 "F-15K"))
+                  :ARG2 (e / excellent)
+                  :topic (a2 / and
+                        :op1 (r2 / reliable)
+                        :op2 (c2 / capable-41
+                              :ARG1 a
+                              :ARG2 (s2 / support-01
+                                    :ARG0 a
+                                    :ARG1 (c3 / combat-01)))))
+
+(n / newspaper :name (n2 / name :op1 "Korea" :op2 "Herald")
+            :mod (l / language :name (n4 / name :op1 "English")))
+
+(p2 / person :name (n / name :op1 "Jeong" :op2 "Se-hyun")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (c / country :name (n2 / name :op1 "South" :op2 "Korea"))
+                  :ARG2 (m / minister
+                        :mod (s / senior))))
+
+(h / have-org-role-91
+      :ARG0 (p / person :name (n3 / name :op1 "Jeong"))
+      :ARG1 (c / country :name (n / name :op1 "South" :op2 "Korea"))
+      :ARG2 (m2 / minister
+            :topic (u / unification))
+      :ARG3 (m / make-01
+            :ARG0 p
+            :ARG1 (p2 / policy
+                  :topic (r / relation
+                        :mod (c2 / country :name (n2 / name :op1 "North" :op2 "Korea"))))
+            :mod (c3 / chief)))
+
+(a / agency :name (n2 / name :op1 "Yonhap")
+	:mod (n3 / news))
+
+(p2 / person :name (n / name :op1 "Lim" :op2 "Won-dong")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (c / country :name (n2 / name :op1 "South" :op2 "Korea"))
+                  :ARG2 (e / envoy
+                        :mod (t / top))))
+
+(a / advise-01
+      :ARG0 (p / person :name (n / name :op1 "Lim"))
+      :ARG1 (p2 / person :name (n2 / name :op1 "Kim" :op2 "Dae-jung")
+            :ARG0-of (h / have-org-role-91
+                  :ARG2 (p3 / president)))
+      :ARG2 (a2 / affair
+            :mod (a3 / and
+                  :op1 (s2 / security
+                        :mod (n3 / nation))
+                  :op2 (f / foreign)))
+      :mod (s / special))
+
+(s3 / standoff
+                              :mod (n2 / nucleus)
+                              :time (d2 / date-entity :year 1994)
+                              :ARG1-of (c / cause-01
+                                    :ARG0 (d3 / develop-02
+                                          :ARG0 (c2 / country :name (n3 / name :op1 "North" :op2 "Korea"))
+                                          :ARG1 (w / weapon
+                                                :mod (n4 / nucleus))
+                                          :ARG1-of (s4 / suspect-01)))
+                              :ARG1-of (c4 / close-41
+                                    :ARG2 (c3 / conflict)))
+
+(c2 / consortium
+                               :ARG1-of (l / lead-02
+                                          :ARG0 (c3 / country
+                                                  :name (n3 / name
+                                                          :op1 "US")))
+                               :mod (i / international))
+
+(b / build-01
+         :ARG0 (c / consortium)
+         :ARG1 (r / reactor
+                 :mod (n / nucleus)
+                 :part (w / water
+                         :mod (l / light))
+                 :quant 2
+                 :ARG0-of (p / produce-01
+                            :ARG1 (f / fuel
+                                    :mod (g / grade
+                                           :mod (w2 / weapons))
+                                    :degree (l2 / less)
+                                    :compared-to (r2 / reactor
+                                                   :mod (o / old)
+                                                   :part (g2 / graphite)
+                                                   :poss (c2 / country
+                                                           :name (n2 / name
+                                                                   :op1 "North"
+                                                                   :op2 "Korea")))))))
+
+(c / company :name (n / name :op1 "Hindustan" :op2 "Aeronautics" :op3 "Limited")
+            :poss (c2 / country :name (n2 / name :op1 "India")))
+
+(p / person :name (n / name :op1 "N.R." :op2 "Mohanty")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (c2 / company :name (n2 / name :op1 "Hindustan" :op2 "Aeronautics" :op3 "Limited")
+                        :ARG1-of (o / own-01
+                              :ARG0 (c3 / country :name (n3 / name :op1 "India")))
+                        :ARG1-of (b / base-01
+                              :location (c4 / city :name (n4 / name :op1 "Bangalore"))))
+                  :ARG2 (c / chairman)))
+
+(c2 / company :name (n2 / name :op1 "Hindustan" :op2 "Aeronautics" :op3 "Limited")
+                        :ARG1-of (o / own-01
+                              :ARG0 (c3 / country :name (n3 / name :op1 "India")))
+                        :ARG1-of (b / base-01
+                              :location (c4 / city :name (n4 / name :op1 "Bangalore"))))
+
+(c2 / company :name (n2 / name :op1 "Hindustan" :op2 "Aeronautics" :op3 "Limited")
+	:ARG1-of (b / base-01
+                              :location (c4 / city :name (n4 / name :op1 "Bangalore"))))
+
+(c2 / company :name (n2 / name :op1 "Hindustan" :op2 "Aeronautics" :op3 "Limited")
+	:ARG1-of (o / own-01
+                              :ARG0 (c3 / country :name (n3 / name :op1 "India"))))
+
+(j2 / jet :name (n4 / name :op1 "HJT-36")
+                              :purpose (t / train-01)
+                              :poss c2
+                              :mod (i / intermediate))
+
+(p4 / person :name (n / name :op1 "Ichiro" :op2 "Ozawa")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (p / political-party :name (n2 / name :op1 "Liberal" :op2 "Party")
+                        :mod (c2 / country :name (n3 / name :op1 "Japan"))
+                        :ARG0-of (o3 / oppose-01))
+                  :ARG2 (c / chief)))
+
+(p / political-party :name (n2 / name :op1 "Liberal" :op2 "Party")
+                        :mod (c2 / country :name (n3 / name :op1 "Japan"))
+                        :ARG0-of (o3 / oppose-01))
+
+(p3 / person :name (n / name :op1 "Ichiro" :op2 "Ozawa")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (p / political-party :name (n2 / name :op1 "Liberal" :op2 "Party")
+                        :mod (c2 / country :name (n3 / name :op1 "Japan"))
+                        :ARG0-of (o3 / oppose-01))
+                  :ARG2 (c / chief)))
+
+(p / political-party :name (n2 / name :op1 "Liberal" :op2 "Party")
+                        :mod (c2 / country :name (n3 / name :op1 "Japan"))
+                        :ARG0-of (o3 / oppose-01))
+
+(r / revive-01
+                             :ARG0 (c2 / country
+                                     :name (n2 / name
+                                             :op1 "Japan"))
+                             :ARG1 (m / military
+                                     :poss c2))
+
+(a / alert-01
+  :ARG1 (c / continent
+          :name (n / name
+                  :op1 "Asia"))
+  :ARG2 (t / thing
+          :ARG0-of (s / signal-01
+                     :ARG1 (r / revive-01
+                             :ARG0 (c2 / country
+                                     :name (n2 / name
+                                             :op1 "Japan"))
+                             :ARG1 (m / military
+                                     :poss c2)))))
+
+(n2 / newspaper :name (n3 / name :op1 "Sankei" :op2 "Shimbun")
+	:mod (c / conservative))
+
+(a / advocate-01
+      :ARG0 (p / person :name (n / name :op1 "Ozawa"))
+      :ARG1 (f / force
+            :ARG1-of (a2 / arm-01)
+            :mod (s / strong))
+      :mod (r / renowned))
+
+(g / general
+  :mod (s / secretary)
+  :mod (f / former)
+  :poss (p / political-party
+          :name (n / name
+                  :op1 "Liberal"
+                  :op2 "Democratic"
+                  :op3 "Party")
+          :ARG0-of (r / rule-03))
+  :domain (p2 / person
+            :name (n2 / name
+                    :op1 "Ozawa")))
+
+(s / state-01
+      :ARG0 (g / government-organization
+            :ARG0-of (g2 / govern-01
+                  :ARG1 (c / country :name (n2 / name :op1 "Japan"))))
+      :ARG1 (p / policy
+            :topic (h / hold-01 :polarity -
+                  :ARG1 (w / warhead
+                        :mod (n / nucleus)))
+            :poss g)
+      :time (d / date-entity :year 2002 :day 8 :month 4))
+
+(s / state-01
+      :ARG0 (g / government-organization
+            :ARG0-of (g2 / govern-01
+                  :ARG1 (c / country :name (n2 / name :op1 "Japan"))))
+      :ARG1 (p / policy
+            :poss g
+            :topic (h / hold-01 :polarity -
+                  :ARG1 (w / warhead
+                        :mod (n / nucleus))))
+      :time (d / date-entity :year 2002 :month 4 :day 8))
+
+(p2 / policy
+            :poss (c4 / country :name (n4 / name :op1 "Japan"))
+            :topic (h / hold-01 :polarity -
+                  :ARG1 (w / weapon
+                        :mod (n2 / nucleus)
+                        :mod (a / any)))
+            :time (s2 / since
+                  :op1 (w2 / war :name (n3 / name :op1 "World" :op2 "War" :op3 "II"))))
+
+(p3 / person :name (n6 / name :op1 "Ichiro" :op2 "Ozawa")
+                  :ARG0-of (h2 / have-org-role-91
+                        :ARG1 (p / political-party :name (n / name :op1 "Liberal" :op2 "Party")
+                              :ARG0-of (o2 / oppose-01))
+                        :ARG2 (c3 / chief)))
+
+(a / advocate-01
+  :ARG0 (p / person
+          :name (n / name :op1 "Ozawa"))
+  :ARG1 (f / force
+          :ARG1-of (a2 / arm-01)
+          :mod (s / strong))
+  :mod (r / renowned))
+
+(p3 / program
+                                     :mod (p4 / plutonium)
+                                     :mod (m / massive)
+                                     :poss (c3 / country
+                                             :name (n2 / name :op1 "Japan")))
+
+(p / person :name (n / name :op1 "Shaun" :op2 "Bernie")
+            :poss (o / organization :name (n2 / name :op1 "Greenpeace" :op2 "International")))
+
+(p2 / person :name (n7 / name :op1 "Sergei" :op2 "Ivanov")
+                              :ARG0-of (h4 / have-org-role-91
+                                    :ARG1 c2
+                                    :ARG2 (m / minister
+                                          :topic (d3 / defense))))
+
+(p / person :name (n2 / name :op1 "Geraldo" :op2 "da" :op3 "Cruz" :op4 "Quintao")
+                  :ARG0-of (h2 / have-org-role-91
+                        :ARG1 c
+                        :ARG2 (m5 / minister
+                              :topic (d2 / defense))))
+
+(p2 / person :name (n2 / name :op1 "Andrei" :op2 "Belyaninov")
+            :ARG0-of (h / head-01
+                  :ARG1 (c / company :name (n3 / name :op1 "Rosoboronexport")
+                        :ARG0-of (e / export-01
+                              :ARG1 (a / arms)))))
+
+(p / person :name (n2 / name :op1 "Fernando" :op2 "Henrique" :op3 "Cardoso")
+                        :ARG0-of (h / have-org-role-91
+                              :ARG1 (c2 / country :name (n3 / name :op1 "Brazil"))
+                              :ARG2 (p3 / president)))
+
+(m / manufacture-01
+                  :ARG0 (c / country
+                          :name (n3 / name
+                                  :op1 "Britain"))
+                  :ARG1 (b / bomb
+                          :mod (n4 / nucleus)
+                          :ord (o / ordinal-entity :value 1))
+                  :time (a / and
+                          :op1 (e / end
+                                 :op1 (d4 / date-entity
+                                        :decade 1940))
+                          :op2 (s / start
+                                 :op1 (d6 / date-entity
+                                        :decade 1950))))
+
+(b2 / bomb
+  :name (n3 / name
+          :op1 "Blue"
+          :op2 "Danube")
+  :mod (n / nucleus)
+  :ord (o / ordinal-entity :value 1)
+  :poss (c2 / country
+          :name (n2 / name
+                  :op1 "Britain")))
+
+(p / person
+          :name (n / name
+                  :op1 "Brian"
+                  :op2 "Burnell")
+	:ARG0-of (w / work-01
+                     :ARG1 (p2 / program
+                             :mod (m / military)
+                             :mod (n2 / nucleus)
+                             :poss (c / country
+                                     :name (n3 / name
+                                             :op1 "Britain")))))
+
+(p4 / possess-01
+                            :ARG0 (s / state
+                                    :mod (o2 / outlaw)
+                                    :quant (s2 / several)
+                                    :example (c3 / country
+                                               :name (n4 / name
+                                                       :op1 "Iraq")))
+                            :ARG1 (p5 / plutonium))
+
+(o / organization
+            :mod (t2 / terrorism)
+            :example (c / criminal-organization :name (n / name :op1 "al-Qaeda")))
+
+(p2 / person :name (n4 / name :op1 "Bernard" :op2 "Jenkin")
+	:ARG0-of (h / have-org-role-91
+                        :ARG1 (p / political-party :name (n2 / name :op1 "Conservative" :op2 "Party")
+                              :ARG0-of (o / oppose-01))
+                        :ARG2 (s2 / spokesman
+                              :topic (d / defense))))
+
+(t2 / traffic-00
+            :ARG1 (d2 / drug)
+            :source (c5 / country :name (n5 / name :op1 "Afghanistan"))
+            :destination (a2 / and
+                  :op1 (c6 / country :name (n4 / name :op1 "Russia"))
+                  :op2 (c7 / continent :name (n3 / name :op1 "Europe"))))
+
+(p / produce-01
+      :ARG0 (c / country :name (n / name :op1 "Afghanistan"))
+      :ARG1 (o / opium)
+      :location (w / world)
+      :mod (t / top))
+
+(s / share-01
+         :ARG0 (c / country
+                 :name (n4 / name :op1 "Tajikistan"))
+         :ARG1 (b / border
+                 :duration (a2 / and
+                             :op1 (d / distance-quantity
+                                    :unit (k / kilometer)
+                                    :quant 1300)
+                             :op2 (d2 / distance-quantity
+                                    :unit (m / mile)
+                                    :quant 800)))
+         :ARG2 (c2 / country
+                 :name (n3 / name :op1 "Afghanistan")))
+
+(p / person
+          :name (n / name
+                  :op1 "Andrei"
+                  :op2 "Onishchenko")
+          :ARG0-of (h / head-01
+                     :ARG1 (c / clinic
+                             :mod (d / drug)
+                             :mod (p2 / public)
+                             :location (c2 / country
+                                         :name (n3 / name :op1 "Tajikistan"))
+                             :location (c3 / city
+                                         :name (n2 / name :op1 "Dushanbe")))))
+
+(r / register-02
+  :ARG1 (p / person
+          :ARG1-of (a / addict-01
+                     :ARG2 (h / heroin))
+          :quant 5000)
+  :manner (o / official)
+  :location (c / country
+              :name (n / name :op1 "Tajikistan"))
+  :compared-to (p2 / person
+                 :ARG1-of (a2 / addict-01
+                            :ARG2 (h2 / heroin))
+                 :quant 57
+                 :time (d / date-entity
+                         :year 1997)))
+
+(p / person :name (n / name :op1 "Avaz" :op2 "Yuldachev")
+            :ARG0-of (h / head-01
+                  :ARG1 (a2 / agency
+                        :mod (g / government-organization
+                              :ARG0-of (g2 / govern-01
+                                    :ARG1 (c / country :name (n3 / name :op1 "Tajikistan"))))
+                        :ARG0-of (f / fight-01
+                              :ARG1 (t2 / traffic-00
+                                    :ARG1 (d / drug))))))
+
+(f / face-01
+  :ARG0 (p / person
+          :ARG0-of (t / traffic-00
+                     :ARG1 (d / drug)))
+  :ARG1 (p2 / penalty
+          :mod (d2 / death))
+  :prep-under (l / law
+                :poss (c / country
+                        :name (n / name :op1 "Tajikistan"))))
+
+(i / inhabit-01
+      :ARG0 (p / person :quant 6200000)
+      :ARG1 (c / country :name (n / name :op1 "Tajikistan")))
+
+(p / person :name (n / name :op1 "Klauspeter" :op2 "Schmallenbach")
+            :ARG0-of (h / head-01
+                  :ARG1 (d / delegation
+                        :part-of (o / organization :name (n2 / name :op1 "European" :op2 "Commission"))
+                        :location (c / city :name (n3 / name :op1 "Bangkok")))))
+
+(p / person :name (n / name :op1 "Ingo" :op2 "Kober")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (o / organization :name (n2 / name :op1 "European" :op2 "Patent" :op3 "Office"))
+                  :ARG2 (p3 / president)))
+
+(p2 / person :name (n / name :op1 "Yanyong" :op2 "Phuangranch")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (g2 / government-organization :name (n2 / name :op1 "Department" :op2 "of" :op3 "Intellectual" :op4 "Property")
+                        :poss (c / country :name (n3 / name :op1 "Thailand")))
+                  :ARG2 (d / director
+                        :mod (g / general))))
+
+(g2 / government-organization :name (n2 / name :op1 "Department" :op2 "of" :op3 "Intellectual" :op4 "Property")
+                        :poss (c / country :name (n3 / name :op1 "Thailand")))
+
+(p / person :name (n / name :op1 "Michael" :op2 "Marks")
+	:ARG0-of (h2 / have-org-role-91
+                  :ARG1 c
+                  :ARG2 (m / manage-01
+                        :mod (g / general))))
+
+(p / person :name (n / name :op1 "Michael" :op2 "Marks")
+	:ARG0-of (h / have-org-role-91
+                  :ARG1 (c / company :name (n2 / name :op1 "Boeing" :op2 "Corporation"))
+                  :ARG2 (p3 / president
+                        :mod (v / vice))))
+
+(p / person :name (n / name :op1 "Michael" :op2 "Marks")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (c / company :name (n2 / name :op1 "Boeing" :op2 "Corporation"))
+                  :ARG2 (p3 / president
+                        :mod (v / vice)))
+            :ARG0-of (h2 / have-org-role-91
+                  :ARG1 c
+                  :ARG2 (m / manage-01
+                        :mod (g / general))))
+
+(p2 / person :name (n3 / name :op1 "Joseph" :op2 "Song")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (c2 / company :name (n4 / name :op1 "Boeing" :op2 "Corporation"))
+                  :ARG2 (p3 / president
+                        :mod (v / vice))))
+
+(p / person :name (n4 / name :op1 "Douglas" :op2 "Kennett")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (c / company :name (n2 / name :op1 "Boeing"))
+                  :ARG2 (p2 / president
+                        :mod (v / vice))
+                  :ARG3 (c2 / communicate-01)))
+
+(b / base-01
+  :ARG1 (c3 / company
+          :name (n3 / name
+                  :op1 "Boeing"
+                  :op2 "Corporation")
+          :mod (a / aerospace))
+  :location (c4 / country
+              :name (n4 / name
+                      :op1 "United"
+                      :op2 "States")))
+
+(f / finalize-01
+  :ARG0 (a / and
+          :op1 (c / country
+                 :name (n4 / name
+                         :op1 "Cambodia"))
+          :op2 (c2 / country
+                 :name (n3 / name
+                         :op1 "Vietnam")))
+  :ARG1 (a2 / agree-01
+          :ARG1 (s / stop-01
+                  :ARG1 (a3 / and
+                          :op1 (p / person
+                                 :ARG0-of (t / traffic-00
+                                            :ARG1 (d / drug))
+                                 :mod (c3 / continent
+                                        :name (n2 / name
+                                                :op1 "Asia")))
+                          :op2 (p2 / person
+                                 :ARG0-of (t2 / traffic-00
+                                            :ARG1 (d3 / drug))
+                                 :mod (c4 / continent
+                                        :name (n / name
+                                                :op1 "Europe"))))))
+  :time (d2 / date-entity
+          :year 2002
+          :month 4
+          :day 23))
+
+(p4 / person :name (n7 / name :op1 "Lour" :op2 "Ramin")
+            :ARG0-of (h4 / have-org-role-91
+                  :ARG1 (g2 / government-organization :name (n / name :op1 "Narcotics" :op2 "Authority")
+                        :poss (c / country :name (n6 / name :op1 "Cambodia")))
+                  :ARG2 (s2 / secretary
+                        :mod (g / general)
+                        :mod (d / deputy))))
+
+(u / use-01
+  :ARG1 (c / country
+          :name (n / name :op1 "Cambodia"))
+  :ARG2 (p / point
+          :mod (t / transit)
+          :purpose (t2 / traffic-00
+                     :ARG1 (a / and
+                             :op1 (h / heroin)
+                             :op2 (o / opium))))
+  :duration (y / year
+              :quant (m / many)))
+
+(h / hold-04
+      :ARG0 (p2 / person
+            :ARG0-of (h2 / have-org-role-91
+                  :ARG1 (o2 / organization :name (n3 / name :op1 "ASEAN"))
+                  :ARG2 (o / official)))
+      :ARG1 (m / meet-03
+            :ARG0 (p / person
+                  :ARG1-of (e / expert-41)
+                  :ARG2-of (g / group-01)))
+      :time (d2 / date-entity :year 2002 :month 1)
+      :location (i / island :name (n / name :op1 "Bali")
+            :location (c2 / country :name (n2 / name :op1 "Indonesia"))))
+
+(i / island :name (n / name :op1 "Bali")
+            :location (c2 / country :name (n2 / name :op1 "Indonesia")))
+
+(f2 / field
+                  :consist-of (p2 / poppy)
+                  :location (c4 / country :name (n4 / name :op1 "Afghanistan")))
+
+(b / become-01
+            :ARG1 (c3 / country :name (n3 / name :op1 "Myanmar"))
+            :ARG2 (t / thing
+                  :ARG0-of (p / produce-01
+                        :ARG1 (o / opium
+                              :mod (l / legal :polarity -))
+                        :mod (l2 / large
+                              :degree (m / most))
+                        :location (w / world))))
+
+(c4 / country
+  :name (n4 / name
+          :op1 "Myanmar")
+  :ARG2-of (b / be-from-91
+             :ARG1 (s / stimulant
+                     :consist-of (a / amphetamine
+                                   :mod (t / type)))
+             :mod (p / primary)
+             :location (c3 / continent
+                         :name (n3 / name
+                                 :op1 "Asia"))))
+
+(p2 / person :name (n5 / name :op1 "Sit" :op2 "Aye")
+            :ARG0-of (h / have-org-role-91
+                  :ARG2 (c / colonel))
+            :ARG0-of (h2 / have-org-role-91
+                  :ARG1 (g / government-organization :name (n6 / name :op1 "International" :op2 "Relations" :op3 "Department")
+                        :poss (c3 / country :name (n7 / name :op1 "Myanmar")))
+                  :ARG2 (d2 / director)))
+
+(p2 / person :name (n5 / name :op1 "Sit" :op2 "Aye")
+	:ARG0-of (h2 / have-org-role-91
+                  :ARG1 (g / government-organization :name (n6 / name :op1 "International" :op2 "Relations" :op3 "Department")
+                        :poss (c3 / country :name (n7 / name :op1 "Myanmar")))
+                  :ARG2 (d2 / director)))
+
+(p2 / person :name (n5 / name :op1 "Sit" :op2 "Aye")
+	:ARG0-of (h / have-org-role-91
+                  :ARG2 (c / colonel)))
+
+(g / grow-03
+  :ARG1 (p / poppy)
+  :quant (m / majority)
+  :location (c4 / country
+              :name (n4 / name
+                      :op1 "Myanmar"))
+  :location (a / area
+              :mod (r / remote)
+              :mod (m2 / mountain)
+              :location (a2 / along
+                          :op1 (b / border
+                                 :location (b2 / between
+                                             :op1 c4
+                                             :op2 (a3 / and
+                                                    :op1 (c5 / country
+                                                           :name (n5 / name
+                                                                   :op1 "China"))
+                                                    :op2 (c6 / country
+                                                           :name (n6 / name
+                                                                   :op1 "Thailand"))))))))
+
+(m / member
+      :domain (a / and
+            :op1 (c / country :name (n2 / name :op1 "Brunei"))
+            :op2 (c2 / country :name (n3 / name :op1 "Cambodia"))
+            :op3 (c3 / country :name (n4 / name :op1 "Indonesia"))
+            :op4 (c4 / country :name (n5 / name :op1 "Laos"))
+            :op5 (c5 / country :name (n6 / name :op1 "Malaysia"))
+            :op6 (c6 / country :name (n7 / name :op1 "Myanmar"))
+            :op7 (c7 / country :name (n8 / name :op1 "Philippines"))
+            :op8 (c8 / country :name (n9 / name :op1 "Singapore"))
+            :op9 (c9 / country :name (n10 / name :op1 "Thailand"))
+            :op10 (c10 / country :name (n11 / name :op1 "Vietnam")))
+      :poss (o / organization :name (n / name :op1 "ASEAN")))
+
+(k / know-01
+  :ARG1 (a / and
+          :op1 (c4 / country
+                 :name (n5 / name
+                         :op1 "Myanmar"))
+          :op2 (c5 / country
+                 :name (n6 / name
+                         :op1 "Thailand"))
+          :op3 (c6 / country
+                 :name (n7 / name
+                         :op1 "Laos")))
+  :ARG2 (c7 / country
+          :mod (w / world-region
+                 :name (n8 / name
+                         :op1 "Golden"
+                         :op2 "Triangle"))))
+
+(p / person :name (n / name :op1 "Tahmaseb" :op2 "Mazaheri")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (c / country :name (n2 / name :op1 "Iran"))
+                  :ARG2 (m / minister
+                        :topic (a2 / and
+                              :op2 (f / finance)
+                              :op2 (e / economy)))))
+
+(p / person :name (n / name :op1 "Shaukat" :op2 "Aziz")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (c / country :name (n2 / name :op1 "Pakistan"))
+                  :ARG2 (m / minister
+                        :topic (a2 / and
+                              :op1 (f / finance)
+                              :op2 (e / economy)))))
+
+(p / person :name (n / name :op1 "Hedayat" :op2 "Amin-Arsala")
+	:ARG0-of (h2 / have-org-role-91
+                  :ARG1 c
+                  :ARG2 (m / minister
+                        :topic (f / finance))))
+
+(p / person :name (n / name :op1 "Hedayat" :op2 "Amin-Arsala")
+	:ARG0-of (h / head-01
+                  :ARG1 (g / government-organization
+                        :ARG0-of (g2 / govern-01
+                              :ARG1 (c / country :name (n2 / name :op1 "Afghanistan")))
+                        :mod (i / interim))
+                  :mod (d / deputy)))
+
+(p / person :name (n / name :op1 "Hedayat" :op2 "Amin-Arsala")
+            :ARG0-of (h / head-01
+                  :ARG1 (g / government-organization
+                        :ARG0-of (g2 / govern-01
+                              :ARG1 (c / country :name (n2 / name :op1 "Afghanistan")))
+                        :mod (i / interim))
+                  :mod (d / deputy))
+            :ARG0-of (h2 / have-org-role-91
+                  :ARG1 c
+                  :ARG2 (m / minister
+                        :topic (f / finance))))
+
+(p / person :name (n / name :op1 "Kamal" :op2 "Kharazi")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (c / country :name (n4 / name :op1 "Iran"))
+                  :ARG2 (m / minister
+                        :topic (f / foreign))))
+
+(s / suppress-01
+      :ARG0 (r / rule-03
+            :ARG0 (c2 / criminal-organization :name (n / name :op1 "Taliban"))
+            :time (l / late
+                  :degree (m / more)))
+      :ARG1 (c / crop
+            :mod (o / opium)))
+
+(t / topple-01
+                  :ARG0 (a / alliance
+                        :mod (m / military)
+                        :ARG1-of (l / lead-02
+                              :ARG0 (c / country :name (n / name :op1 "United" :op2 "States"))))
+                  :ARG1 (c2 / criminal-organization :name (n2 / name :op1 "Taliban"))
+                  :time (d / date-entity :month 12 :year 2001))
+
+(p4 / person :name (n / name :op1 "Hamid" :op2 "Karzai")
+                  :ARG0-of (h / head-01
+                        :ARG1 (g / government-organization
+                              :ARG0-of (g2 / govern-01
+                                    :ARG1 (c2 / country :name (n2 / name :op1 "Afghanistan")))
+                              :mod (i / interim))))
+
+(p2 / person :name (n3 / name :op1 "Hamid" :op2 "Karzai")
+                        :ARG0-of (h2 / head-01
+                              :ARG1 (g / government-organization
+                                    :ARG0-of (g2 / govern-01
+                                          :ARG1 (c2 / country :name (n4 / name :op1 "Afghanistan"))))
+                              :mod (i / interim)))
+
+(p / person :name (n / name :op1 "Mark" :op2 "Malloch" :op3 "Brown")
+            :ARG0-of (h / head-01
+                  :ARG1 (o / organization :name (n2 / name :op1 "United" :op2 "Nations" :op3 "Development" :op4 "Program"))))
+
+(f / fight-01
+  :ARG0 (c / country
+          :name (n3 / name :op1 "Iran"))
+  :ARG1 (c2 / country
+          :name (n2 / name :op1 "Pakistan"))
+  :ARG2 (c3 / country
+          :name (n / name :op1 "Afghanistan"))
+  :duration (l / long))
+
+(r / rule-03
+      :ARG0 (c2 / criminal-organization :name (n2 / name :op1 "Taliban"))
+      :ARG1 (c / country :name (n / name :op1 "Afghanistan"))
+      :time (d3 / date-interval
+            :op1 (d4 / date-entity :year 1996)
+            :op2 (d5 / date-entity :year 2001)))
+
+(f / fund-01
+      :ARG0 (c / country :name (n3 / name :op1 "Iran"))
+      :ARG1 (o / organization :name (n / name :op1 "Northern" :op2 "Alliance")
+            :mod (r / rebel)
+            :poss (c2 / country :name (n2 / name :op1 "Afghanistan"))))
+
+(p / person :name (n / name :op1 "Hedayat" :op2 "Amin-Arsala")
+            :ARG0-of (h / head-01
+                  :ARG1 (g / government-organization
+                        :mod (i / interim)
+                        :ARG0-of (g2 / govern-01
+                              :ARG1 (c2 / country :name (n3 / name :op1 "Afghanistan"))))
+                  :mod (d / deputy)))
+
+(i / include-01
+      :ARG1 (a / and
+            :op1 (c2 / country
+                  :location (w / world-region :name (n2 / name :op1 "Central" :op2 "Asia")))
+            :op2 (c / country :name (n3 / name :op1 "Turkey")))
+      :ARG2 (m / member
+            :poss (o / organization :name (n / name :op1 "Economic" :op2 "Cooperation" :op3 "Organization"))))
+
+(p / person
+                  :name (n2 / name
+                          :op1 "Chen"
+                          :op2 "Chi"
+                          :op3 "Tien")
+                  :source (c / country
+                            :name (n3 / name
+                                    :op1 "Taiwan")))
+
+(s / sentence-01
+      :ARG1 (p / person :name (n / name :op1 "Chen"))
+      :ARG2 (d2 / die-01
+            :ARG1 p)
+      :ARG3 (m / manufacture-01
+            :ARG1 (m2 / methamphetamine)
+            :manner (l / legal :polarity -)
+            :ARG1-of (d3 / disguise-01
+                  :ARG2 (p2 / plant
+                        :purpose (m3 / manufacture-01
+                              :ARG1 (s2 / soap)))))
+      :time (d / date-entity :year 1997))
+
+(e / execute-01
+            :ARG1 (p / person :name (n / name :op1 "Chen"))
+            :location (c4 / city :name (n2 / name :op1 "Ho" :op2 "Chi" :op3 "Minh" :op4 "City"))
+            :time (d2 / date-entity :year 2002 :month 5 :day 21))
+
+(p / person :name (n4 / name :op1 "Hla" :op2 "Min")
+	:ARG0-of (h2 / have-org-role-91
+                  :ARG1 (j / junta)
+                  :ARG2 (s2 / spokesman)))
+
+(p / person :name (n4 / name :op1 "Hla" :op2 "Min")
+	:ARG0-of (h / have-org-role-91
+                  :ARG2 (c / colonel)))
+
+(e / event
+      :frequency (r / regular)
+      :domain (c2 / ceremony
+            :purpose (b / burn-01
+                  :ARG1 (d / drug)))
+      :location (c3 / country :name (n2 / name :op1 "Myanmar")))
+
+(p2 / person :name (n4 / name :op1 "Jean-Luc" :op2 "Lemahieu")
+            :ARG0-of (r / represent-01
+                  :ARG1 (o3 / organization :name (n5 / name :op1 "UN's" :op2 "Drug" :op3 "Control" :op4 "Program")))
+            :ARG0-of (r2 / reside-01))
+
+(p2 / person :name (n4 / name :op1 "Jean-Luc" :op2 "Lemahieu")
+	:ARG0-of (r / represent-01
+                  :ARG1 (o3 / organization :name (n5 / name :op1 "UN's" :op2 "Drug" :op3 "Control" :op4 "Program"))))
+
+(p / produce-01
+          :ARG0 (c2 / country
+                  :name (n3 / name
+                          :op1 "Myanmar"))
+          :ARG1 (o / opium)
+          :mod (l / large
+                 :degree (m / most)
+                 :compared-to (w / world))
+          :time (d3 / date-entity
+                  :year 2001))
+
+(b2 / ban-01
+                        :ARG0 (m / militia
+                              :mod (c3 / criminal-organization :name (n3 / name :op1 "Taliban")))
+                        :ARG1 (p3 / poppy
+                              :source-of (o / opium))
+                        :ARG1-of (e / enforce-01))
+
+(o / organization :name (n / name :op1 "United" :op2 "Wa" :op3 "State" :op4 "Army")
+	:domain (m / militia
+                  :purpose (d / drug)
+                  :mod (l / large
+                        :degree (m2 / most
+                              :location (w / world)))))
+
+(p / person :name (n3 / name :op1 "Tin" :op2 "Hlaing")
+	:ARG0-of (h3 / have-org-role-91
+                  :ARG2 (c3 / colonel)))
+
+(p / person :name (n3 / name :op1 "Tin" :op2 "Hlaing")
+	:ARG0-of (h / have-org-role-91
+                  :ARG1 (c / country :name (n / name :op1 "Myanmar"))
+                  :ARG2 (m / minister
+                        :topic (h2 / home))))
+
+(p / person :name (n3 / name :op1 "Tin" :op2 "Hlaing")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (c / country :name (n / name :op1 "Myanmar"))
+                  :ARG2 (m / minister
+                        :topic (h2 / home)))
+            :ARG0-of (h3 / have-org-role-91
+                  :ARG2 (c3 / colonel)))
+
+(l / locate-01
+      :ARG1 (c / city :name (n / name :op1 "Lauk" :op2 "Kai"))
+      :location (w / world-region :name (n2 / name :op1 "Golden" :op2 "Triangle")
+            :mod (i / infamous)))
+
+(p2 / person :name (n / name :op1 "Phone" :op2 "Kyar" :op3 "Shin")
+            :ARG1-of (r / reform-01
+                  :ARG3 (l / lord
+                        :mod (d / drug)))
+            :ARG0-of (l2 / lead-02
+                  :ARG1 (e / ethnic-group :name (n2 / name :op1 "Kokang"))))
+
+(p2 / person :name (n / name :op1 "Phone" :op2 "Kyar" :op3 "Shin")
+	:ARG0-of (l2 / lead-02
+                  :ARG1 (e / ethnic-group :name (n2 / name :op1 "Kokang"))))
+
+(p2 / person :name (n / name :op1 "Phone" :op2 "Kyar" :op3 "Shin")
+	:ARG1-of (r / reform-01
+                  :ARG3 (l / lord
+                        :mod (d / drug))))
+
+(r / release-01
+          :ARG1 (p / person
+                  :name (n / name
+                          :op1 "Aung"
+                          :op2 "San"
+                          :op3 "Suu"
+                          :op4 "Kyi")
+                  :ARG0-of (l / lead-02)
+                  :ARG0-of (f3 / favor-01
+                             :ARG1 (d2 / democracy)))
+          :ARG2 (a / arrest
+                  :mod (h2 / house)
+                  :duration (t2 / temporal-quantity
+                              :quant 19
+                              :unit (m2 / month)))
+          :time (d / date-entity
+                  :day 6
+                  :month 5))
+
+(p / person
+          :name (n / name
+                  :op1 "Priscilla"
+                  :op2 "Clapp")
+          :ARG0-of (h / have-org-role-91
+                     :ARG1 (c / country
+                             :name (n2 / name
+                                     :op1 "US"))
+                     :ARG2 (c2 / charge-d-affaires)))
+
+(h / help-01
+          :ARG0 (c / country
+                  :name (n2 / name
+                          :op1 "Russia"))
+          :ARG1 (d2 / develop-02
+                  :ARG0 c2
+                  :ARG1 (w / weapon
+                          :mod (n4 / nucleus)))
+          :ARG2 (c2 / country
+                  :name (n3 / name
+                          :op1 "Iran"))
+          :manner (b / build-01
+                    :ARG0 c
+                    :ARG1 (s2 / station
+                            :poss c2
+                            :ARG0-of (p / power-01
+                                       :mod (a / atom))
+                            :location (c3 / city
+                                        :name (n6 / name
+                                                :op1 "Bushehr")))))
+
+(p3 / person :name (n / name :op1 "Vladimir" :op2 "Chuprov")
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (o / organization :name (n2 / name :op1 "Greenpeace"))
+                  :ARG2 (m / member)))
+
+(g / group
+          :name (n / name
+                  :op1 "Siemens")
+          :mod (c / country
+                 :name (n2 / name
+                         :op1 "Germany")))
+
+(p3 / person :name (n7 / name :op1 "Vladimir" :op2 "Putin")
+                  :ARG0-of (h2 / have-org-role-91
+                        :ARG1 c4
+                        :ARG2 (p4 / president)))
+
