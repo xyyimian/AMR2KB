@@ -60,6 +60,7 @@ def predict(filename):
 	assert len(subGraphs) == len(prediction)
 	for _, e in enumerate(subGraphs):
 		if prediction[_] == 1:
+			results.write(e.articleId + '[' + e.sentenceId + ']\n')
 			results.write(e.graph)
 			results.write('\n\n')
 	results.close()

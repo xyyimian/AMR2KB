@@ -1,3 +1,4 @@
+PROXY_AFP_ENG_20020105_0162.4
 (u / university
           :name (n / name
                   :op1 "Naif"
@@ -11,6 +12,7 @@
                                  :name (n2 / name
                                          :op1 "Riyadh"))))
 
+PROXY_AFP_ENG_20020105_0162.5
 (r / reopen-01
       :ARG1 (u / university :name (n / name :op1 "Naif" :op2 "Arab" :op3 "Academy" :op4 "for" :op5 "Security" :op6 "Sciences")
             :purpose (o / oppose-01
@@ -24,12 +26,14 @@
                         :ARG1 (c / country :name (n2 / name :op1 "US"))
                         :time (d2 / date-entity :year 2001 :month 9)))))
 
+PROXY_AFP_ENG_20020105_0162.5
 (u / university :name (n / name :op1 "Naif" :op2 "Arab" :op3 "Academy" :op4 "for" :op5 "Security" :op6 "Sciences")
             :purpose (o / oppose-01
                   :ARG1 (t / terror))
             :mod (e / ethnic-group :name (n3 / name :op1 "Arab")
                   :mod (p / pan)))
 
+PROXY_AFP_ENG_20020105_0162.6
 (b / base-01
   :ARG1 (u / university
           :name (n / name
@@ -43,6 +47,7 @@
               :name (n2 / name
                       :op1 "Riyadh")))
 
+PROXY_AFP_ENG_20020105_0162.7
 (r / run-01
   :ARG0 (o / organization
           :name (n / name
@@ -59,6 +64,7 @@
                   :op5 "Security"
                   :op6 "Sciences")))
 
+PROXY_AFP_ENG_20020105_0162.10
 (i / include-91
       :ARG1 (a / and
             :op1 (c / country :name (n / name :op1 "Algeria"))
@@ -80,6 +86,7 @@
                   :poss (w / workshop))
             :mod (e2 / ethnic-group :name (n12 / name :op1 "Arab"))))
 
+PROXY_AFP_ENG_20020106_0520.8
 (c / complex
                               :mod (n / nucleus)
                               :mod (c2 / county
@@ -95,6 +102,7 @@
                                                                  :op2 "Korea")))
                                           :direction (n4 / north)))
 
+PROXY_AFP_ENG_20020106_0520.8
 (c3 / capital
                                                  :name (n3 / name
                                                          :op1 "Pyongyang")
@@ -103,6 +111,7 @@
                                                                  :op1 "North"
                                                                  :op2 "Korea")))
 
+PROXY_AFP_ENG_20020106_0520.13
 (s / supervise-01
          :ARG0 o
          :ARG1 (o2 / organization
@@ -110,6 +119,7 @@
                          :op1 "UN"))
          :topic (n4 / nucleus))
 
+PROXY_AFP_ENG_20020106_0520.13
 (b / base-01
          :ARG1 (o / organization
                  :name (n / name
@@ -118,6 +128,7 @@
                      :name (n2 / name
                              :op1 "Vienna")))
 
+PROXY_AFP_ENG_20020106_0520.15
 (e / exchange-01
   :ARG0 (c / country
           :name (n / name
@@ -149,6 +160,7 @@
                                              :op1 "United"
                                              :op2 "States")))))
 
+PROXY_AFP_ENG_20020106_0520.15
 (p / program
                   :mod (w / weapons
                          :mod (n2 / nucleus))
@@ -157,28 +169,34 @@
                                       :op1 "Yongbyon"))
                   :ARG1-of (s / suspect-01))
 
+PROXY_AFP_ENG_20020111_0093.8
 (c / company :name (n2 / name :op1 "Warner" :op2 "Bros.")
                         :mod (m / media)
                         :ARG1-of (b / base-01
                               :location (c5 / country :name (n4 / name :op1 "U.S."))))
 
+PROXY_AFP_ENG_20020111_0093.8
 (c / company :name (n2 / name :op1 "Warner" :op2 "Bros.")
 	:ARG1-of (b / base-01
                               :location (c5 / country :name (n4 / name :op1 "U.S."))))
 
+PROXY_AFP_ENG_20020111_0093.8
 (c / company :name (n2 / name :op1 "Warner" :op2 "Bros.")
 	:mod (m / media))
 
+PROXY_AFP_ENG_20020111_0093.14
 (b / body :name (n / name :op1 "FIFA")
 	:ARG0-of (g / govern-01
                   :ARG1 (f2 / football)))
 
+PROXY_AFP_ENG_20020111_0093.30
 (p / person :name (n / name :op1 "An" :op2 "Yong-Geun")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (u / university :name (n2 / name :op1 "Chung" :op2 "Chong" :op3 "College"))
                   :ARG2 (s2 / scientist
                         :topic (f / food))))
 
+PROXY_AFP_ENG_20020111_0093.31
 (p / person
                  :name (n / name
                          :op1 "Brigitte"
@@ -187,11 +205,13 @@
                            :name (n2 / name
                                    :op1 "France")))
 
+PROXY_AFP_ENG_20020111_0093.32
 (p / person :name (n / name :op1 "Sepp" :op2 "Blatter")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (o / organization :name (n2 / name :op1 "FIFA"))
                   :ARG2 (p2 / president)))
 
+PROXY_AFP_ENG_20020111_0093.33
 (a / ahead
   :domain (i / it)
   :compared-to (g / game
@@ -204,16 +224,19 @@
                                     :month 5
                                     :day 31))))
 
+PROXY_AFP_ENG_20020111_0093.34
 (p / person :name (n / name :op1 "Chung" :op2 "Mong-Joon")
 	:ARG0-of (h3 / have-org-role-91
                   :ARG1 (o2 / organization :name (n3 / name :op1 "FIFA"))
                   :ARG2 (p2 / president
                         :mod (v / vice))))
 
+PROXY_AFP_ENG_20020111_0093.34
 (p / person :name (n / name :op1 "Chung" :op2 "Mong-Joon")
 	:ARG0-of (h / head-01
                   :ARG1 (o / organization :name (n2 / name :op1 "Korean" :op2 "Football" :op3 "Association"))))
 
+PROXY_AFP_ENG_20020111_0093.34
 (p / person :name (n / name :op1 "Chung" :op2 "Mong-Joon")
             :ARG0-of (h / head-01
                   :ARG1 (o / organization :name (n2 / name :op1 "Korean" :op2 "Football" :op3 "Association")))
@@ -222,6 +245,7 @@
                   :ARG2 (p2 / president
                         :mod (v / vice))))
 
+PROXY_AFP_ENG_20020111_0093.38
 (h / host-01
           :ARG0 (c2 / city
                   :name (n / name
@@ -232,6 +256,7 @@
                   :time (d2 / date-entity
                           :year 1988)))
 
+PROXY_AFP_ENG_20020111_0093.41
 (s / state-01
       :ARG0 (s2 / survey-01
             :time (r / recent))
@@ -262,11 +287,13 @@
                   :ARG1 (m / meat
                         :consist-of d))))
 
+PROXY_AFP_ENG_20020115_0320.6
 (w / war
                                     :mod (h / holy)
                                     :mod (r / religious-group :name (n4 / name :op1 "Islam"))
                                     :location (w2 / world-region :name (n5 / name :op1 "Kashmir")))
 
+PROXY_AFP_ENG_20020115_0320.13
 (p2 / person
       :domain (p / person :name (n2 / name :op1 "Iftikhar" :op2 "Ahmed"))
       :ARG0-of (h / have-org-role-91
@@ -275,20 +302,24 @@
                   :poss (c / country :name (n / name :op1 "Pakistan")))
             :ARG2 (o / official)))
 
+PROXY_AFP_ENG_20020115_0320.15
 (p2 / person :name (n / name :op1 "Tariq" :op2 "Jamil")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (c2 / city :name (n3 / name :op1 "Karachi"))
                   :ARG2 (c / chief
                         :topic (p / police))))
 
+PROXY_AFP_ENG_20020115_0320.20
 (p2 / publication :name (n2 / name :op1 "Islam" :op2 "Daily")
                               :ARG1-of (p3 / publish-01
                                     :ARG0 (o / organization :name (n3 / name :op1 "Al-Rashid" :op2 "Trust"))))
 
+PROXY_AFP_ENG_20020115_0320.20
 (p4 / publication :name (n4 / name :op1 "Zarb-e-Taiba" :op2 "Weekly")
                               :ARG1-of (p5 / publish-01
                                     :ARG0 (o2 / organization :name (n5 / name :op1 "Lashkar-i-Taiba"))))
 
+PROXY_AFP_ENG_20020115_0320.20
 (u / urge-01
             :ARG0 (e / elder
                   :poss p)
@@ -304,6 +335,7 @@
                               :ARG1-of (p5 / publish-01
                                     :ARG0 (o2 / organization :name (n5 / name :op1 "Lashkar-i-Taiba")))))))
 
+PROXY_AFP_ENG_20020115_0320.21
 (p2 / person
       :age (t / temporal-quantity :quant 18
             :unit (y / year))
@@ -312,12 +344,14 @@
       :domain (p / person :name (n / name :op1 "Qari" :op2 "Mohammad" :op3 "Zafar"))
       :ARG0-of (s / study-01))
 
+PROXY_AFP_ENG_20020115_0320.27
 (o2 / organization :name (n3 / name :op1 "Taliban" :op2 "Fund")
             :ARG1-of (l / link-01
                   :ARG1 (n4 / network
                         :poss (p2 / person :name (n5 / name :op1 "Osama" :op2 "bin" :op3 "Laden"))
                         :mod (n7 / network :name (n6 / name :op1 "al-Qaeda")))))
 
+PROXY_AFP_ENG_20020115_0320.27
 (s / support-01
       :ARG0 (p / publication :name (n / name :op1 "The" :op2 "Islam" :op3 "Daily")
             :poss (o / organization :name (n2 / name :op1 "Al-Rashid" :op2 "Trust")))
@@ -327,12 +361,14 @@
                         :poss (p2 / person :name (n5 / name :op1 "Osama" :op2 "bin" :op3 "Laden"))
                         :mod (n7 / network :name (n6 / name :op1 "al-Qaeda"))))))
 
+PROXY_AFP_ENG_20020117_0270.9
 (m / mean-01
             :ARG0 (e / event :name (n2 / name :op1 "Val" :op2 "Fajr"))
             :ARG1 (s / swear-01
                   :ARG1 (w / win-01)
                   :medium (l / language :name (n3 / name :op1 "Arabic"))))
 
+PROXY_AFP_ENG_20020117_0270.19
 (s / state-01
   :ARG0 (l / law
           :source (c / country
@@ -344,24 +380,29 @@
                   :mod (d / drug))
           :manner (d2 / die-01)))
 
+PROXY_AFP_ENG_20020123_0334.6
 (a / agency :name (n / name :op1 "IRNA")
             :mod (n2 / news)
             :poss (g / government-organization
                   :ARG0-of (g2 / govern-01
                         :ARG1 (c / country :name (n3 / name :op1 "Iran")))))
 
+PROXY_AFP_ENG_20020123_0334.6
 (a / agency :name (n / name :op1 "IRNA")
 	:mod (n2 / news))
 
+PROXY_AFP_ENG_20020123_0334.6
 (a / agency :name (n / name :op1 "IRNA")
 	:poss (g / government-organization
                   :ARG0-of (g2 / govern-01
                         :ARG1 (c / country :name (n3 / name :op1 "Iran")))))
 
+PROXY_AFP_ENG_20020123_0334.9
 (p4 / province :name (n3 / name :op1 "Fars" :op2 "Province")
                   :part-of (c2 / country :name (n4 / name :op1 "Iran")
                         :mod (s3 / south)))
 
+PROXY_AFP_ENG_20020123_0334.19
 (a / apply-02
   :ARG0 (l / law
           :mod (c / country
@@ -372,18 +413,22 @@
   :ARG2 (t / traffic-00
           :ARG1 (d2 / drug)))
 
+PROXY_AFP_ENG_20020123_0346.7
 (p / person :name (n / name :op1 "Francis" :op2 "Bradley")
             :ARG0-of (h2 / have-org-role-91
                   :ARG1 (c / company :name (n2 / name :op1 "Canadian" :op2 "Electricity" :op3 "Association"))
                   :ARG2 (p3 / president
                         :mod (v / vice))))
 
+PROXY_AFP_ENG_20020123_0346.10
 (g / government-organization :name (n / name :op1 "Office" :op2 "of" :op3 "Critical" :op4 "Infrastructure" :op5 "Protection" :op6 "and" :op7 "Emergency" :op8 "Service")
                         :part-of (g2 / government-organization :name (n2 / name :op1 "Canadian" :op2 "Department" :op3 "of" :op4 "National" :op5 "Defense")))
 
+PROXY_AFP_ENG_20020123_0346.11
 (g / government-organization :name (n2 / name :op1 "Office" :op2 "of" :op3 "Critical" :op4 "Infrastructure" :op5 "Protection" :op6 "and" :op7 "Emergency" :op8 "Service")
                         :part-of (g2 / government-organization :name (n3 / name :op1 "Canadian" :op2 "Department" :op3 "of" :op4 "National" :op5 "Defense")))
 
+PROXY_AFP_ENG_20020123_0346.11
 (p / person :name (n / name :op1 "Brenda" :op2 "Hensler-Hobbs")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (g / government-organization :name (n2 / name :op1 "Office" :op2 "of" :op3 "Critical" :op4 "Infrastructure" :op5 "Protection" :op6 "and" :op7 "Emergency" :op8 "Service")
@@ -392,11 +437,13 @@
                         :topic (a / analyze-01
                               :ARG1 (t / threaten-01)))))
 
+PROXY_AFP_ENG_20020123_0346.14
 (p2 / plot-01
                               :ARG1 (b / bomb-01
                                     :ARG0 p)
                               :time (e / event :name (n4 / name :op1 "Millennium")))
 
+PROXY_AFP_ENG_20020123_0346.14
 (i / include-91
                   :ARG1 (p / person :name (n3 / name :op1 "Ahmed" :op2 "Ressam")
                         :ARG0-of (p2 / plot-01
@@ -408,6 +455,7 @@
                               :ARG1 (c2 / criminal-organization :name (n / name :op1 "al-Qaeda"))))
                   :ARG3 (n2 / number))
 
+PROXY_AFP_ENG_20020123_0346.14
 (r / remain-01
             :ARG1 (i / include-91
                   :ARG1 (p / person :name (n3 / name :op1 "Ahmed" :op2 "Ressam")
@@ -421,12 +469,14 @@
                   :ARG3 (n2 / number))
             :location (c / country :name (n5 / name :op1 "Canada")))
 
+PROXY_AFP_ENG_20020123_0346.14
 (p / person :name (n3 / name :op1 "Ahmed" :op2 "Ressam")
                         :ARG0-of (p2 / plot-01
                               :ARG1 (b / bomb-01
                                     :ARG0 p)
                               :time (e / event :name (n4 / name :op1 "Millennium"))))
 
+PROXY_AFP_ENG_20020123_0346.17
 (p2 / person :name (n2 / name :op1 "MafiaBoy")
                   :ARG0-of (h / hack-04)
                   :ARG0-of (a / attack-01
@@ -438,9 +488,11 @@
                   :ARG1-of (b / base-01
                         :location (c3 / city :name (n5 / name :op1 "Montreal"))))
 
+PROXY_AFP_ENG_20020123_0346.17
 (p2 / person :name (n2 / name :op1 "MafiaBoy")
 	:ARG0-of (h / hack-04))
 
+PROXY_AFP_ENG_20020123_0346.17
 (p2 / person :name (n2 / name :op1 "MafiaBoy")
 	:ARG0-of (a / attack-01
                         :ARG1 (w / website
@@ -449,21 +501,25 @@
                                     :ARG1 (u / url-entity :value "amazon.com")))
                         :time (d / date-entity :year 2000)))
 
+PROXY_AFP_ENG_20020123_0346.17
 (w / website
                               :mod (c2 / country :name (n3 / name :op1 "U.S."))
                               :ARG2-of (i / include-91
                                     :ARG1 (u / url-entity :value "amazon.com")))
 
+PROXY_AFP_ENG_20020123_0346.17
 (p2 / person :name (n2 / name :op1 "MafiaBoy")
 	:ARG1-of (b / base-01
                         :location (c3 / city :name (n5 / name :op1 "Montreal"))))
 
+PROXY_AFP_ENG_20020123_0346.20
 (g3 / group :name (n / name :op1 "Computer" :op2 "Science" :op3 "and" :op4 "Telecommunications" :op5 "Board")
 	:ARG1-of (f / fund-01
                               :ARG0 (g / government-organization
                                     :ARG0-of (g2 / govern-01
                                           :ARG1 (c / country :name (n2 / name :op1 "U.S."))))))
 
+PROXY_AFP_ENG_20020123_0346.20
 (g3 / group :name (n / name :op1 "Computer" :op2 "Science" :op3 "and" :op4 "Telecommunications" :op5 "Board")
                         :mod (r2 / research)
                         :ARG1-of (f / fund-01
@@ -471,6 +527,7 @@
                                     :ARG0-of (g2 / govern-01
                                           :ARG1 (c / country :name (n2 / name :op1 "U.S."))))))
 
+PROXY_AFP_ENG_20020123_0346.21
 (c2 / cause-01
                   :ARG0 (b / bug
                         :mod (l / love)
@@ -481,11 +538,13 @@
                               :unit (d3 / dollar
                                     :mod (c3 / country :name (n2 / name :op1 "U.S."))))))
 
+PROXY_AFP_ENG_20020123_0346.22
 (p3 / person :name (n / name :op1 "Andrew" :op2 "Cole")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (c / company :name (n2 / name :op1 "Bell" :op2 "Canada"))
                   :ARG2 (s2 / spokesman)))
 
+PROXY_AFP_ENG_20020123_0346.26
 (p / provide-01
       :ARG0 (c / company :name (n / name :op1 "Bell" :op2 "Canada"))
       :ARG1 (t / total
@@ -496,6 +555,7 @@
             :ARG1-of (p3 / populate-01
                   :ARG2 (p4 / person :quant 30000000))))
 
+PROXY_AFP_ENG_20020126_0161.6
 (p2 / peninsula
           :name (n2 / name
                   :op1 "Kamchatka")
@@ -506,6 +566,7 @@
                                          :op1 "Russia"))
                       :mod (f / far)))
 
+PROXY_AFP_ENG_20020126_0161.6
 (p2 / peninsula
           :name (n2 / name
                   :op1 "Kamchatka")
@@ -515,6 +576,7 @@
                                          :op1 "Russia"))
                       :mod (f / far)))
 
+PROXY_AFP_ENG_20020126_0161.6
 (p / power-01
   :ARG0 (c / company
           :name (n / name
@@ -529,9 +591,11 @@
                                          :op1 "Russia"))
                       :mod (f / far))))
 
+PROXY_AFP_ENG_20020128_0449.4
 (p4 / peninsula :name (n3 / name :op1 "Kamchatka" :op2 "Peninsula")
                                                       :location (w2 / world-region :name (n4 / name :op1 "Far" :op2 "East")))
 
+PROXY_AFP_ENG_20020128_0449.6
 (p / person :name (n / name :op1 "Sergei" :op2 "Gorbunov")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (a2 / agency
@@ -539,6 +603,7 @@
                         :source (c / country :name (n2 / name :op1 "Russia")))
                   :ARG2 (s / spokesman)))
 
+PROXY_AFP_ENG_20020128_0449.8
 (m / maintain-01
       :ARG0 (f / facility :name (n / name :op1 "The" :op2 "Kamchatka" :op3 "Command" :op4 "Center"))
       :ARG1 (n2 / network
@@ -546,6 +611,7 @@
                   :poss (c / country :name (n3 / name :op1 "Russia")))
             :ARG0-of (o / orbit-01)))
 
+PROXY_AFP_ENG_20020128_0449.9
 (p / play-02
       :ARG0 (c / center
             :topic (c2 / command-02)
@@ -553,11 +619,13 @@
       :ARG1 (o / operate-01
             :ARG1 (s / spaceship :name (n2 / name :op1 "ISS"))))
 
+PROXY_AFP_ENG_20020128_0449.15
 (f / feed-01
       :ARG0 (c / company :name (n / name :op1 "Kamchatenergo"))
       :ARG1 (p / power)
       :ARG2 (p2 / peninsula :name (n2 / name :op1 "Kamchatka" :op2 "Peninsula")))
 
+PROXY_AFP_ENG_20020128_0449.17
 (i / include-91
       :ARG1 (c / company :name (n / name :op1 "Kamchatenergo"))
       :ARG2 (s / subsidiary
@@ -569,10 +637,12 @@
                         :mod (s3 / state))))
       :ARG3 1)
 
+PROXY_AFP_ENG_20020128_0449.23
 (b / build-01
       :ARG0 (c / country :name (n / name :op1 "Russia"))
       :extent (l / large))
 
+PROXY_AFP_ENG_20020128_0449.24
 (p / provide-01
       :ARG0 (c / country :name (n / name :op1 "Russia"))
       :ARG1 (m / module
@@ -583,6 +653,7 @@
                         :op1 (s / spaceship :name (n2 / name :op1 "Zvezda"))
                         :op2 (s2 / spaceship :name (n3 / name :op1 "Zarya"))))))
 
+PROXY_AFP_ENG_20020128_0449.24
 (m / module
             :poss (s3 / spaceship :name (n4 / name :op1 "ISS"))
             :quant (s4 / several)
@@ -591,11 +662,13 @@
                         :op1 (s / spaceship :name (n2 / name :op1 "Zvezda"))
                         :op2 (s2 / spaceship :name (n3 / name :op1 "Zarya")))))
 
+PROXY_AFP_ENG_20020128_0449.27
 (b / build-01
       :ARG0 (c / country :name (n / name :op1 "US"))
       :ARG1 (m / module :name (n2 / name :op1 "Unity")
             :part-of (s2 / spaceship :name (n3 / name :op1 "ISS"))))
 
+PROXY_AFP_ENG_20020201_0053.6
 (p3 / person
             :mod (c / country :name (n / name :op1 "Uzbekistan"))
             :ARG0-of (h2 / have-org-role-91
@@ -604,6 +677,7 @@
                         :topic (b / boxing)))
             :domain (p / person :name (n2 / name :op1 "Gafur" :op2 "Rakhimov")))
 
+PROXY_AFP_ENG_20020201_0053.7
 (j / journalist
                  :name (n / name
                          :op1 "Andrew"
@@ -612,6 +686,7 @@
                         :name (n2 / name
                                 :op1 "Britain")))
 
+PROXY_AFP_ENG_20020201_0053.7
 (w / write-01
          :ARG0 (j / journalist
                  :name (n / name
@@ -627,6 +702,7 @@
                          :op3 "Olympic"
                          :op4 "Swindle")))
 
+PROXY_AFP_ENG_20020201_0053.7
 (p / publish-01
          :ARG0 (c2 / company
                  :name (n4 / name
@@ -635,6 +711,7 @@
                          :op3 "Schuster"))
          :ARG1 b)
 
+PROXY_AFP_ENG_20020201_0053.13
 (c / criticize-01
   :ARG0 (p / person
           :name (n / name
@@ -646,6 +723,7 @@
                   :op3 "Committee"))
   :duration (l / long-time))
 
+PROXY_AFP_ENG_20020201_0053.15
 (s2 / suspect-01
                         :ARG0 (g / government-organization :name (n4 / name :op1 "FBI"))
                         :ARG1 (t / traffic-00
@@ -653,12 +731,14 @@
                               :ARG1 (d2 / drug))
                         :ARG2 p2)
 
+PROXY_AFP_ENG_20020201_0053.15
 (p / program :name (n2 / name :op1 "Four" :op2 "Corners")
                   
                   
                   :poss p3
 	:mod (f2 / flagship))
 
+PROXY_AFP_ENG_20020201_0053.15
 (p / program :name (n2 / name :op1 "Four" :op2 "Corners")
                   
                   
@@ -666,12 +746,14 @@
 	:topic (a / affair
                         :mod (c3 / current)))
 
+PROXY_AFP_ENG_20020201_0053.15
 (p / program :name (n2 / name :op1 "Four" :op2 "Corners")
                   
                   
                   :poss p3
 	:poss (p3 / publication :name (n / name :op1 "ABC")))
 
+PROXY_AFP_ENG_20020210_0074.5
 (e2 / entrench-01
                   :ARG1 (a2 / and
                         :op1 (c / cultivate-01
@@ -681,6 +763,7 @@
                   :ARG2 (c2 / country :name (n / name :op1 "Afghanistan"))
                   :degree (d2 / deep))
 
+PROXY_AFP_ENG_20020210_0074.7
 (p / person
           :name (n / name
                   :op1 "Marc"
@@ -695,22 +778,26 @@
                                                  :op1 "Tajikistan")
                                          :ARG1-of (n4 / neighbor-01)))))
 
+PROXY_AFP_ENG_20020210_0074.8
 (r / republic
                   :location (w / world-region :name (n2 / name :op1 "Central" :op2 "Asia"))
                   :time (p2 / post
                         :op1 (e / era
                               :mod (c4 / country :name (n3 / name :op1 "Soviet")))))
 
+PROXY_AFP_ENG_20020210_0074.15
 (p / person :name (n / name :op1 "Vladimir" :op2 "Rakhmonov")
 	:ARG0-of (h / head-01
                   :ARG1 (g / government-organization :name (n2 / name :op1 "Tajik" :op2 "Drug" :op3 "Control" :op4 "Agency"))))
 
+PROXY_AFP_ENG_20020210_0074.15
 (p / person :name (n / name :op1 "Vladimir" :op2 "Rakhmonov")
 	:ARG1-of (e / expert-41
                   :ARG2 (g2 / government-organization
                         :ARG0-of (g3 / govern-01
                               :ARG1 (c / country :name (n3 / name :op1 "Tajikistan"))))))
 
+PROXY_AFP_ENG_20020210_0074.15
 (p / person :name (n / name :op1 "Vladimir" :op2 "Rakhmonov")
             :ARG0-of (h / head-01
                   :ARG1 (g / government-organization :name (n2 / name :op1 "Tajik" :op2 "Drug" :op3 "Control" :op4 "Agency")))
@@ -719,6 +806,7 @@
                         :ARG0-of (g3 / govern-01
                               :ARG1 (c / country :name (n3 / name :op1 "Tajikistan"))))))
 
+PROXY_AFP_ENG_20020301_0316.6
 (p / person :name (n / name :op1 "Yunus" :op2 "Qanooni")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (c / country :name (n2 / name :op1 "Afghanistan"))
@@ -726,6 +814,7 @@
                         :topic (i2 / interior)
                         :mod (i / interim))))
 
+PROXY_AFP_ENG_20020301_0316.7
 (m / member
   :poss (o / organization
           :name (n / name
@@ -735,6 +824,7 @@
             :name (n2 / name
                     :op1 "Qanooni")))
 
+PROXY_AFP_ENG_20020301_0316.8
 (p2 / person :name (n2 / name :op1 "Yury" :op2 "Vorobyov")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (c / country :name (n3 / name :op1 "Russia"))
@@ -743,6 +833,7 @@
                         :topic (s / situation
                               :mod (e / emergency)))))
 
+PROXY_AFP_ENG_20020301_0316.14
 (p / person
           :name (n / name
                   :op1 "Hamid"
@@ -755,6 +846,7 @@
                                                         :op1 "Afghanistan")))
                              :duration (i / interim))))
 
+PROXY_AFP_ENG_20020301_0316.15
 (c / country
             :mod (w / world-region :name (n / name :op1 "West"))
             :poss-of (p / population
@@ -765,6 +857,7 @@
                               :source (c2 / country :name (n2 / name :op1 "Afghanistan")))
                         :mod (m2 / major))))
 
+PROXY_AFP_ENG_20020301_0316.16
 (c2 / create-01
             :ARG0 (p / police
                   :mod (c3 / country :name (n2 / name :op1 "Afghanistan")))
@@ -786,6 +879,7 @@
                                                 :mod (m / major)))
                                     :mod (a3 / again))))))
 
+PROXY_AFP_ENG_20020301_0316.23
 (b / border
           :quant (d4 / distance-quantity
                    :quant 1200
@@ -799,10 +893,12 @@
                              :name (n2 / name
                                      :op1 "Afghanistan"))))
 
+PROXY_AFP_ENG_20020301_0316.24
 (o2 / oppose-01
             :ARG0 (o / organization :name (n / name :op1 "Northern" :op2 "Alliance"))
             :ARG1 (c / criminal-organization :name (n2 / name :op1 "Taliban")))
 
+PROXY_AFP_ENG_20020301_0316.24
 (t / tolerate-01
             :ARG0 o
             :ARG1 (h / harvest-01
@@ -811,9 +907,11 @@
                         :ARG1-of (c3 / control-01
                               :ARG0 o))))
 
+PROXY_AFP_ENG_20020304_0028.4
 (c2 / company :name (n3 / name :op1 "Boeing")
                               :source (c3 / country :name (n4 / name :op1 "U.S.")))
 
+PROXY_AFP_ENG_20020304_0028.4
 (a / attack-01
       :ARG1 (g / government-organization :name (n / name :op1 "Defense" :op2 "Ministry")
             :poss (c4 / country :name (n5 / name :op1 "South" :op2 "Korea")))
@@ -831,9 +929,11 @@
                                     :unit (d / dollar)
                                     :quant (m2 / multi-billion)))))))
 
+PROXY_AFP_ENG_20020304_0028.6
 (c2 / company :name (n3 / name :op1 "Boeing")
                               :source (c3 / country :name (n4 / name :op1 "U.S.")))
 
+PROXY_AFP_ENG_20020304_0028.7
 (a2 / aircraft-type
                           :name (n3 / name
                                   :op1 "Rafale")
@@ -842,6 +942,7 @@
                                              :name (n4 / name
                                                      :op1 "France"))))
 
+PROXY_AFP_ENG_20020304_0028.7
 (a2 / aircraft-type
                           :name (n3 / name
                                   :op1 "Rafale")
@@ -851,36 +952,44 @@
                                              :name (n4 / name
                                                      :op1 "France"))))
 
+PROXY_AFP_ENG_20020304_0028.11
 (b / buy-01
                               :ARG0 g
                               :ARG1 (a / aircraft-type :name (n4 / name :op1 "F-15K")
                                     :poss (c3 / company :name (n5 / name :op1 "Boeing"))
                                     :ARG1-of (a2 / age-01)))
 
+PROXY_AFP_ENG_20020304_0028.13
 (p2 / plane :name (n3 / name :op1 "Typhoon" :op2 "2000")
                   :poss (c3 / company :name (n4 / name :op1 "Eurofighter" :op2 "Consortium")))
 
+PROXY_AFP_ENG_20020304_0028.13
 (p3 / plane :name (n5 / name :op1 "Su-32")
                   :source (c4 / country :name (n6 / name :op1 "Russia"))
                   :ARG1-of (m / make-01
                         :ARG0 (c5 / company :name (n7 / name :op1 "Sukhoi"))))
 
+PROXY_AFP_ENG_20020304_0028.13
 (p3 / plane :name (n5 / name :op1 "Su-32")
 	:ARG1-of (m / make-01
                         :ARG0 (c5 / company :name (n7 / name :op1 "Sukhoi"))))
 
+PROXY_AFP_ENG_20020304_0028.13
 (p3 / plane :name (n5 / name :op1 "Su-32")
 	:source (c4 / country :name (n6 / name :op1 "Russia")))
 
+PROXY_AFP_ENG_20020304_0028.13
 (p / plane :name (n / name :op1 "Rafale")
                   :poss (f / firm :name (n2 / name :op1 "Dassault")))
 
+PROXY_AFP_ENG_20020304_0028.15
 (p / person :name (n / name :op1 "Kang" :op2 "Chang-Sung")
 	:ARG0-of (h / have-org-role-91
                   :ARG1 (p2 / political-party :name (n2 / name :op1 "Grand" :op2 "National" :op3 "Party")
                         :ARG0-of (o / oppose-01)
                         :poss p)))
 
+PROXY_AFP_ENG_20020304_0028.21
 (r / rate-01
                   :ARG1 (a / aircraft-type :name (n2 / name :op1 "F-15K"))
                   :ARG2 (e / excellent)
@@ -892,15 +1001,18 @@
                                     :ARG0 a
                                     :ARG1 (c3 / combat-01)))))
 
+PROXY_AFP_ENG_20020304_0028.27
 (n / newspaper :name (n2 / name :op1 "Korea" :op2 "Herald")
             :mod (l / language :name (n4 / name :op1 "English")))
 
+PROXY_AFP_ENG_20020329_0022.5
 (p2 / person :name (n / name :op1 "Jeong" :op2 "Se-hyun")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (c / country :name (n2 / name :op1 "South" :op2 "Korea"))
                   :ARG2 (m / minister
                         :mod (s / senior))))
 
+PROXY_AFP_ENG_20020329_0022.6
 (h / have-org-role-91
       :ARG0 (p / person :name (n3 / name :op1 "Jeong"))
       :ARG1 (c / country :name (n / name :op1 "South" :op2 "Korea"))
@@ -913,15 +1025,18 @@
                         :mod (c2 / country :name (n2 / name :op1 "North" :op2 "Korea"))))
             :mod (c3 / chief)))
 
+PROXY_AFP_ENG_20020329_0022.11
 (a / agency :name (n2 / name :op1 "Yonhap")
 	:mod (n3 / news))
 
+PROXY_AFP_ENG_20020329_0022.13
 (p2 / person :name (n / name :op1 "Lim" :op2 "Won-dong")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (c / country :name (n2 / name :op1 "South" :op2 "Korea"))
                   :ARG2 (e / envoy
                         :mod (t / top))))
 
+PROXY_AFP_ENG_20020329_0022.14
 (a / advise-01
       :ARG0 (p / person :name (n / name :op1 "Lim"))
       :ARG1 (p2 / person :name (n2 / name :op1 "Kim" :op2 "Dae-jung")
@@ -934,6 +1049,7 @@
                   :op2 (f / foreign)))
       :mod (s / special))
 
+PROXY_AFP_ENG_20020329_0022.16
 (s3 / standoff
                               :mod (n2 / nucleus)
                               :time (d2 / date-entity :year 1994)
@@ -946,6 +1062,7 @@
                               :ARG1-of (c4 / close-41
                                     :ARG2 (c3 / conflict)))
 
+PROXY_AFP_ENG_20020329_0022.17
 (c2 / consortium
                                :ARG1-of (l / lead-02
                                           :ARG0 (c3 / country
@@ -953,6 +1070,7 @@
                                                           :op1 "US")))
                                :mod (i / international))
 
+PROXY_AFP_ENG_20020329_0022.18
 (b / build-01
          :ARG0 (c / consortium)
          :ARG1 (r / reactor
@@ -973,9 +1091,11 @@
                                                                    :op1 "North"
                                                                    :op2 "Korea")))))))
 
+PROXY_AFP_ENG_20020404_0305.4
 (c / company :name (n / name :op1 "Hindustan" :op2 "Aeronautics" :op3 "Limited")
             :poss (c2 / country :name (n2 / name :op1 "India")))
 
+PROXY_AFP_ENG_20020404_0305.5
 (p / person :name (n / name :op1 "N.R." :op2 "Mohanty")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (c2 / company :name (n2 / name :op1 "Hindustan" :op2 "Aeronautics" :op3 "Limited")
@@ -985,25 +1105,30 @@
                               :location (c4 / city :name (n4 / name :op1 "Bangalore"))))
                   :ARG2 (c / chairman)))
 
+PROXY_AFP_ENG_20020404_0305.5
 (c2 / company :name (n2 / name :op1 "Hindustan" :op2 "Aeronautics" :op3 "Limited")
                         :ARG1-of (o / own-01
                               :ARG0 (c3 / country :name (n3 / name :op1 "India")))
                         :ARG1-of (b / base-01
                               :location (c4 / city :name (n4 / name :op1 "Bangalore"))))
 
+PROXY_AFP_ENG_20020404_0305.5
 (c2 / company :name (n2 / name :op1 "Hindustan" :op2 "Aeronautics" :op3 "Limited")
 	:ARG1-of (b / base-01
                               :location (c4 / city :name (n4 / name :op1 "Bangalore"))))
 
+PROXY_AFP_ENG_20020404_0305.5
 (c2 / company :name (n2 / name :op1 "Hindustan" :op2 "Aeronautics" :op3 "Limited")
 	:ARG1-of (o / own-01
                               :ARG0 (c3 / country :name (n3 / name :op1 "India"))))
 
+PROXY_AFP_ENG_20020404_0305.25
 (j2 / jet :name (n4 / name :op1 "HJT-36")
                               :purpose (t / train-01)
                               :poss c2
                               :mod (i / intermediate))
 
+PROXY_AFP_ENG_20020406_0538.4
 (p4 / person :name (n / name :op1 "Ichiro" :op2 "Ozawa")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (p / political-party :name (n2 / name :op1 "Liberal" :op2 "Party")
@@ -1011,10 +1136,12 @@
                         :ARG0-of (o3 / oppose-01))
                   :ARG2 (c / chief)))
 
+PROXY_AFP_ENG_20020406_0538.4
 (p / political-party :name (n2 / name :op1 "Liberal" :op2 "Party")
                         :mod (c2 / country :name (n3 / name :op1 "Japan"))
                         :ARG0-of (o3 / oppose-01))
 
+PROXY_AFP_ENG_20020406_0538.5
 (p3 / person :name (n / name :op1 "Ichiro" :op2 "Ozawa")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (p / political-party :name (n2 / name :op1 "Liberal" :op2 "Party")
@@ -1022,10 +1149,12 @@
                         :ARG0-of (o3 / oppose-01))
                   :ARG2 (c / chief)))
 
+PROXY_AFP_ENG_20020406_0538.5
 (p / political-party :name (n2 / name :op1 "Liberal" :op2 "Party")
                         :mod (c2 / country :name (n3 / name :op1 "Japan"))
                         :ARG0-of (o3 / oppose-01))
 
+PROXY_AFP_ENG_20020406_0538.9
 (r / revive-01
                              :ARG0 (c2 / country
                                      :name (n2 / name
@@ -1033,6 +1162,7 @@
                              :ARG1 (m / military
                                      :poss c2))
 
+PROXY_AFP_ENG_20020406_0538.9
 (a / alert-01
   :ARG1 (c / continent
           :name (n / name
@@ -1046,9 +1176,11 @@
                              :ARG1 (m / military
                                      :poss c2)))))
 
+PROXY_AFP_ENG_20020406_0538.23
 (n2 / newspaper :name (n3 / name :op1 "Sankei" :op2 "Shimbun")
 	:mod (c / conservative))
 
+PROXY_AFP_ENG_20020406_0538.26
 (a / advocate-01
       :ARG0 (p / person :name (n / name :op1 "Ozawa"))
       :ARG1 (f / force
@@ -1056,6 +1188,7 @@
             :mod (s / strong))
       :mod (r / renowned))
 
+PROXY_AFP_ENG_20020406_0538.28
 (g / general
   :mod (s / secretary)
   :mod (f / former)
@@ -1069,6 +1202,7 @@
             :name (n2 / name
                     :op1 "Ozawa")))
 
+PROXY_AFP_ENG_20020408_0307.4
 (s / state-01
       :ARG0 (g / government-organization
             :ARG0-of (g2 / govern-01
@@ -1080,6 +1214,7 @@
             :poss g)
       :time (d / date-entity :year 2002 :day 8 :month 4))
 
+PROXY_AFP_ENG_20020408_0307.6
 (s / state-01
       :ARG0 (g / government-organization
             :ARG0-of (g2 / govern-01
@@ -1091,6 +1226,7 @@
                         :mod (n / nucleus))))
       :time (d / date-entity :year 2002 :month 4 :day 8))
 
+PROXY_AFP_ENG_20020408_0307.8
 (p2 / policy
             :poss (c4 / country :name (n4 / name :op1 "Japan"))
             :topic (h / hold-01 :polarity -
@@ -1100,12 +1236,14 @@
             :time (s2 / since
                   :op1 (w2 / war :name (n3 / name :op1 "World" :op2 "War" :op3 "II"))))
 
+PROXY_AFP_ENG_20020408_0307.10
 (p3 / person :name (n6 / name :op1 "Ichiro" :op2 "Ozawa")
                   :ARG0-of (h2 / have-org-role-91
                         :ARG1 (p / political-party :name (n / name :op1 "Liberal" :op2 "Party")
                               :ARG0-of (o2 / oppose-01))
                         :ARG2 (c3 / chief)))
 
+PROXY_AFP_ENG_20020408_0307.13
 (a / advocate-01
   :ARG0 (p / person
           :name (n / name :op1 "Ozawa"))
@@ -1114,38 +1252,45 @@
           :mod (s / strong))
   :mod (r / renowned))
 
+PROXY_AFP_ENG_20020408_0307.16
 (p3 / program
                                      :mod (p4 / plutonium)
                                      :mod (m / massive)
                                      :poss (c3 / country
                                              :name (n2 / name :op1 "Japan")))
 
+PROXY_AFP_ENG_20020408_0307.17
 (p / person :name (n / name :op1 "Shaun" :op2 "Bernie")
             :poss (o / organization :name (n2 / name :op1 "Greenpeace" :op2 "International")))
 
+PROXY_AFP_ENG_20020408_0348.6
 (p2 / person :name (n7 / name :op1 "Sergei" :op2 "Ivanov")
                               :ARG0-of (h4 / have-org-role-91
                                     :ARG1 c2
                                     :ARG2 (m / minister
                                           :topic (d3 / defense))))
 
+PROXY_AFP_ENG_20020408_0348.6
 (p / person :name (n2 / name :op1 "Geraldo" :op2 "da" :op3 "Cruz" :op4 "Quintao")
                   :ARG0-of (h2 / have-org-role-91
                         :ARG1 c
                         :ARG2 (m5 / minister
                               :topic (d2 / defense))))
 
+PROXY_AFP_ENG_20020408_0348.7
 (p2 / person :name (n2 / name :op1 "Andrei" :op2 "Belyaninov")
             :ARG0-of (h / head-01
                   :ARG1 (c / company :name (n3 / name :op1 "Rosoboronexport")
                         :ARG0-of (e / export-01
                               :ARG1 (a / arms)))))
 
+PROXY_AFP_ENG_20020408_0348.12
 (p / person :name (n2 / name :op1 "Fernando" :op2 "Henrique" :op3 "Cardoso")
                         :ARG0-of (h / have-org-role-91
                               :ARG1 (c2 / country :name (n3 / name :op1 "Brazil"))
                               :ARG2 (p3 / president)))
 
+PROXY_AFP_ENG_20020414_0542.9
 (m / manufacture-01
                   :ARG0 (c / country
                           :name (n3 / name
@@ -1161,6 +1306,7 @@
                                  :op1 (d6 / date-entity
                                         :decade 1950))))
 
+PROXY_AFP_ENG_20020414_0542.11
 (b2 / bomb
   :name (n3 / name
           :op1 "Blue"
@@ -1171,6 +1317,7 @@
           :name (n2 / name
                   :op1 "Britain")))
 
+PROXY_AFP_ENG_20020414_0542.12
 (p / person
           :name (n / name
                   :op1 "Brian"
@@ -1183,6 +1330,7 @@
                                      :name (n3 / name
                                              :op1 "Britain")))))
 
+PROXY_AFP_ENG_20020414_0542.13
 (p4 / possess-01
                             :ARG0 (s / state
                                     :mod (o2 / outlaw)
@@ -1192,10 +1340,12 @@
                                                        :op1 "Iraq")))
                             :ARG1 (p5 / plutonium))
 
+PROXY_AFP_ENG_20020414_0542.14
 (o / organization
             :mod (t2 / terrorism)
             :example (c / criminal-organization :name (n / name :op1 "al-Qaeda")))
 
+PROXY_AFP_ENG_20020414_0542.16
 (p2 / person :name (n4 / name :op1 "Bernard" :op2 "Jenkin")
 	:ARG0-of (h / have-org-role-91
                         :ARG1 (p / political-party :name (n2 / name :op1 "Conservative" :op2 "Party")
@@ -1203,6 +1353,7 @@
                         :ARG2 (s2 / spokesman
                               :topic (d / defense))))
 
+PROXY_AFP_ENG_20020416_0331.4
 (t2 / traffic-00
             :ARG1 (d2 / drug)
             :source (c5 / country :name (n5 / name :op1 "Afghanistan"))
@@ -1210,12 +1361,14 @@
                   :op1 (c6 / country :name (n4 / name :op1 "Russia"))
                   :op2 (c7 / continent :name (n3 / name :op1 "Europe"))))
 
+PROXY_AFP_ENG_20020416_0331.7
 (p / produce-01
       :ARG0 (c / country :name (n / name :op1 "Afghanistan"))
       :ARG1 (o / opium)
       :location (w / world)
       :mod (t / top))
 
+PROXY_AFP_ENG_20020416_0331.8
 (s / share-01
          :ARG0 (c / country
                  :name (n4 / name :op1 "Tajikistan"))
@@ -1230,6 +1383,7 @@
          :ARG2 (c2 / country
                  :name (n3 / name :op1 "Afghanistan")))
 
+PROXY_AFP_ENG_20020416_0331.13
 (p / person
           :name (n / name
                   :op1 "Andrei"
@@ -1243,6 +1397,7 @@
                              :location (c3 / city
                                          :name (n2 / name :op1 "Dushanbe")))))
 
+PROXY_AFP_ENG_20020416_0331.14
 (r / register-02
   :ARG1 (p / person
           :ARG1-of (a / addict-01
@@ -1258,6 +1413,7 @@
                  :time (d / date-entity
                          :year 1997)))
 
+PROXY_AFP_ENG_20020416_0331.25
 (p / person :name (n / name :op1 "Avaz" :op2 "Yuldachev")
             :ARG0-of (h / head-01
                   :ARG1 (a2 / agency
@@ -1268,6 +1424,7 @@
                               :ARG1 (t2 / traffic-00
                                     :ARG1 (d / drug))))))
 
+PROXY_AFP_ENG_20020416_0331.31
 (f / face-01
   :ARG0 (p / person
           :ARG0-of (t / traffic-00
@@ -1278,21 +1435,25 @@
                 :poss (c / country
                         :name (n / name :op1 "Tajikistan"))))
 
+PROXY_AFP_ENG_20020416_0331.32
 (i / inhabit-01
       :ARG0 (p / person :quant 6200000)
       :ARG1 (c / country :name (n / name :op1 "Tajikistan")))
 
+PROXY_AFP_ENG_20020422_0296.9
 (p / person :name (n / name :op1 "Klauspeter" :op2 "Schmallenbach")
             :ARG0-of (h / head-01
                   :ARG1 (d / delegation
                         :part-of (o / organization :name (n2 / name :op1 "European" :op2 "Commission"))
                         :location (c / city :name (n3 / name :op1 "Bangkok")))))
 
+PROXY_AFP_ENG_20020422_0296.13
 (p / person :name (n / name :op1 "Ingo" :op2 "Kober")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (o / organization :name (n2 / name :op1 "European" :op2 "Patent" :op3 "Office"))
                   :ARG2 (p3 / president)))
 
+PROXY_AFP_ENG_20020422_0296.18
 (p2 / person :name (n / name :op1 "Yanyong" :op2 "Phuangranch")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (g2 / government-organization :name (n2 / name :op1 "Department" :op2 "of" :op3 "Intellectual" :op4 "Property")
@@ -1300,21 +1461,25 @@
                   :ARG2 (d / director
                         :mod (g / general))))
 
+PROXY_AFP_ENG_20020422_0296.18
 (g2 / government-organization :name (n2 / name :op1 "Department" :op2 "of" :op3 "Intellectual" :op4 "Property")
                         :poss (c / country :name (n3 / name :op1 "Thailand")))
 
+PROXY_AFP_ENG_20020423_0076.8
 (p / person :name (n / name :op1 "Michael" :op2 "Marks")
 	:ARG0-of (h2 / have-org-role-91
                   :ARG1 c
                   :ARG2 (m / manage-01
                         :mod (g / general))))
 
+PROXY_AFP_ENG_20020423_0076.8
 (p / person :name (n / name :op1 "Michael" :op2 "Marks")
 	:ARG0-of (h / have-org-role-91
                   :ARG1 (c / company :name (n2 / name :op1 "Boeing" :op2 "Corporation"))
                   :ARG2 (p3 / president
                         :mod (v / vice))))
 
+PROXY_AFP_ENG_20020423_0076.8
 (p / person :name (n / name :op1 "Michael" :op2 "Marks")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (c / company :name (n2 / name :op1 "Boeing" :op2 "Corporation"))
@@ -1325,12 +1490,14 @@
                   :ARG2 (m / manage-01
                         :mod (g / general))))
 
+PROXY_AFP_ENG_20020423_0076.13
 (p2 / person :name (n3 / name :op1 "Joseph" :op2 "Song")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (c2 / company :name (n4 / name :op1 "Boeing" :op2 "Corporation"))
                   :ARG2 (p3 / president
                         :mod (v / vice))))
 
+PROXY_AFP_ENG_20020423_0076.16
 (p / person :name (n4 / name :op1 "Douglas" :op2 "Kennett")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (c / company :name (n2 / name :op1 "Boeing"))
@@ -1338,6 +1505,7 @@
                         :mod (v / vice))
                   :ARG3 (c2 / communicate-01)))
 
+PROXY_AFP_ENG_20020423_0076.18
 (b / base-01
   :ARG1 (c3 / company
           :name (n3 / name
@@ -1349,6 +1517,7 @@
                       :op1 "United"
                       :op2 "States")))
 
+PROXY_AFP_ENG_20020423_0133.6
 (f / finalize-01
   :ARG0 (a / and
           :op1 (c / country
@@ -1377,6 +1546,7 @@
           :month 4
           :day 23))
 
+PROXY_AFP_ENG_20020423_0133.8
 (p4 / person :name (n7 / name :op1 "Lour" :op2 "Ramin")
             :ARG0-of (h4 / have-org-role-91
                   :ARG1 (g2 / government-organization :name (n / name :op1 "Narcotics" :op2 "Authority")
@@ -1385,6 +1555,7 @@
                         :mod (g / general)
                         :mod (d / deputy))))
 
+PROXY_AFP_ENG_20020423_0133.18
 (u / use-01
   :ARG1 (c / country
           :name (n / name :op1 "Cambodia"))
@@ -1397,6 +1568,7 @@
   :duration (y / year
               :quant (m / many)))
 
+PROXY_AFP_ENG_20020517_0035.23
 (h / hold-04
       :ARG0 (p2 / person
             :ARG0-of (h2 / have-org-role-91
@@ -1410,13 +1582,16 @@
       :location (i / island :name (n / name :op1 "Bali")
             :location (c2 / country :name (n2 / name :op1 "Indonesia"))))
 
+PROXY_AFP_ENG_20020517_0035.23
 (i / island :name (n / name :op1 "Bali")
             :location (c2 / country :name (n2 / name :op1 "Indonesia")))
 
+PROXY_AFP_ENG_20020517_0339.9
 (f2 / field
                   :consist-of (p2 / poppy)
                   :location (c4 / country :name (n4 / name :op1 "Afghanistan")))
 
+PROXY_AFP_ENG_20020517_0339.9
 (b / become-01
             :ARG1 (c3 / country :name (n3 / name :op1 "Myanmar"))
             :ARG2 (t / thing
@@ -1427,6 +1602,7 @@
                               :degree (m / most))
                         :location (w / world))))
 
+PROXY_AFP_ENG_20020517_0339.10
 (c4 / country
   :name (n4 / name
           :op1 "Myanmar")
@@ -1439,6 +1615,7 @@
                          :name (n3 / name
                                  :op1 "Asia"))))
 
+PROXY_AFP_ENG_20020517_0339.11
 (p2 / person :name (n5 / name :op1 "Sit" :op2 "Aye")
             :ARG0-of (h / have-org-role-91
                   :ARG2 (c / colonel))
@@ -1447,16 +1624,19 @@
                         :poss (c3 / country :name (n7 / name :op1 "Myanmar")))
                   :ARG2 (d2 / director)))
 
+PROXY_AFP_ENG_20020517_0339.11
 (p2 / person :name (n5 / name :op1 "Sit" :op2 "Aye")
 	:ARG0-of (h2 / have-org-role-91
                   :ARG1 (g / government-organization :name (n6 / name :op1 "International" :op2 "Relations" :op3 "Department")
                         :poss (c3 / country :name (n7 / name :op1 "Myanmar")))
                   :ARG2 (d2 / director)))
 
+PROXY_AFP_ENG_20020517_0339.11
 (p2 / person :name (n5 / name :op1 "Sit" :op2 "Aye")
 	:ARG0-of (h / have-org-role-91
                   :ARG2 (c / colonel)))
 
+PROXY_AFP_ENG_20020517_0339.16
 (g / grow-03
   :ARG1 (p / poppy)
   :quant (m / majority)
@@ -1478,6 +1658,7 @@
                                                            :name (n6 / name
                                                                    :op1 "Thailand"))))))))
 
+PROXY_AFP_ENG_20020517_0339.20
 (m / member
       :domain (a / and
             :op1 (c / country :name (n2 / name :op1 "Brunei"))
@@ -1492,6 +1673,7 @@
             :op10 (c10 / country :name (n11 / name :op1 "Vietnam")))
       :poss (o / organization :name (n / name :op1 "ASEAN")))
 
+PROXY_AFP_ENG_20020517_0339.21
 (k / know-01
   :ARG1 (a / and
           :op1 (c4 / country
@@ -1509,6 +1691,7 @@
                          :op1 "Golden"
                          :op2 "Triangle"))))
 
+PROXY_AFP_ENG_20020518_0107.8
 (p / person :name (n / name :op1 "Tahmaseb" :op2 "Mazaheri")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (c / country :name (n2 / name :op1 "Iran"))
@@ -1517,6 +1700,7 @@
                               :op2 (f / finance)
                               :op2 (e / economy)))))
 
+PROXY_AFP_ENG_20020518_0107.12
 (p / person :name (n / name :op1 "Shaukat" :op2 "Aziz")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (c / country :name (n2 / name :op1 "Pakistan"))
@@ -1525,12 +1709,14 @@
                               :op1 (f / finance)
                               :op2 (e / economy)))))
 
+PROXY_AFP_ENG_20020518_0107.19
 (p / person :name (n / name :op1 "Hedayat" :op2 "Amin-Arsala")
 	:ARG0-of (h2 / have-org-role-91
                   :ARG1 c
                   :ARG2 (m / minister
                         :topic (f / finance))))
 
+PROXY_AFP_ENG_20020518_0107.19
 (p / person :name (n / name :op1 "Hedayat" :op2 "Amin-Arsala")
 	:ARG0-of (h / head-01
                   :ARG1 (g / government-organization
@@ -1539,6 +1725,7 @@
                         :mod (i / interim))
                   :mod (d / deputy)))
 
+PROXY_AFP_ENG_20020518_0107.19
 (p / person :name (n / name :op1 "Hedayat" :op2 "Amin-Arsala")
             :ARG0-of (h / head-01
                   :ARG1 (g / government-organization
@@ -1551,12 +1738,14 @@
                   :ARG2 (m / minister
                         :topic (f / finance))))
 
+PROXY_AFP_ENG_20020518_0107.24
 (p / person :name (n / name :op1 "Kamal" :op2 "Kharazi")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (c / country :name (n4 / name :op1 "Iran"))
                   :ARG2 (m / minister
                         :topic (f / foreign))))
 
+PROXY_AFP_ENG_20020518_0107.26
 (s / suppress-01
       :ARG0 (r / rule-03
             :ARG0 (c2 / criminal-organization :name (n / name :op1 "Taliban"))
@@ -1565,6 +1754,7 @@
       :ARG1 (c / crop
             :mod (o / opium)))
 
+PROXY_AFP_ENG_20020518_0107.27
 (t / topple-01
                   :ARG0 (a / alliance
                         :mod (m / military)
@@ -1573,6 +1763,7 @@
                   :ARG1 (c2 / criminal-organization :name (n2 / name :op1 "Taliban"))
                   :time (d / date-entity :month 12 :year 2001))
 
+PROXY_AFP_ENG_20020518_0107.28
 (p4 / person :name (n / name :op1 "Hamid" :op2 "Karzai")
                   :ARG0-of (h / head-01
                         :ARG1 (g / government-organization
@@ -1580,6 +1771,7 @@
                                     :ARG1 (c2 / country :name (n2 / name :op1 "Afghanistan")))
                               :mod (i / interim))))
 
+PROXY_AFP_ENG_20020518_0107.29
 (p2 / person :name (n3 / name :op1 "Hamid" :op2 "Karzai")
                         :ARG0-of (h2 / head-01
                               :ARG1 (g / government-organization
@@ -1587,10 +1779,12 @@
                                           :ARG1 (c2 / country :name (n4 / name :op1 "Afghanistan"))))
                               :mod (i / interim)))
 
+PROXY_AFP_ENG_20020518_0107.29
 (p / person :name (n / name :op1 "Mark" :op2 "Malloch" :op3 "Brown")
             :ARG0-of (h / head-01
                   :ARG1 (o / organization :name (n2 / name :op1 "United" :op2 "Nations" :op3 "Development" :op4 "Program"))))
 
+PROXY_AFP_ENG_20020518_0107.33
 (f / fight-01
   :ARG0 (c / country
           :name (n3 / name :op1 "Iran"))
@@ -1600,6 +1794,7 @@
           :name (n / name :op1 "Afghanistan"))
   :duration (l / long))
 
+PROXY_AFP_ENG_20020518_0107.34
 (r / rule-03
       :ARG0 (c2 / criminal-organization :name (n2 / name :op1 "Taliban"))
       :ARG1 (c / country :name (n / name :op1 "Afghanistan"))
@@ -1607,12 +1802,14 @@
             :op1 (d4 / date-entity :year 1996)
             :op2 (d5 / date-entity :year 2001)))
 
+PROXY_AFP_ENG_20020518_0107.36
 (f / fund-01
       :ARG0 (c / country :name (n3 / name :op1 "Iran"))
       :ARG1 (o / organization :name (n / name :op1 "Northern" :op2 "Alliance")
             :mod (r / rebel)
             :poss (c2 / country :name (n2 / name :op1 "Afghanistan"))))
 
+PROXY_AFP_ENG_20020518_0107.40
 (p / person :name (n / name :op1 "Hedayat" :op2 "Amin-Arsala")
             :ARG0-of (h / head-01
                   :ARG1 (g / government-organization
@@ -1621,6 +1818,7 @@
                               :ARG1 (c2 / country :name (n3 / name :op1 "Afghanistan"))))
                   :mod (d / deputy)))
 
+PROXY_AFP_ENG_20020518_0107.41
 (i / include-01
       :ARG1 (a / and
             :op1 (c2 / country
@@ -1629,6 +1827,7 @@
       :ARG2 (m / member
             :poss (o / organization :name (n / name :op1 "Economic" :op2 "Cooperation" :op3 "Organization"))))
 
+PROXY_AFP_ENG_20020522_0013.6
 (p / person
                   :name (n2 / name
                           :op1 "Chen"
@@ -1638,6 +1837,7 @@
                             :name (n3 / name
                                     :op1 "Taiwan")))
 
+PROXY_AFP_ENG_20020522_0013.7
 (s / sentence-01
       :ARG1 (p / person :name (n / name :op1 "Chen"))
       :ARG2 (d2 / die-01
@@ -1651,20 +1851,24 @@
                               :ARG1 (s2 / soap)))))
       :time (d / date-entity :year 1997))
 
+PROXY_AFP_ENG_20020522_0013.8
 (e / execute-01
             :ARG1 (p / person :name (n / name :op1 "Chen"))
             :location (c4 / city :name (n2 / name :op1 "Ho" :op2 "Chi" :op3 "Minh" :op4 "City"))
             :time (d2 / date-entity :year 2002 :month 5 :day 21))
 
+PROXY_AFP_ENG_20020610_0336.5
 (p / person :name (n4 / name :op1 "Hla" :op2 "Min")
 	:ARG0-of (h2 / have-org-role-91
                   :ARG1 (j / junta)
                   :ARG2 (s2 / spokesman)))
 
+PROXY_AFP_ENG_20020610_0336.5
 (p / person :name (n4 / name :op1 "Hla" :op2 "Min")
 	:ARG0-of (h / have-org-role-91
                   :ARG2 (c / colonel)))
 
+PROXY_AFP_ENG_20020610_0336.11
 (e / event
       :frequency (r / regular)
       :domain (c2 / ceremony
@@ -1672,15 +1876,18 @@
                   :ARG1 (d / drug)))
       :location (c3 / country :name (n2 / name :op1 "Myanmar")))
 
+PROXY_AFP_ENG_20020610_0336.13
 (p2 / person :name (n4 / name :op1 "Jean-Luc" :op2 "Lemahieu")
             :ARG0-of (r / represent-01
                   :ARG1 (o3 / organization :name (n5 / name :op1 "UN's" :op2 "Drug" :op3 "Control" :op4 "Program")))
             :ARG0-of (r2 / reside-01))
 
+PROXY_AFP_ENG_20020610_0336.13
 (p2 / person :name (n4 / name :op1 "Jean-Luc" :op2 "Lemahieu")
 	:ARG0-of (r / represent-01
                   :ARG1 (o3 / organization :name (n5 / name :op1 "UN's" :op2 "Drug" :op3 "Control" :op4 "Program"))))
 
+PROXY_AFP_ENG_20020610_0336.21
 (p / produce-01
           :ARG0 (c2 / country
                   :name (n3 / name
@@ -1692,6 +1899,7 @@
           :time (d3 / date-entity
                   :year 2001))
 
+PROXY_AFP_ENG_20020610_0336.23
 (b2 / ban-01
                         :ARG0 (m / militia
                               :mod (c3 / criminal-organization :name (n3 / name :op1 "Taliban")))
@@ -1699,6 +1907,7 @@
                               :source-of (o / opium))
                         :ARG1-of (e / enforce-01))
 
+PROXY_AFP_ENG_20020610_0336.25
 (o / organization :name (n / name :op1 "United" :op2 "Wa" :op3 "State" :op4 "Army")
 	:domain (m / militia
                   :purpose (d / drug)
@@ -1706,16 +1915,19 @@
                         :degree (m2 / most
                               :location (w / world)))))
 
+PROXY_AFP_ENG_20020610_0336.26
 (p / person :name (n3 / name :op1 "Tin" :op2 "Hlaing")
 	:ARG0-of (h3 / have-org-role-91
                   :ARG2 (c3 / colonel)))
 
+PROXY_AFP_ENG_20020610_0336.26
 (p / person :name (n3 / name :op1 "Tin" :op2 "Hlaing")
 	:ARG0-of (h / have-org-role-91
                   :ARG1 (c / country :name (n / name :op1 "Myanmar"))
                   :ARG2 (m / minister
                         :topic (h2 / home))))
 
+PROXY_AFP_ENG_20020610_0336.26
 (p / person :name (n3 / name :op1 "Tin" :op2 "Hlaing")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (c / country :name (n / name :op1 "Myanmar"))
@@ -1724,11 +1936,13 @@
             :ARG0-of (h3 / have-org-role-91
                   :ARG2 (c3 / colonel)))
 
+PROXY_AFP_ENG_20020610_0336.31
 (l / locate-01
       :ARG1 (c / city :name (n / name :op1 "Lauk" :op2 "Kai"))
       :location (w / world-region :name (n2 / name :op1 "Golden" :op2 "Triangle")
             :mod (i / infamous)))
 
+PROXY_AFP_ENG_20020610_0336.32
 (p2 / person :name (n / name :op1 "Phone" :op2 "Kyar" :op3 "Shin")
             :ARG1-of (r / reform-01
                   :ARG3 (l / lord
@@ -1736,15 +1950,18 @@
             :ARG0-of (l2 / lead-02
                   :ARG1 (e / ethnic-group :name (n2 / name :op1 "Kokang"))))
 
+PROXY_AFP_ENG_20020610_0336.32
 (p2 / person :name (n / name :op1 "Phone" :op2 "Kyar" :op3 "Shin")
 	:ARG0-of (l2 / lead-02
                   :ARG1 (e / ethnic-group :name (n2 / name :op1 "Kokang"))))
 
+PROXY_AFP_ENG_20020610_0336.32
 (p2 / person :name (n / name :op1 "Phone" :op2 "Kyar" :op3 "Shin")
 	:ARG1-of (r / reform-01
                   :ARG3 (l / lord
                         :mod (d / drug))))
 
+PROXY_AFP_ENG_20020610_0336.41
 (r / release-01
           :ARG1 (p / person
                   :name (n / name
@@ -1764,6 +1981,7 @@
                   :day 6
                   :month 5))
 
+PROXY_AFP_ENG_20020610_0336.44
 (p / person
           :name (n / name
                   :op1 "Priscilla"
@@ -1774,6 +1992,7 @@
                                      :op1 "US"))
                      :ARG2 (c2 / charge-d-affaires)))
 
+PROXY_AFP_ENG_20020621_0524.4
 (h / help-01
           :ARG0 (c / country
                   :name (n2 / name
@@ -1795,11 +2014,13 @@
                                         :name (n6 / name
                                                 :op1 "Bushehr")))))
 
+PROXY_AFP_ENG_20020621_0524.9
 (p3 / person :name (n / name :op1 "Vladimir" :op2 "Chuprov")
             :ARG0-of (h / have-org-role-91
                   :ARG1 (o / organization :name (n2 / name :op1 "Greenpeace"))
                   :ARG2 (m / member)))
 
+PROXY_AFP_ENG_20020621_0524.23
 (g / group
           :name (n / name
                   :op1 "Siemens")
@@ -1807,6 +2028,7 @@
                  :name (n2 / name
                          :op1 "Germany")))
 
+PROXY_AFP_ENG_20020621_0524.24
 (p3 / person :name (n7 / name :op1 "Vladimir" :op2 "Putin")
                   :ARG0-of (h2 / have-org-role-91
                         :ARG1 c4

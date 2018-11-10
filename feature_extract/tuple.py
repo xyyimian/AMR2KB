@@ -4,6 +4,9 @@ import csv
 import re
 import pickle
 import sys
+import random
+TEST_DATASET_SIZE = 500
+
 
 class subGraph():
 	def __init__(self, raw_text, graph, articleId, sentenceId, annotation):
@@ -28,6 +31,7 @@ def main(mode, filename):
 		maxrows = annotation.nrows
 
 		k = open('./knowledge.txt','w')
+		knowledge_num = 0
 
 		for s in subgraph:
 			line = s.split('\n')
@@ -66,6 +70,8 @@ def main(mode, filename):
 						i += 1
 					if annotation.row(lino+i)[3].value == 'y' or annotation.row(lino+i)[3].value == 'yes':
 						y = 1.0
+						knowledge_num += 1
+						k.write(str(aid) + '.' + str(sid)+'\n')
 						k.write(graph)
 						k.write('\n\n')
 					else:
@@ -74,9 +80,18 @@ def main(mode, filename):
 					print(aid+'.'+sid)
 				subGraphs.append(subGraph(raw_text,graph,aid,sid,y))
 		# print(subGraphs)
-		print("Processing %d tuples in total", len(subGraphs))
+		print("Processing %d tuples in total" % len(subGraphs))
+		print("There are %d piece of knowledge among them" % knowledge_num)
 		with open('./tuple.pkl','wb') as p:		#the output file need to be open as wb if list
 			pickle.dump(subGraphs,p)
+
+		#produce fixed test dataset
+		# with open('./test_data.txt','w') as f:
+		# 	random.shuffle(subGraphs)
+		# 	test_data = subGraphs[0:TEST_DATASET_SIZE]
+		# 	for e in test_data:
+		# 		f.write(e.graph+'\n'+str(e.annotation)+'\n\n')
+
 
 
 	elif mode == '-predict':

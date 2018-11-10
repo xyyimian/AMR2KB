@@ -55,6 +55,7 @@ def train():
 	torch.save(net, './train/classifier.pth')
 
 	correct = 0
+	recall = 0
 	with torch.no_grad():
 		outputs = net(X_test)
 		# _, predicted = torch.max(outputs, 1)
@@ -64,9 +65,11 @@ def train():
 		print(y_test)
 		total = y_test.size(0)
 		correct += (prediction == y_test).sum().item()
+		recall += (prediction == 1).sum().item()
 	print(correct)
 
-	print('Accuracy of the network on the test dataset:%d %%' % (100*correct / total))
+	print('Accuracy:%d %%' % (100*correct / total))
+	print('Recall:%d %%' % (100*recall / total))
 
 if __name__ == '__main__':
 	train()
