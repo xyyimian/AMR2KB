@@ -11,7 +11,7 @@ from functools import partial
 import torch
 # import constant
 
-feature_funcs = []
+
 lemmatizer = partial(WordNetLemmatizer().lemmatize,pos = 'v')
 
 class treenode:
@@ -22,9 +22,14 @@ class treenode:
 
 
 
+feature_list = []
+pred_list = set()
+labelList = set()
+hashTable = set()
+feature_funcs = []
 def register(feature_func):
 	print('extracting feature: ',feature_func.__name__)
-	feature_funcs.append(feature_func)
+	self.feature_funcs.append(feature_func)
 	return feature_func
 
 @register
@@ -32,9 +37,8 @@ def pred2f(data, root):
 	'''
 	predicate class as feature
 	'''
-	global pred_list
 	try:
-		idx = list(pred_list).index(root.ful_name)
+		idx = list(self.pred_list).index(root.ful_name)
 	except ValueError:
 		idx = -1
 	data.PredClass = idx
@@ -87,12 +91,10 @@ def DFS(node, results, level):
 
 
 @register
-def struc2f(data, root):
-	global feature_list
+def struc2f(self,data, root):
+	struc = [0] * (len(self.feature_list) + 1)
 
-	struc = [0] * (len(feature_list) + 1)
-
-	for _, f in enumerate(feature_list):
+	for _, f in enumerate(self.feature_list):
 		isExist = True
 		edgeFeat = f.next_edges
 		realFeat = [e.edge_label for e in root.next_nodes]
@@ -114,75 +116,27 @@ def struc2f(data, root):
 	data.struc = struc
 
 
-
-
-
-
-
-# @register
-# def label2f(data, root):
-# 	'''
-# 	compute the simularities between sample and traindata
-# 	'''
-
-# 	global feature_list
-# 	max = 0
-# 	lst1 = [e.edge_label for e in root.next_nodes]
-# 	if len(lst1) == 0:
-# 		data.labelMark = max
-# 		return
-# 	for f in feature_list:
-# 		mark = 0
-# 		mark += sum([1 if e in f.next_edges else 0 for e in lst1]) / len(lst1)
-# 		if mark == 0:
-# 			continue
-# 		numerator = 0
-# 		denominator = 0
-# 		for i in range(len(lst1)):
-# 			try:
-# 				id = f.next_edges.index(lst1[i])
-# 			except ValueError:
-# 				continue
-# 			lst2 = [e.edge_label for e in root.next_nodes[i].next_nodes]
-# 			denominator += len(lst2)
-# 			numerator += sum([1 if e in f.next_nodes[id].next_edges else 0 for e in lst2])
-# 		if denominator == 0:
-# 			continue
-# 		mark += 2 * numerator / denominator
-# 		max = mark if mark > max else max
-# 	data.labelMark = max
-
 @register
 def labelNum2f(data, root):
 	'''
 	calculate the number of different label in first two level
 	'''
-	global labelList
-	labelNum = [0]*len(labelList)
+	labelNum = [0]*len(self.labelList)
 	lst1 = [e.edge_label for e in root.next_nodes]
 	for i,id1 in enumerate(lst1):
 		try:
-			idx = labelList.index(id1)
+			idx = self.labelList.index(id1)
 		except ValueError:
 			idx = 0
 		labelNum[idx] += 1
 		lst2 = [e.edge_label for e in root.next_nodes[i].next_nodes]
 		for j in lst2:
 			try:
-				idx = labelList.index(j)
+				idx = self.labelList.index(j)
 			except ValueError:
 				idx = 0
 			labelNum[idx] += 1
 	data.labelNum = labelNum
-
-
-
-
-feature_list = []
-pred_list = set()
-labelList = set()
-hashTable = set()
-
 
 def myHash(treeroot):
 	s = ""
@@ -195,16 +149,12 @@ def myHash(treeroot):
 	return s
 
 
-def find_feature(root):
-	global feature_list
-	global labelList
-	global hashTable
-
-	labelList.add(root.edge_label)
+def find_feature(self, root):
+	self.labelList.add(root.edge_label)
 
 	if not root.next_nodes:
 		r = treenode(root.ful_name)
-		feature_list.append(r)
+		self.feature_list.append(r)
 		return
 	#Firstly generate feature with pred and two of its children
 
@@ -223,98 +173,71 @@ def find_feature(root):
 		r = treenode(root.ful_name)
 		r.next_edges += [flt[0], flt[1],]
 		h = myHash(r)
-		if h  not in hashTable:
-			hashTable.add(h)
+		if h  not in self.hashTable:
+			self.hashTable.add(h)
 			FirstLevelStruc.append(r)
 
 	#Secondly, generate feature with path from pred to its leaf
 	PathStruc = []
 	for c1 in root.next_nodes:
 		if not c1.next_nodes:
-			labelList.add(c1.edge_label)
+			self.labelList.add(c1.edge_label)
 			r = treenode(root.ful_name)
 			# n1 = treenode()
 			# r.next_nodes.append(n1)
 			r.next_edges.append(c1.edge_label)
 			h = myHash(r)
-			if h not in hashTable:
-				hashTable.add(h)
+			if h not in self.hashTable:
+				self.hashTable.add(h)
 				PathStruc.append(r)
 			continue
 		for c2 in c1.next_nodes:
-			labelList.add(c2.edge_label)
+			self.labelList.add(c2.edge_label)
 			n1 = treenode()
 			n1.next_edges.append(c2.edge_label)
 			r = treenode(root.ful_name)
 			r.next_nodes.append(n1)
 			r.next_edges.append(c1.edge_label)
 			h = myHash(r)
-			if h not in hashTable:
-				hashTable.add(h)
+			if h not in self.hashTable:
+				self.hashTable.add(h)
 				PathStruc.append(r)
 	
-	feature_list = feature_list + FirstLevelStruc + PathStruc
+	self.feature_list = self.feature_list + FirstLevelStruc + PathStruc
 
-
-# def find_feature(root):
-# 	global feature_list
-# 	global labelList
-# 	#find structure with one node
-
-# 	r = treenode()
-# 	labelList.add(root.edge_label)
-# 	for c1 in root.next_nodes:
-# 		labelList.add(c1.edge_label)
-# 		n1 = treenode()
-# 		r.next_edges.append(c1.edge_label)
-# 		for c2 in c1.next_nodes:
-# 			labelList.add(c2.edge_label)
-# 			n2 = treenode()
-# 			n1.next_edges.append(c2.edge_label)
-# 			n1.next_nodes.append(n2)
-# 		r.next_nodes.append(n1)
-# 	feature_list.append(r)
-
-
-
-
-def main(mode, filename):
-	global feature_funcs
-	global pred_list
-	global labelList
-
-	subGraphs = None
-	with open('./tuple.pkl','rb') as p:					#！
-		TrainData = pickle.load(p)
-	if mode == '-train':
-		with open('../feature_extract/tuple.pkl','rb') as p:      #!
-			subGraphs = pickle.load(p)
-	elif mode == '-predict':
-		with open('./'+filename.split('/')[-1]+'.tp.pkl','rb') as p:    #！
-			subGraphs = pickle.load(p)
-	else:
-		raise Exception('Invalid Parameter')
-	root_list = []
-	# extract feature
+def Process(subGraphs, TrainData):
+	# subGraphs = None
+	# with open('./tuple.pkl','rb') as p:					#！
+	# 	TrainData = pickle.load(p)
+	# if mode == '-train':
+	# 	with open('../feature_extract/tuple.pkl','rb') as p:      #!
+	# 		subGraphs = pickle.load(p)
+	# elif mode == '-predict':
+	# 	with open('./'+filename.split('/')[-1]+'.tp.pkl','rb') as p:    #！
+	# 		subGraphs = pickle.load(p)
+	# else:
+	# 	raise Exception('Invalid Parameter')
+	# root_list = []
+	# # extract feature
 
 	counter = 0
 	for s in TrainData:
 		amr = s.graph
 		amr_nodes_acronym, root = amr_reader.amr_reader(amr)
 		root_list.append(root)
-		pred_list.add(root.ful_name)
+		self.pred_list.add(root.ful_name)
 
 		if s.annotation == 1.0:
 			counter += 1
 			find_feature(root)
 	print(counter)
 
-	labelList = ['MISC']+list(labelList)
+	self.labelList = ['MISC']+list(self.labelList)
 
 	#compute feature
 	for i,s in enumerate(subGraphs):
 		root = root_list[i]
-		for f in feature_funcs:
+		for f in self.feature_funcs:
 			f(s, root)
 	
 	attrs = [attr for attr in dir(subGraphs[0]) if attr not in dir(subGraph)]
@@ -328,15 +251,16 @@ def main(mode, filename):
 		traindata.append(lst)
 	
 	traindata = np.array(traindata,dtype = 'float64')
-	print(traindata.dtype)
-	if mode == '-train':
-		with open('./traindata.pkl', 'wb') as p:
-			pickle.dump(traindata,p)
-	elif mode == '-predict':
-		with open('./'+filename.split('/')[-1]+'.ft.pkl','wb') as p:
-			pickle.dump(traindata,p)
-	else:
-		raise Exception('Invalid Parameter')
+	return traindata
+	
+	# if mode == '-train':
+	# 	with open('./traindata.pkl', 'wb') as p:
+	# 		pickle.dump(traindata,p)
+	# elif mode == '-predict':
+	# 	with open('./'+filename.split('/')[-1]+'.ft.pkl','wb') as p:
+	# 		pickle.dump(traindata,p)
+	# else:
+	# 	raise Exception('Invalid Parameter')
 
 if __name__ == '__main__':
 	mode = sys.argv[1]

@@ -1,0 +1,5420 @@
+2-2
+(x1 / have-org-role-91
+		:ARG2 (p / president)
+		:ARG1 (x3 / country
+			:name (n / name
+				:op1 "China")))
+3-1
+(x37 / have-org-role-91
+					:ARG2 (p1 / president)
+					:ARG1 (x20 / government-organization
+						:name (n3 / name
+							:op1 "Brazil"
+							:op2 ","
+							:op3 "Luiz"
+							:op4 "Inácio"
+							:op5 "Lula"
+							:op6 "da"
+							:op7 "Silva"))
+					:ARG1 (x31 / country
+						:name (n4 / name
+							:op1 "Granja")))
+3-3
+(x5 / have-org-role-91
+			:ARG2 (p / president)
+			:ARG1 (x9 / amusement-park
+				:name (n1 / name
+					:op1 "'s"
+					:op2 "Republic")
+				:part-of (x12 / country
+					:name (n2 / name
+						:op1 "China"))))
+3-4
+(x1 / person
+		:name (n / name
+			:op1 "Hu")
+		:ARG0-of (x5 / have-org-role-91
+			:ARG2 (p / president)
+			:ARG1 (x9 / amusement-park
+				:name (n1 / name
+					:op1 "'s"
+					:op2 "Republic")
+				:part-of (x12 / country
+					:name (n2 / name
+						:op1 "China")))))
+3-6
+(x39 / country
+					:name (x44 / federal
+						:mod (x43 / country
+							:name (n5 / name
+								:op1 "Brazil"))))
+5-1
+(x3 / have-org-role-91
+				:ARG2 (m / minister)
+				:ARG1 (x2 / country
+					:name (n4 / name
+						:op1 "Brazil")))
+5-3
+(x32 / person
+		:name (n1 / name
+			:op1 "Furlan")
+		:null_edge (x30 / person
+			:name (n2 / name
+				:op1 "Luiz"))
+		:null_edge (x31 / person
+			:name (n3 / name
+				:op1 "Fernando")))
+5-4
+(x11 / country
+	:name (n / name
+		:op1 "Palocci")
+	:null_edge (x5 / present-01
+		:time (x8 / event)
+		:ARG2 (xap0 / person
+			:quant (x1 / some)
+			:ARG0-of (x3 / have-org-role-91
+				:ARG2 (m / minister)
+				:ARG1 (x2 / country
+					:name (n4 / name
+						:op1 "Brazil")))))
+	:null_edge (x10 / null_tag
+		:mod (x13 / economy))
+	:null_edge (x16 / name
+		:op1 "Eduardo"
+		:op2 "Campos")
+	:null_edge (x20 / and
+		:op2 (x19 / science)
+		:op2 (x21 / technology))
+	:name (x24 / name
+		:op1 "Roberto"
+		:op2 "Rodrigues")
+	:null_edge (x27 / agriculture)
+	:null_edge (x32 / person
+		:name (n1 / name
+			:op1 "Furlan")
+		:null_edge (x30 / person
+			:name (n2 / name
+				:op1 "Luiz"))
+		:null_edge (x31 / person
+			:name (n3 / name
+				:op1 "Fernando")))
+	:null_edge (x34 / null_tag)
+	:name (x37 / name
+		:op1 "Celso"
+		:op2 "Amorim")
+	:null_edge (x41 / null_tag)
+	:name (x44 / name
+		:op1 "Dilma"
+		:op2 "Rousseff")
+	:null_edge (x48 / and
+		:op2 (x47 / mines)))
+5-5
+(x32 / person
+		:name (n1 / name
+			:op1 "Furlan")
+	:null_edge (x30 / person
+			:name (n2 / name
+				:op1 "Luiz")))
+5-6
+(xap0 / person
+			:quant (x1 / some)
+			:ARG0-of (x3 / have-org-role-91
+				:ARG2 (m / minister)
+				:ARG1 (x2 / country
+					:name (n4 / name
+						:op1 "Brazil"))))
+5-7
+(x32 / person
+		:name (n1 / name
+			:op1 "Furlan")
+	:null_edge (x31 / person
+			:name (n3 / name
+				:op1 "Fernando")))
+7-5
+(x20 / country
+							:name (n4 / name
+								:op1 "China")
+							:op1 (x16 / country
+								:name (n2 / name
+									:op1 "Brazil")))
+11-2
+(x4 / person
+		:name (n / name
+			:op1 "Fattuh")
+	:null_edge (x2 / have-org-role-91
+			:ARG2 (p / president)
+			:ARG1 (x3 / name
+				:op1 "Rawhi")))
+11-3
+(x4 / person
+		:name (n / name
+			:op1 "Fattuh")
+	:ARG0-of (x1 / acting))
+15-1
+(x16 / person
+				:name (n / name
+					:op1 "Barghouti")
+				
+				
+				:name (x15 / name
+					:op1 "Marwan")
+	:null_edge (x12 / jail-01))
+15-2
+(x16 / person
+				:name (n / name
+					:op1 "Barghouti")
+				
+				
+				:name (x15 / name
+					:op1 "Marwan")
+	:null_edge (x14 / lead-02
+					:ARG1 (x13 / country
+						:name (n1 / name
+							:op1 "Palestinian"))))
+15-3
+(x16 / person
+				:name (n / name
+					:op1 "Barghouti")
+				:null_edge (x12 / jail-01)
+				:null_edge (x14 / lead-02
+					:ARG1 (x13 / country
+						:name (n1 / name
+							:op1 "Palestinian")))
+				:name (x15 / name
+					:op1 "Marwan"))
+17-2
+(x4 / remain-01
+	:ARG1 (x3 / he)
+	:ARG3 (x7 / figure
+		:ARG1-of (x6 / popular-02)
+		:location (x8 / among
+			:op1 (x12 / role
+				:mod (x9 / country
+					:name (n / name
+						:op1 "Palestinians"))
+				:ARG2 (x16 / uprise-00
+					:ARG0 (x15 / country
+						:name (n1 / name
+							:op1 "Palestinian"))))))
+	:ARG1 (x19 / possible-01
+		:ARG1 (x18 / and)
+		:ARG1 (x21 / win-01
+			:mod (x20 / potential)
+			:ARG2 (x23 / elect-01))
+		:condition (x26 / decide-01
+			:ARG1 (x28 / run-02))))
+23-1
+(x10 / have-org-role-91
+	:ARG2 (m / member)
+	:ARG1 (x7 / person
+		:name (n / name
+			:op1 "Dirceu")
+		:null_edge (x5 / house)
+		:name (x6 / name
+			:op1 "José"))
+	:ARG1 (x13 / delegation))
+26-1
+(x3 / person
+		:name (n / name
+			:op1 "Murad")
+		:name (x2 / name
+			:op1 "Jamil"
+			:mod (x1 / deputy))
+		:ARG0-of (x5 / have-org-role-91
+			:ARG2 (m / member)
+			:ARG1 (x8 / delegation)))
+34-1
+(x3 / person
+	:name (n / name
+		:op1 "Victoria")
+	:location (x1 / country
+		:name (n1 / name
+			:op1 "MELBOURNE")))
+35-1
+(x13 / person
+			:name (n / name
+				:op1 "Hookes")
+			:null_edge (x9 / country
+				:name (n1 / name
+					:op1 "Australia"))
+			:null_edge (x11 / person
+				:ARG0-of (c / coach-01)
+				:ARG1 (x10 / cricket))
+			:null_edge (x12 / person
+				:name (n2 / name
+					:op1 "David")))
+35-2
+(x13 / person
+			:name (n / name
+				:op1 "Hookes")
+	:null_edge (x12 / person
+				:name (n2 / name
+					:op1 "David")))
+35-4
+(x13 / person
+			:name (n / name
+				:op1 "Hookes")
+	:null_edge (x11 / person
+				:ARG0-of (c / coach-01)
+				:ARG1 (x10 / cricket)))
+35-5
+(x13 / person
+			:name (n / name
+				:op1 "Hookes")
+	:null_edge (x9 / country
+				:name (n1 / name
+					:op1 "Australia")))
+43-2
+(x7 / person
+		:name (n / name
+			:op1 "Kharazi")
+	:null_edge (x6 / person
+			:name (n1 / name
+				:op1 "Kamal")))
+43-3
+(x14 / person
+				:ARG0-of (n3 / negotiate-01)
+				:null_edge (x12 / saturday)
+				:mod (x13 / country
+					:name (n4 / name
+						:op1 "Iran")))
+43-8
+(x7 / person
+		:name (n / name
+			:op1 "Kharazi")
+	:ARG0-of (x4 / have-org-role-91
+			:ARG2 (m / minister)
+			:ARG1 (x1 / country
+				:name (n2 / name
+					:op1 "Iran"))
+			:mod (x3 / foreign)))
+43-9
+(x7 / person
+		:name (n / name
+			:op1 "Kharazi")
+		:ARG0-of (x4 / have-org-role-91
+			:ARG2 (m / minister)
+			:ARG1 (x1 / country
+				:name (n2 / name
+					:op1 "Iran"))
+			:mod (x3 / foreign))
+		:null_edge (x6 / person
+			:name (n1 / name
+				:op1 "Kamal")))
+43-10
+(x31 / program
+							:poss (x27 / country
+								:name (n5 / name
+									:op1 "Iran"))
+							:topic (x30 / enrich-01
+								:ARG1 (x29 / uranium)))
+45-3
+(x11 / country
+			:name (n / name
+				:op1 "Britain")
+			:null_edge (x13 / country
+				:name (n4 / name
+					:op1 "Germany")))
+46-1
+(x13 / program
+			:poss (x10 / country
+				:name (n2 / name
+					:op1 "Iran"))
+			:mod (x12 / nucleus))
+46-3
+(x5 / person
+		:name (n / name
+			:op1 "Colin"
+			:op2 "Powell")
+		:null_edge (x2 / null_tag
+			:mod (x1 / country
+				:name (n1 / name
+					:op1 "U.S."))))
+48-2
+(x14 / program
+		:poss (x11 / country
+			:name (n / name
+				:op1 "Israel"))
+		:mod (x13 / nucleus))
+49-3
+(x2 / maintain-01
+		:ARG0 (x1 / country
+			:name (n / name
+				:op1 "Israel"))
+		:ARG1 (x4 / policy
+			:consist-of (x7 / ambiguity
+				:mod (x6 / nucleus))))
+55-1
+(x10 / government-organization
+				:name (n1 / name
+					:op1 "Council"
+					:op2 "for")
+	:mod (x7 / government-organization
+					:name (n2 / name
+						:op1 "Supreme")))
+55-2
+(x1 / person
+		:name (n / name
+			:op1 "Hassan")
+		:ARG0-of (x4 / head-01
+			:ARG1 (x10 / government-organization
+				:name (n1 / name
+					:op1 "Council"
+					:op2 "for")
+				:mod (x7 / government-organization
+					:name (n2 / name
+						:op1 "Supreme"))
+				:null_edge (x8 / null_tag)
+				:null_edge (x9 / null_tag))))
+55-4
+(x10 / government-organization
+				:name (n1 / name
+					:op1 "Council"
+					:op2 "for")
+	:null_edge (x8 / null_tag))
+55-5
+(x10 / government-organization
+				:name (n1 / name
+					:op1 "Council"
+					:op2 "for")
+	:null_edge (x9 / null_tag))
+55-6
+(x10 / government-organization
+				:name (n1 / name
+					:op1 "Council"
+					:op2 "for")
+				:mod (x7 / government-organization
+					:name (n2 / name
+						:op1 "Supreme"))
+				:null_edge (x8 / null_tag)
+				:null_edge (x9 / null_tag))
+63-2
+(x5 / have-rel-role-91
+			:ARG2 (m / mother)
+			:ARG1 (x3 / play-01
+				:ARG0 (x1 / country
+					:name (n / name
+						:op1 "Brazil"))
+				:mod (x2 / soccer)))
+65-1
+(x2 / country
+	:name (n / name
+		:op1 "GRANDE")
+	:null_edge (x1 / country
+		:name (n1 / name
+			:op1 "PRAIA"))
+	:null_edge (x4 / country
+		:name (n2 / name
+			:op1 "Brazil")))
+66-2
+(x18 / country
+		:name (n / name
+			:op1 "Grande")
+	:null_edge (x17 / country
+			:name (n1 / name
+				:op1 "Praia")))
+66-3
+(x18 / country
+		:name (n / name
+			:op1 "Grande")
+	:null_edge (x21 / city
+			:name (n2 / name
+				:op1 "Paulo")
+			:location (x20 / country
+				:name (n3 / name
+					:op1 "São"))))
+66-4
+(x18 / country
+		:name (n / name
+			:op1 "Grande")
+		:null_edge (x17 / country
+			:name (n1 / name
+				:op1 "Praia"))
+		:null_edge (x21 / city
+			:name (n2 / name
+				:op1 "Paulo")
+			:location (x20 / country
+				:name (n3 / name
+					:op1 "São"))))
+67-1
+(x8 / person
+		:name (n / name
+			:op1 "Souza")
+		:name (x6 / name
+			:op1 "Robson")
+	:null_edge (x7 / null_tag))
+67-2
+(x26 / organization
+					:name (n3 / name
+						:op1 "Club")
+	:null_edge (x24 / person
+						:name (n4 / name
+							:op1 "Santos")))
+67-3
+(x8 / person
+		:name (n / name
+			:op1 "Souza")
+		:name (x6 / name
+			:op1 "Robson")
+		:null_edge (x7 / null_tag)
+		:ARG1-of (x10 / know-02
+			:ARG2 (x21 / play-01
+				:null_edge (x12 / country
+					:name (n1 / name
+						:op1 "Robinho")
+					:null_edge (x14 / little))
+				:mod (x19 / country
+					:name (n2 / name
+						:op1 "Brazil"))
+				:mod (x20 / soccer)
+				:beneficiary (x26 / organization
+					:name (n3 / name
+						:op1 "Club")
+					:null_edge (x24 / person
+						:name (n4 / name
+							:op1 "Santos"))
+					:null_edge (x25 / organization
+						:name (n5 / name
+							:op1 "Football"))))))
+67-5
+(x21 / play-01
+				:null_edge (x12 / country
+					:name (n1 / name
+						:op1 "Robinho")
+					:null_edge (x14 / little))
+				:mod (x19 / country
+					:name (n2 / name
+						:op1 "Brazil"))
+				:mod (x20 / soccer)
+				:beneficiary (x26 / organization
+					:name (n3 / name
+						:op1 "Club")
+					:null_edge (x24 / person
+						:name (n4 / name
+							:op1 "Santos"))
+					:null_edge (x25 / organization
+						:name (n5 / name
+							:op1 "Football"))))
+67-6
+(x26 / organization
+					:name (n3 / name
+						:op1 "Club")
+	:null_edge (x25 / organization
+						:name (n5 / name
+							:op1 "Football")))
+67-7
+(x8 / person
+		:name (n / name
+			:op1 "Souza")
+		:name (x6 / name
+			:op1 "Robson")
+	:ARG1-of (x10 / know-02
+			:ARG2 (x21 / play-01
+				:null_edge (x12 / country
+					:name (n1 / name
+						:op1 "Robinho")
+					:null_edge (x14 / little))
+				:mod (x19 / country
+					:name (n2 / name
+						:op1 "Brazil"))
+				:mod (x20 / soccer)
+				:beneficiary (x26 / organization
+					:name (n3 / name
+						:op1 "Club")
+					:null_edge (x24 / person
+						:name (n4 / name
+							:op1 "Santos"))
+					:null_edge (x25 / organization
+						:name (n5 / name
+							:op1 "Football"))))))
+67-8
+(x26 / organization
+					:name (n3 / name
+						:op1 "Club")
+					:null_edge (x24 / person
+						:name (n4 / name
+							:op1 "Santos"))
+					:null_edge (x25 / organization
+						:name (n5 / name
+							:op1 "Football")))
+73-3
+(x6 / have-org-role-91
+		:ARG2 (s / secretary)
+		:mod (x5 / country
+			:name (n / name
+				:op1 "U.S."))
+		:null_edge (x12 / succeed-02
+			:ARG1-of (x7 / include-91)
+			:null_edge (x10 / person
+				:name (n1 / name
+					:op1 "Rice"))
+			:ARG1-of (x11 / likely-01)))
+77-3
+(x26 / person
+			:name (n1 / name
+				:op1 "Bush")
+	:null_edge (x25 / null_tag))
+77-4
+(x26 / person
+			:name (n1 / name
+				:op1 "Bush")
+	:null_edge (x23 / have-org-role-91
+				:ARG2 (p / president)))
+77-5
+(x26 / person
+			:name (n1 / name
+				:op1 "Bush")
+	:null_edge (x24 / person
+				:name (n2 / name
+					:op1 "George")))
+77-6
+(x26 / person
+			:name (n1 / name
+				:op1 "Bush")
+			:null_edge (x23 / have-org-role-91
+				:ARG2 (p / president))
+			:null_edge (x24 / person
+				:name (n2 / name
+					:op1 "George"))
+			:null_edge (x25 / null_tag))
+80-1
+(x17 / have-org-role-91
+					:ARG2 (o / official)
+					:ARG1 (x15 / person
+						:name (n5 / name
+							:op1 "Bush"))
+					:ARG1 (x16 / government-organization
+						:name (n6 / name
+							:op1 "Administration")))
+80-2
+(x6 / organization
+		:name (n / name
+			:op1 "Tribune")
+		:null_edge (x3 / organization
+			:name (n1 / name
+				:op1 "San"))
+		:null_edge (x4 / organization
+			:name (n2 / name
+				:op1 "Gabriel"))
+		:mod (x5 / organization
+			:name (n3 / name
+				:op1 "Valley")))
+80-5
+(x6 / organization
+		:name (n / name
+			:op1 "Tribune")
+	:null_edge (x3 / organization
+			:name (n1 / name
+				:op1 "San")))
+80-6
+(x6 / organization
+		:name (n / name
+			:op1 "Tribune")
+	:mod (x5 / organization
+			:name (n3 / name
+				:op1 "Valley")))
+80-8
+(x6 / organization
+		:name (n / name
+			:op1 "Tribune")
+	:null_edge (x4 / organization
+			:name (n2 / name
+				:op1 "Gabriel")))
+81-1
+(x15 / person
+			:name (n1 / name
+				:op1 "Rice")
+			:null_edge (x10 / nation)
+			:null_edge (x11 / null_tag)
+			:null_edge (x12 / advisor
+				:ARG1 (x14 / person
+					:name (n3 / name
+						:op1 "Condoleezza"))))
+81-2
+(x15 / person
+			:name (n1 / name
+				:op1 "Rice")
+	:null_edge (x12 / advisor
+				:ARG1 (x14 / person
+					:name (n3 / name
+						:op1 "Condoleezza"))))
+81-3
+(x15 / person
+			:name (n1 / name
+				:op1 "Rice")
+	:null_edge (x11 / null_tag))
+81-5
+(x15 / person
+			:name (n1 / name
+				:op1 "Rice")
+	:null_edge (x10 / nation))
+82-2
+(x7 / have-org-role-91
+			:ARG2 (o / official)
+			:mod (x4 / senior)
+			:ARG1 (x6 / administrate-01
+				:ARG1 (x5 / person
+					:name (n2 / name
+						:op1 "Bush"))))
+88-3
+(x11 / country
+						:name (n / name
+							:op1 "Bundaberg")
+						:location (xap0 / relative-position
+							:quant (x15 / distance-quantity
+								:unit (k / kilometer)
+								:null_edge (x13 / about
+									:null_edge 400)
+								:direction (x16 / north)
+								:poss (x18 / country
+									:name (n1 / name
+										:op1 "Brisbane")))))
+89-1
+(x4 / government-organization
+			:name (n / name
+				:op1 "Paul"
+				:op2 "Lucas")
+	:null_edge (x2 / null_tag
+				:mod (x1 / organization
+					:name (n2 / name
+						:op1 "Queensland"))))
+89-2
+(x4 / government-organization
+			:name (n / name
+				:op1 "Paul"
+				:op2 "Lucas")
+	:ARG0-of (x3 / have-org-role-91
+				:ARG2 (m / minister)))
+89-4
+(x4 / government-organization
+			:name (n / name
+				:op1 "Paul"
+				:op2 "Lucas")
+			:null_edge (x2 / null_tag
+				:mod (x1 / organization
+					:name (n2 / name
+						:op1 "Queensland")))
+			:ARG0-of (x3 / have-org-role-91
+				:ARG2 (m / minister)))
+90-1
+(x9 / person
+			:name (n1 / name
+				:op1 "Scheuber")
+	:null_edge (x5 / organization
+				:name (n2 / name
+					:op1 "Queensland")))
+90-2
+(x9 / person
+			:name (n1 / name
+				:op1 "Scheuber")
+	:null_edge (x8 / person
+				:name (n3 / name
+					:op1 "Bob")
+				:mod (x7 / CEO
+					:ARG1 (x6 / organization
+						:name (n4 / name
+							:op1 "Rail")))))
+90-3
+(x9 / person
+			:name (n1 / name
+				:op1 "Scheuber")
+			:null_edge (x5 / organization
+				:name (n2 / name
+					:op1 "Queensland"))
+			:null_edge (x8 / person
+				:name (n3 / name
+					:op1 "Bob")
+				:mod (x7 / CEO
+					:ARG1 (x6 / organization
+						:name (n4 / name
+							:op1 "Rail")))))
+96-5
+(x28 / country
+								:name (n2 / name
+									:op1 "Strip")
+								:null_edge (x27 / local-region
+									:name (n5 / name
+										:op1 "Gaza")))
+96-6
+(x21 / bomb-01
+					:mod (x20 / suicide)
+					:ARG0-of (x32 / attack-01
+						:poss (x26 / and
+							:op1 (x25 / bank
+								:mod (x24 / world-region
+									:name (n4 / name
+										:op1 "West")))
+							:op2 (x28 / country
+								:name (n2 / name
+									:op1 "Strip")
+								:null_edge (x27 / local-region
+									:name (n5 / name
+										:op1 "Gaza"))))
+						:ARG1 (x35 / civilian
+							:mod (x34 / country
+								:name (n3 / name
+									:op1 "Israel")))))
+97-1
+(x19 / person
+		:ARG0-of (a / advocate-01)
+		:ARG0-of (x20 / demand-01
+			:ARG2 (x23 / haul-01
+				:ARG0 (x22 / he)
+				:ARG1 (x26 / personnel
+					:null_edge (x24 / null_tag)
+					:null_edge (x25 / null_tag))
+				:time (x27 / before
+					:op1 (x30 / government-organization
+						:name (n1 / name
+							:op1 "Congress"))))))
+101-2
+(x4 / person
+		:ARG0-of (d / deal-02)
+		:ARG1 (x1 / world-region
+			:name (n / name
+				:op1 "Latin"))
+		:ARG1 (x3 / drug))
+103-1
+(x3 / country
+	:name (n / name
+		:op1 "JANEIRO")
+	:null_edge (x1 / country
+		:name (n1 / name
+			:op1 "RIO"))
+	:null_edge (x5 / country
+		:name (n2 / name
+			:op1 "Brazil")))
+104-4
+(x30 / country
+				:name (n2 / name
+					:op1 "Janeiro")
+				
+				:null_edge "de"
+	:null_edge (x28 / city
+					:name (n5 / name
+						:op1 "Rio")))
+104-5
+(xap0 / date-entity
+		:weekday (x20 / sunday)
+		:month (x21 / event
+			:name (n / name
+				:op1 "November"
+				:op2 "14")))
+104-7
+(x16 / person
+				:name (n1 / name
+					:op1 "Beira-Mar")
+				:null_edge (x15 / person
+					:name (n4 / name
+						:op1 "Fernando")))
+104-8
+(x30 / country
+				:name (n2 / name
+					:op1 "Janeiro")
+				:null_edge (x28 / city
+					:name (n5 / name
+						:op1 "Rio"))
+				:null_edge "de")
+104-9
+(x31 / city
+			:location (x30 / country
+				:name (n2 / name
+					:op1 "Janeiro")
+				:null_edge (x28 / city
+					:name (n5 / name
+						:op1 "Rio"))
+				:null_edge "de")
+			:location (x33 / country
+				:name (n3 / name
+					:op1 "Brazil")))
+105-2
+(xap0 / person
+			:mod (x7 / country
+				:name (n / name
+					:op1 "Brazil"))
+			:ARG0-of (x10 / have-org-role-91
+				:ARG2 (o / officer)
+				:ARG1 (x9 / police
+					:mod (x8 / federal))))
+106-4
+(x9 / person
+				:name (n2 / name
+					:op1 "Beira-Mar")
+				:null_edge (x8 / person
+					:name (n4 / name
+						:op1 "Fernando")))
+106-5
+(x23 / country
+			:name (n1 / name
+				:op1 "America")
+			:null_edge (x22 / language
+				:name (n3 / name
+					:op1 "Latin")))
+108-1
+(x16 / have-org-role-91
+		:ARG2 (o / officer)
+		:ARG1 (x15 / police)
+		:ARG0-of (x17 / ask-02
+			:ARG1 (x20 / release-01
+				:ARG1 (x27 / man
+					:name (x21 / name
+						:op1 "Marcos"
+						:op2 "José"
+						:op3 "Monteiro"
+						:op4 "Carneiro")
+					:mod (x26 / another)
+					:ARG1-of (x28 / accuse-01
+						:ARG2 (x33 / person
+							:ARG0-of (d / deal-02)
+							:ARG1 (x32 / drug)))))))
+110-1
+(x8 / have-org-role-91
+		:ARG2 (a / ambassador)
+		:ARG1 (x6 / country
+			:name (n1 / name
+				:op1 "Iraq")))
+111-1
+(x2 / city
+	:name (n / name
+		:op1 "City")
+	:mod (x1 / country
+		:name (n1 / name
+			:op1 "Vatican")))
+112-1
+(x11 / person
+		:name (n1 / name
+			:op1 "Yelda")
+		:null_edge (x7 / null_tag)
+		:null_edge (x8 / person
+			:name (n2 / name
+				:op1 "Albert"))
+		:null_edge (x9 / name
+			:op1 "Edward")
+		:name (x10 / name
+			:op1 "Ismail")
+		:ARG0-of (x15 / have-org-role-91
+			:ARG2 (a / ambassador)
+			:ARG1 (x13 / country
+				:name (n3 / name
+					:op1 "Iraq"))))
+112-3
+(x11 / person
+		:name (n1 / name
+			:op1 "Yelda")
+		
+		
+		
+		:name (x10 / name
+			:op1 "Ismail")
+	:null_edge (x9 / name
+			:op1 "Edward"))
+112-4
+(x11 / person
+		:name (n1 / name
+			:op1 "Yelda")
+		
+		
+		
+		:name (x10 / name
+			:op1 "Ismail")
+	:ARG0-of (x15 / have-org-role-91
+			:ARG2 (a / ambassador)
+			:ARG1 (x13 / country
+				:name (n3 / name
+					:op1 "Iraq"))))
+112-5
+(x2 / person
+		:name (n / name
+			:op1 "John")
+	:null_edge (x3 / null_tag))
+112-6
+(x2 / person
+		:name (n / name
+			:op1 "John")
+	:ARG0-of (x1 / pope))
+112-7
+(x11 / person
+		:name (n1 / name
+			:op1 "Yelda")
+		
+		
+		
+		:name (x10 / name
+			:op1 "Ismail")
+	:null_edge (x8 / person
+			:name (n2 / name
+				:op1 "Albert")))
+112-8
+(x11 / person
+		:name (n1 / name
+			:op1 "Yelda")
+		
+		
+		
+		:name (x10 / name
+			:op1 "Ismail")
+	:null_edge (x7 / null_tag))
+113-1
+(x8 / person
+		:ARG0-of (w / wish-01)
+		:ARG1 (x11 / reconstruct-01
+			:ARG1 (x13 / country
+				:name (n / name
+					:op1 "Iraq"))))
+126-1
+(x12 / system
+			:mod (x10 / country
+				:name (n / name
+					:op1 "Linux"))
+			:ARG0-of (x11 / operate-01))
+135-2
+(x10 / organization
+				:name (n / name
+					:op1 "Linux")
+				:mod (x9 / organization
+					:name (n1 / name
+						:op1 "Big")))
+136-1
+(x8 / person
+		:ARG0-of (u / use-01)
+		:null_edge (x7 / country
+			:name (n / name
+				:op1 "Brazil")))
+138-2
+(x3 / country
+			:name (n1 / name
+				:op1 "Walt")
+			:op1 (x1 / state
+				:name (n2 / name
+					:op1 "Florida")))
+145-1
+(x9 / person
+		:name (n / name
+			:op1 "Gantu")
+	:poss (x2 / government-organization
+			:name (n1 / name
+				:op1 "Galactic"
+				:op2 "Federation")))
+145-2
+(x9 / person
+		:name (n / name
+			:op1 "Gantu")
+	:null_edge (x5 / country
+			:name (n2 / name
+				:op1 "Grand")))
+145-3
+(x9 / person
+		:name (n / name
+			:op1 "Gantu")
+	:null_edge (x6 / country
+			:name (n3 / name
+				:op1 "Councilwoman")))
+145-4
+(x9 / person
+		:name (n / name
+			:op1 "Gantu")
+	:ARG0-of (x8 / captain))
+145-5
+(x9 / person
+		:name (n / name
+			:op1 "Gantu")
+		:poss (x2 / government-organization
+			:name (n1 / name
+				:op1 "Galactic"
+				:op2 "Federation"))
+		:null_edge (x5 / country
+			:name (n2 / name
+				:op1 "Grand"))
+		:null_edge (x6 / country
+			:name (n3 / name
+				:op1 "Councilwoman"))
+		:ARG0-of (x8 / captain))
+147-2
+(x6 / become-01
+	:time (x5 / soon)
+	:ARG2 (x7 / participate-01
+		:ARG0 (x3 / person
+			:name (n / name
+				:op1 "Bruce")
+			:mod (x2 / shark
+				:mod (x1 / vegetarian)))
+		:part-of (x12 / exhibit-01
+			:mod (x11 / education
+				:ARG1 (x10 / shark)))))
+153-1
+(x1 / person
+		:name (n / name
+			:op1 "Hari"
+			:op2 "Kostov")
+		:ARG0-of (x6 / have-org-role-91
+			:ARG2 (m / minister)
+			:mod (x5 / prime)
+			:ARG1 (x8 / country
+				:name (n1 / name
+					:op1 "Macedonia"))))
+153-2
+(x6 / have-org-role-91
+			:ARG2 (m / minister)
+			:mod (x5 / prime)
+			:ARG1 (x8 / country
+				:name (n1 / name
+					:op1 "Macedonia")))
+155-2
+(x2 / have-org-role-91
+			:ARG2 (m / minister)
+			:mod (x1 / prime)
+			:ARG1 (x6 / country
+				:name (n1 / name
+					:op1 "Macedonia")))
+155-3
+(x3 / person
+		:name (n / name
+			:op1 "Hari"
+			:op2 "Kostov")
+		:ARG0-of (x2 / have-org-role-91
+			:ARG2 (m / minister)
+			:mod (x1 / prime)
+			:ARG1 (x6 / country
+				:name (n1 / name
+					:op1 "Macedonia"))))
+156-1
+(x3 / government-organization
+		:name (n / name
+			:op1 "parliament")
+		:mod (x2 / country
+			:name (n1 / name
+				:op1 "Macedonian")))
+157-1
+(x5 / quote-01
+	:ARG0 (x3 / organization
+		:name (n / name
+			:op1 "BBC"))
+	:ARG2 (x6 / person
+		:name (n1 / name
+			:op1 "Kostov")
+		:ARG1-of (x10 / appoint-01
+			:null_edge (x12 / null_tag
+				:mod (x11 / last))
+			:ARG2 (x16 / say-01
+				:ARG1 (x31 / and
+					:op2 (x25 / teamwork
+						:polarity -
+						:mod (x24 / genuine)
+						:ARG0 (x29 / coalition))
+					:op2 (x43 / promote-02
+						:ARG0 (x36 / party
+							:poss (x40 / government-organization
+								:ARG0-of (g / govern-01)
+								:time (x39 / current)))
+						:ARG1 (x45 / and
+							:op1 (x44 / corrupt-01)
+							:op2 (x46 / nepotism))))))))
+160-2
+(x19 / law
+				:mod (x18 / decentralisation)
+				:ARG1-of (x23 / give-01
+					:ARG2 (x27 / minority
+						:mod (x25 / country
+							:name (n2 / name
+								:op1 "Albanian"))
+						:mod (x26 / ethnic)
+						:location (x29 / country
+							:name (n3 / name
+								:op1 "Macedonia")))
+					:ARG1 (x31 / right-05
+						:mod (x30 / additional))))
+164-1
+(x3 / person
+		:name (n / name
+			:op1 "Reid")
+		:null_edge (x1 / have-org-role-91
+			:ARG2 (s / senator))
+		:mod (x2 / book
+			:name (n1 / name
+				:op1 "Harry")))
+164-2
+(x3 / person
+		:name (n / name
+			:op1 "Reid")
+	:mod (x2 / book
+			:name (n1 / name
+				:op1 "Harry")))
+164-3
+(x3 / person
+		:name (n / name
+			:op1 "Reid")
+	:null_edge (x1 / have-org-role-91
+			:ARG2 (s / senator)))
+167-1
+(x4 / person
+		:name (n / name
+			:op1 "Reid")
+	:mod (x3 / book
+			:name (n1 / name
+				:op1 "Harry")))
+167-2
+(x4 / person
+		:name (n / name
+			:op1 "Reid")
+	:null_edge (x2 / have-org-role-91
+			:ARG2 (s / senator)))
+167-3
+(x4 / person
+		:name (n / name
+			:op1 "Reid")
+	:mod (x1 / democracy))
+167-4
+(x14 / party
+			:null_edge (x13 / null_tag)
+			:location (x17 / government-organization
+				:name (n2 / name
+					:op1 "Senate")))
+167-5
+(x4 / person
+		:name (n / name
+			:op1 "Reid")
+		:mod (x1 / democracy)
+		:null_edge (x2 / have-org-role-91
+			:ARG2 (s / senator))
+		:mod (x3 / book
+			:name (n1 / name
+				:op1 "Harry")))
+167-7
+(x10 / lead-02
+		:mod (x9 / new)
+		:ARG1 (x14 / party
+			:null_edge (x13 / null_tag)
+			:location (x17 / government-organization
+				:name (n2 / name
+					:op1 "Senate"))))
+170-1
+(x2 / win-01
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Reid"))
+	:ARG1 (x4 / position)
+	:time (x10 / hold-01
+		:null_edge (x7 / political-party
+			:name (n1 / name
+				:op1 "Republican"))
+		:mod (x9 / still)
+		:ARG1 (x11 / majority)
+		:null_edge (x12 / null_tag
+			:null_edge (x14 / null_tag
+				:mod (x13 / both)))))
+170-2
+(x10 / hold-01
+		:null_edge (x7 / political-party
+			:name (n1 / name
+				:op1 "Republican"))
+		:mod (x9 / still)
+		:ARG1 (x11 / majority)
+		:null_edge (x12 / null_tag
+			:null_edge (x14 / null_tag
+				:mod (x13 / both))))
+174-1
+(x4 / government-organization
+		:name (n / name
+			:op1 "parliament")
+	:mod (x3 / country
+			:name (n1 / name
+				:op1 "Holland")))
+174-2
+(x1 / have-org-role-91
+	:ARG2 (m / majority-leader)
+	:part-of (x4 / government-organization
+		:name (n / name
+			:op1 "parliament")
+		:mod (x3 / country
+			:name (n1 / name
+				:op1 "Holland"))
+		:prep-against (x6 / accentuation
+			:ARG1 (x9 / article
+				:mod (x8 / anti-blasphemy)))))
+174-3
+(x4 / government-organization
+		:name (n / name
+			:op1 "parliament")
+	:prep-against (x6 / accentuation
+			:ARG1 (x9 / article
+				:mod (x8 / anti-blasphemy))))
+174-4
+(x4 / government-organization
+		:name (n / name
+			:op1 "parliament")
+		:mod (x3 / country
+			:name (n1 / name
+				:op1 "Holland"))
+		:prep-against (x6 / accentuation
+			:ARG1 (x9 / article
+				:mod (x8 / anti-blasphemy))))
+178-2
+(x29 / person
+		:name (n / name
+			:op1 "Kamer")
+	:null_edge (x34 / parliament
+			:poss (x32 / country
+				:name (x28 / name
+					:op1 "Tweede"))))
+178-4
+(x29 / person
+		:name (n / name
+			:op1 "Kamer")
+		:quant (x25 / majority)
+		:null_edge (x34 / parliament
+			:poss (x32 / country
+				:name (x28 / name
+					:op1 "Tweede"))))
+178-6
+(x8 / person
+			:name (n1 / name
+				:op1 "Piet"
+				:op2 "Hein"
+				:op3 "Donner")
+	:ARG0-of (x5 / have-org-role-91
+				:ARG2 (m / minister)
+				:ARG1 (x4 / country
+					:name (n2 / name
+						:op1 "Holland"))))
+178-7
+(x8 / person
+			:name (n1 / name
+				:op1 "Piet"
+				:op2 "Hein"
+				:op3 "Donner")
+			:ARG0-of (x5 / have-org-role-91
+				:ARG2 (m / minister)
+				:ARG1 (x4 / country
+					:name (n2 / name
+						:op1 "Holland")))
+			:ARG0-of (x7 / justice))
+178-8
+(x8 / person
+			:name (n1 / name
+				:op1 "Piet"
+				:op2 "Hein"
+				:op3 "Donner")
+	:ARG0-of (x7 / justice))
+178-9
+(x29 / person
+		:name (n / name
+			:op1 "Kamer")
+	:quant (x25 / majority))
+179-1
+(x15 / person
+				:name (n1 / name
+					:op1 "Gogh")
+	:null_edge (x13 / name
+					:op1 "Theo"))
+179-3
+(x15 / person
+				:name (n1 / name
+					:op1 "Gogh")
+	:null_edge (x11 / world-region
+					:name (n2 / name
+						:op1 "Dutch")))
+179-4
+(x15 / person
+				:name (n1 / name
+					:op1 "Gogh")
+	:null_edge (x14 / null_tag))
+179-7
+(x15 / person
+				:name (n1 / name
+					:op1 "Gogh")
+				:null_edge (x11 / world-region
+					:name (n2 / name
+						:op1 "Dutch"))
+				:null_edge (x13 / name
+					:op1 "Theo")
+				:null_edge (x14 / null_tag))
+180-1
+(x19 / support-01
+		:ARG0 (x9 / party
+			:poss (x6 / person
+				:name (n / name
+					:op1 "Donner"))
+			:name (x12 / name
+				:op1 "Christian"
+				:op2 "Democratic"
+				:op3 "Appeal"
+				:op4 "-LRB-"
+				:op5 "CDA"))
+		:ARG1 (x21 / propose-01))
+180-3
+(x9 / party
+			:poss (x6 / person
+				:name (n / name
+					:op1 "Donner"))
+			:name (x12 / name
+				:op1 "Christian"
+				:op2 "Democratic"
+				:op3 "Appeal"
+				:op4 "-LRB-"
+				:op5 "CDA"))
+181-2
+(x6 / person
+		:ARG0-of (p / partner-01)
+		:quant 2
+		:mod (x5 / coalition)
+		:ARG1 (x9 / organization
+			:name (n / name
+				:op1 "People"
+				:op2 "'s"
+				:op3 "Party"
+				:op4 "for"
+				:op5 "Freedom"
+				:op6 "and"
+				:op7 "Democracy"
+				:op8 "-LRB-"
+				:op9 "``"
+				:op10 "Volkspartij"
+				:op11 "voor"
+				:op12 "Vrijheid"
+				:op13 "en"
+				:op14 "Democratie"
+				:op15 "''"
+				:op16 ","
+				:op17 "VVD")
+			:mod (x18 / volkspartij)
+			:mod (x20 / country
+				:name (n1 / name
+					:op1 "Vrijheid"))
+			:null_edge (x27 / and)
+			:null_edge (x28 / have-org-role-91
+				:ARG1 (p1 / political-party
+					:name (n2 / name
+						:op1 "Democrats"))
+				:null_edge 66)
+			:mod (x31 / d66)))
+181-3
+(x9 / organization
+			:name (n / name
+				:op1 "People"
+				:op2 "'s"
+				:op3 "Party"
+				:op4 "for"
+				:op5 "Freedom"
+				:op6 "and"
+				:op7 "Democracy"
+				:op8 "-LRB-"
+				:op9 "``"
+				:op10 "Volkspartij"
+				:op11 "voor"
+				:op12 "Vrijheid"
+				:op13 "en"
+				:op14 "Democratie"
+				:op15 "''"
+				:op16 ","
+				:op17 "VVD")
+	:null_edge (x27 / and))
+181-4
+(x9 / organization
+			:name (n / name
+				:op1 "People"
+				:op2 "'s"
+				:op3 "Party"
+				:op4 "for"
+				:op5 "Freedom"
+				:op6 "and"
+				:op7 "Democracy"
+				:op8 "-LRB-"
+				:op9 "``"
+				:op10 "Volkspartij"
+				:op11 "voor"
+				:op12 "Vrijheid"
+				:op13 "en"
+				:op14 "Democratie"
+				:op15 "''"
+				:op16 ","
+				:op17 "VVD")
+			:mod (x18 / volkspartij)
+			:mod (x20 / country
+				:name (n1 / name
+					:op1 "Vrijheid"))
+			:null_edge (x27 / and)
+			:null_edge (x28 / have-org-role-91
+				:ARG1 (p1 / political-party
+					:name (n2 / name
+						:op1 "Democrats"))
+				:null_edge 66)
+			:mod (x31 / d66))
+181-5
+(x9 / organization
+			:name (n / name
+				:op1 "People"
+				:op2 "'s"
+				:op3 "Party"
+				:op4 "for"
+				:op5 "Freedom"
+				:op6 "and"
+				:op7 "Democracy"
+				:op8 "-LRB-"
+				:op9 "``"
+				:op10 "Volkspartij"
+				:op11 "voor"
+				:op12 "Vrijheid"
+				:op13 "en"
+				:op14 "Democratie"
+				:op15 "''"
+				:op16 ","
+				:op17 "VVD")
+	:null_edge (x28 / have-org-role-91
+				:ARG1 (p1 / political-party
+					:name (n2 / name
+						:op1 "Democrats"))
+				:null_edge 66))
+181-6
+(x9 / organization
+			:name (n / name
+				:op1 "People"
+				:op2 "'s"
+				:op3 "Party"
+				:op4 "for"
+				:op5 "Freedom"
+				:op6 "and"
+				:op7 "Democracy"
+				:op8 "-LRB-"
+				:op9 "``"
+				:op10 "Volkspartij"
+				:op11 "voor"
+				:op12 "Vrijheid"
+				:op13 "en"
+				:op14 "Democratie"
+				:op15 "''"
+				:op16 ","
+				:op17 "VVD")
+	:mod (x18 / volkspartij))
+181-7
+(x9 / organization
+			:name (n / name
+				:op1 "People"
+				:op2 "'s"
+				:op3 "Party"
+				:op4 "for"
+				:op5 "Freedom"
+				:op6 "and"
+				:op7 "Democracy"
+				:op8 "-LRB-"
+				:op9 "``"
+				:op10 "Volkspartij"
+				:op11 "voor"
+				:op12 "Vrijheid"
+				:op13 "en"
+				:op14 "Democratie"
+				:op15 "''"
+				:op16 ","
+				:op17 "VVD")
+	:mod (x20 / country
+				:name (n1 / name
+					:op1 "Vrijheid")))
+181-8
+(x9 / organization
+			:name (n / name
+				:op1 "People"
+				:op2 "'s"
+				:op3 "Party"
+				:op4 "for"
+				:op5 "Freedom"
+				:op6 "and"
+				:op7 "Democracy"
+				:op8 "-LRB-"
+				:op9 "``"
+				:op10 "Volkspartij"
+				:op11 "voor"
+				:op12 "Vrijheid"
+				:op13 "en"
+				:op14 "Democratie"
+				:op15 "''"
+				:op16 ","
+				:op17 "VVD")
+	:mod (x31 / d66))
+182-2
+(x2 / government-organization
+		:name (n / name
+			:op1 "Labour"
+			:op2 "Party")
+	:ARG0-of (x7 / oppose-01))
+182-4
+(x2 / government-organization
+		:name (n / name
+			:op1 "Labour"
+			:op2 "Party")
+	:mod (x6 / large
+			:degree (m / most)))
+187-1
+(x15 / person
+				:name (n1 / name
+					:op1 "Laan")
+	:null_edge (x13 / null_tag))
+187-2
+(x15 / person
+				:name (n1 / name
+					:op1 "Laan")
+	:null_edge (x17 / d66))
+187-3
+(x15 / person
+				:name (n1 / name
+					:op1 "Laan")
+	:null_edge (x11 / government-organization
+					:name (n2 / name
+						:op1 "Parliament")
+					:ARG1 (x4 / broadcast-01)
+					:ARG1 (x12 / name
+						:op1 "Lousewies")))
+187-5
+(x15 / person
+				:name (n1 / name
+					:op1 "Laan")
+	:null_edge (x14 / null_tag))
+187-6
+(x9 / have-org-role-91
+			:ARG2 (m / member)
+			:ARG1 (x15 / person
+				:name (n1 / name
+					:op1 "Laan")
+				:null_edge (x11 / government-organization
+					:name (n2 / name
+						:op1 "Parliament")
+					:ARG1 (x4 / broadcast-01)
+					:ARG1 (x12 / name
+						:op1 "Lousewies"))
+				:null_edge (x13 / null_tag)
+				:null_edge (x14 / null_tag)
+				:null_edge (x17 / d66)))
+187-7
+(x15 / person
+				:name (n1 / name
+					:op1 "Laan")
+				:null_edge (x11 / government-organization
+					:name (n2 / name
+						:op1 "Parliament")
+					:ARG1 (x4 / broadcast-01)
+					:ARG1 (x12 / name
+						:op1 "Lousewies"))
+				:null_edge (x13 / null_tag)
+				:null_edge (x14 / null_tag)
+				:null_edge (x17 / d66))
+187-8
+(x11 / government-organization
+					:name (n2 / name
+						:op1 "Parliament")
+	:ARG1 (x12 / name
+						:op1 "Lousewies"))
+187-9
+(x11 / government-organization
+					:name (n2 / name
+						:op1 "Parliament")
+	:ARG1 (x4 / broadcast-01))
+189-2
+(x1 / have-org-role-91
+		:ARG2 (p / president)
+		:ARG1 (x3 / country
+			:name (n / name
+				:op1 "Brazil")))
+189-3
+(x6 / have-org-role-91
+		:ARG2 (p1 / president)
+		:ARG1 (x5 / country
+			:name (n1 / name
+				:op1 "Vietnam")))
+191-1
+(x3 / country
+	:name (n / name
+		:op1 "Brazil")
+	:null_edge (x1 / country
+		:name (n1 / name
+			:op1 "BRASÍLIA")))
+192-1
+(x30 / person
+			:name (n2 / name
+				:op1 "AM")
+	:null_edge (x40 / country
+				:name (n3 / name
+					:op1 "Palace")
+				:mod (x39 / country
+					:name (n6 / name
+						:op1 "Plateau"))
+				:location (xap2 / location
+					:ARG1-of (x46 / reside-01
+						:mod (x44 / president)
+						:mod (x45 / official)))))
+192-2
+(x17 / meet-03
+		:null_edge (x6 / null_tag)
+		:ARG1 (x26 / person
+			:name (n1 / name
+				:op1 "Lương")
+			:null_edge (x20 / president
+				:ARG1 (x22 / country
+					:name (n5 / name
+						:op1 "Vietnam")))
+			:null_edge (x23 / null_tag)
+			:name (x24 / name
+				:op1 "Trần")
+			:name (x25 / name
+				:op1 "Đức"))
+		:ARG0 (x30 / person
+			:name (n2 / name
+				:op1 "AM")
+			:time (x27 / today
+				:time (x29 / date-entity))
+			:null_edge (x40 / country
+				:name (n3 / name
+					:op1 "Palace")
+				:mod (x39 / country
+					:name (n6 / name
+						:op1 "Plateau"))
+				:location (xap2 / location
+					:ARG1-of (x46 / reside-01
+						:mod (x44 / president)
+						:mod (x45 / official))))
+			:null_edge (x49 / country
+				:name (n4 / name
+					:op1 "Brasília")
+				:location (x51 / country
+					:name (n7 / name
+						:op1 "Brazil"))))
+		:ARG0 (xap1 / person
+			:ARG0-of (x15 / have-org-role-91
+				:ARG2 (p / president)
+				:ARG1 (x14 / country
+					:name (n8 / name
+						:op1 "Brazil")))))
+192-3
+(x40 / country
+				:name (n3 / name
+					:op1 "Palace")
+	:mod (x39 / country
+					:name (n6 / name
+						:op1 "Plateau")))
+192-4
+(x30 / person
+			:name (n2 / name
+				:op1 "AM")
+	:time (x27 / today
+				:time (x29 / date-entity)))
+192-5
+(x30 / person
+			:name (n2 / name
+				:op1 "AM")
+	:null_edge (x49 / country
+				:name (n4 / name
+					:op1 "Brasília")
+				:location (x51 / country
+					:name (n7 / name
+						:op1 "Brazil"))))
+192-7
+(x40 / country
+				:name (n3 / name
+					:op1 "Palace")
+	:location (xap2 / location
+					:ARG1-of (x46 / reside-01
+						:mod (x44 / president)
+						:mod (x45 / official))))
+192-8
+(x26 / person
+			:name (n1 / name
+				:op1 "Lương")
+			
+			
+			:name (x24 / name
+				:op1 "Trần")
+			:name (x25 / name
+				:op1 "Đức")
+	:null_edge (x20 / president
+				:ARG1 (x22 / country
+					:name (n5 / name
+						:op1 "Vietnam"))))
+192-9
+(x15 / have-org-role-91
+				:ARG2 (p / president)
+				:ARG1 (x14 / country
+					:name (n8 / name
+						:op1 "Brazil")))
+192-11
+(x30 / person
+			:name (n2 / name
+				:op1 "AM")
+			:time (x27 / today
+				:time (x29 / date-entity))
+			:null_edge (x40 / country
+				:name (n3 / name
+					:op1 "Palace")
+				:mod (x39 / country
+					:name (n6 / name
+						:op1 "Plateau"))
+				:location (xap2 / location
+					:ARG1-of (x46 / reside-01
+						:mod (x44 / president)
+						:mod (x45 / official))))
+			:null_edge (x49 / country
+				:name (n4 / name
+					:op1 "Brasília")
+				:location (x51 / country
+					:name (n7 / name
+						:op1 "Brazil"))))
+192-12
+(x26 / person
+			:name (n1 / name
+				:op1 "Lương")
+			
+			
+			:name (x24 / name
+				:op1 "Trần")
+			:name (x25 / name
+				:op1 "Đức")
+	:null_edge (x23 / null_tag))
+192-13
+(x26 / person
+			:name (n1 / name
+				:op1 "Lương")
+			:null_edge (x20 / president
+				:ARG1 (x22 / country
+					:name (n5 / name
+						:op1 "Vietnam")))
+			:null_edge (x23 / null_tag)
+			:name (x24 / name
+				:op1 "Trần")
+			:name (x25 / name
+				:op1 "Đức"))
+197-1
+(x4 / have-org-role-91
+		:ARG2 (p / president)
+		:ARG1 (x7 / country
+			:name (n / name
+				:op1 "Korea")
+			:null_edge (x6 / null_tag)))
+197-3
+(x2 / have-org-role-91
+			:ARG2 (p1 / president)
+			:ARG1 (x1 / country
+				:name (n1 / name
+					:op1 "Brazil")))
+199-1
+(x1 / country
+	:name (n / name
+		:op1 "BRASÍLIA")
+	:null_edge (x3 / country
+		:name (n1 / name
+			:op1 "Brazil")))
+200-1
+(x13 / meet-03
+	:null_edge (x1 / null_tag
+		:ARG0-of (x9 / have-org-role-91
+			:ARG2 (p / president)
+			:ARG1 (x11 / country
+				:name (n3 / name
+					:op1 "Brazil"))
+			:ARG0-of (x16 / president
+				:ARG1 (x19 / republic
+					:null_edge (x24 / person
+						:name (n5 / name
+							:op1 "Moo-hyun")
+						:null_edge (x21 / null_tag)
+						:null_edge (x22 / null_tag))))))
+	:time (x27 / date-entity)
+	:location (x32 / do-02
+		:ARG0 (x37 / country
+			:name (n1 / name
+				:op1 "Palace")
+			:mod (x36 / country
+				:name (n4 / name
+					:op1 "Plateau")))
+		:ARG2-of (xap0 / location
+			:ARG1-of (x43 / reside-01
+				:mod (x41 / president)
+				:mod (x42 / official))))
+	:location (x46 / country
+		:name (n / name
+			:op1 "Brasilia")
+		:location (x48 / country
+			:name (n2 / name
+				:op1 "Brasil"))))
+200-2
+(x37 / country
+			:name (n1 / name
+				:op1 "Palace")
+			:mod (x36 / country
+				:name (n4 / name
+					:op1 "Plateau")))
+200-3
+(x9 / have-org-role-91
+			:ARG2 (p / president)
+			:ARG1 (x11 / country
+				:name (n3 / name
+					:op1 "Brazil"))
+			:ARG0-of (x16 / president
+				:ARG1 (x19 / republic
+					:null_edge (x24 / person
+						:name (n5 / name
+							:op1 "Moo-hyun")
+						:null_edge (x21 / null_tag)
+						:null_edge (x22 / null_tag)))))
+200-5
+(x46 / country
+		:name (n / name
+			:op1 "Brasilia")
+		:location (x48 / country
+			:name (n2 / name
+				:op1 "Brasil")))
+200-6
+(x24 / person
+						:name (n5 / name
+							:op1 "Moo-hyun")
+	:null_edge (x21 / null_tag))
+200-7
+(x24 / person
+						:name (n5 / name
+							:op1 "Moo-hyun")
+	:null_edge (x22 / null_tag))
+201-2
+(x9 / country
+				:name (n / name
+					:op1 "Brazil")
+				:null_edge "Korea")
+202-1
+(x17 / partner-01
+			:ARG0 (x12 / country
+				:name (n2 / name
+					:op1 "South"
+					:op2 "Korea"))
+			:mod (x16 / strategic)
+			:location (x19 / continent
+				:name (n3 / name
+					:op1 "Asia")))
+202-2
+(x11 / say-01
+		:time (x3 / dinner)
+		:ARG0 (x10 / person
+			:name (n / name
+				:op1 "Silva")
+			:null_edge (x5 / have-org-role-91
+				:ARG2 (p / president)
+				:ARG1 (x4 / country
+					:name (n4 / name
+						:op1 "Brazil")))
+			:null_edge (x6 / person
+				:name (n1 / name
+					:op1 "Luiz"))
+			:null_edge (x7 / name
+				:op1 "Inácio")
+			:null_edge (x8 / null_tag)
+			:null_edge (x9 / null_tag))
+		:ARG1 (x17 / partner-01
+			:ARG0 (x12 / country
+				:name (n2 / name
+					:op1 "South"
+					:op2 "Korea"))
+			:mod (x16 / strategic)
+			:location (x19 / continent
+				:name (n3 / name
+					:op1 "Asia"))))
+202-3
+(x10 / person
+			:name (n / name
+				:op1 "Silva")
+	:null_edge (x6 / person
+				:name (n1 / name
+					:op1 "Luiz")))
+202-4
+(x10 / person
+			:name (n / name
+				:op1 "Silva")
+	:null_edge (x9 / null_tag))
+202-5
+(x10 / person
+			:name (n / name
+				:op1 "Silva")
+			:null_edge (x5 / have-org-role-91
+				:ARG2 (p / president)
+				:ARG1 (x4 / country
+					:name (n4 / name
+						:op1 "Brazil")))
+			:null_edge (x6 / person
+				:name (n1 / name
+					:op1 "Luiz"))
+			:null_edge (x7 / name
+				:op1 "Inácio")
+			:null_edge (x8 / null_tag)
+			:null_edge (x9 / null_tag))
+202-6
+(x10 / person
+			:name (n / name
+				:op1 "Silva")
+	:null_edge (x5 / have-org-role-91
+				:ARG2 (p / president)
+				:ARG1 (x4 / country
+					:name (n4 / name
+						:op1 "Brazil"))))
+202-7
+(x10 / person
+			:name (n / name
+				:op1 "Silva")
+	:null_edge (x8 / null_tag))
+202-8
+(x10 / person
+			:name (n / name
+				:op1 "Silva")
+	:null_edge (x7 / name
+				:op1 "Inácio"))
+202-10
+(x23 / say-01
+		:ARG0 x10
+		:mod (x22 / also)
+		:ARG1 (x25 / business
+			:example (x28 / and
+				:op1 (x27 / country
+					:name (n5 / name
+						:op1 "Brazil")
+					:null_edge (x29 / null_tag)))
+			:time (x31 / date-entity
+				:year 2004)))
+203-2
+(x5 / support-01
+		:ARG0 (x4 / country
+			:name (n1 / name
+				:op1 "Brazil"))
+		:ARG1 "Korea"
+		:ARG1 (x9 / effort
+			:purpose (x11 / join-01
+				:ARG1 (x13 / name
+					:op1 "Inter-American"
+					:op2 "Development"
+					:op3 "Bank"))))
+207-1
+(x8 / organization
+		:name (n / name
+			:op1 "Foundation")
+		:null_edge (x7 / organization
+			:name (n1 / name
+				:op1 "Mozilla")))
+207-2
+(x5 / release-01
+	:ARG1 (x4 / browser
+		:null_edge (x1 / firefox)
+		:null_edge (x2 / 1.0)
+		:mod (x3 / internet))
+	:ARG0 (x8 / organization
+		:name (n / name
+			:op1 "Foundation")
+		:null_edge (x7 / organization
+			:name (n1 / name
+				:op1 "Mozilla"))))
+209-1
+(x13 / release-01
+	:ARG1 (x2 / firefox
+		:mod (x1 / mozilla)
+		:quant (x3 / 1.0)
+		:instrument-of (x9 / browse-01
+			:ARG1-of (x6 / free-04)
+			:ARG1 (x8 / web)))
+	:time (x15 / date-entity
+		:year 2004)
+	:ARG0 (x22 / organization
+		:name (n / name
+			:op1 "Foundation")
+		:null_edge (x21 / organization
+			:name (n1 / name
+				:op1 "Mozilla"))))
+209-2
+(x22 / organization
+		:name (n / name
+			:op1 "Foundation")
+		:null_edge (x21 / organization
+			:name (n1 / name
+				:op1 "Mozilla")))
+211-1
+(x51 / country
+			:name (n7 / name
+				:op1 "Sweden")
+			:time x21
+			:time x41)
+211-3
+(x27 / person
+			:source (c / country
+				:name (n2 / name
+					:op1 "Greek"))
+			:domain (x21 / organization
+				:name (n10 / name
+					:op1 "Finnish"))
+			:null_edge (x49 / organization
+				:name (n11 / name
+					:op1 "Hungarian")
+				:null_edge x41))
+211-4
+(x49 / organization
+				:name (n11 / name
+					:op1 "Hungarian")
+				:null_edge x41)
+211-5
+(x33 / country
+					:name (n13 / name
+						:op1 "Russia")
+					:time x21)
+211-6
+(x53 / organization
+			:name (n8 / name
+				:op1 "Catalan")
+			:time x21
+			:time x41
+			:time x43
+	:time (x51 / country
+			:name (n7 / name
+				:op1 "Sweden")
+			:time x21
+			:time x41
+	:time (x25 / country
+			:name (n1 / name
+				:op1 "Japan")
+			:time x41
+			:time x43
+	:time (x23 / country
+			:name (n / name
+				:op1 "Italy")
+			
+			:time x43
+	:time (x41 / country
+				:name (n9 / name
+					:op1 "Romania")
+				:null_edge (x43 / country
+					:name (n5 / name
+						:op1 "Germany")
+					:null_edge "Korea"))))))
+211-7
+(x35 / organization
+				:name (n12 / name
+					:op1 "Slovenian")
+				:op1 (x33 / country
+					:name (n13 / name
+						:op1 "Russia")
+					:time x21))
+211-8
+(x37 / country
+			:name (n3 / name
+				:op1 "Czech")
+			:op1 (x35 / organization
+				:name (n12 / name
+					:op1 "Slovenian")
+				:op1 (x33 / country
+					:name (n13 / name
+						:op1 "Russia")
+					:time x21)))
+211-9
+(x53 / organization
+			:name (n8 / name
+				:op1 "Catalan")
+			:time x21
+			:time x41
+			:time x43
+	:time (x25 / country
+			:name (n1 / name
+				:op1 "Japan")
+			:time x41
+			:time x43
+	:time (x23 / country
+			:name (n / name
+				:op1 "Italy")
+			
+			:time x43
+	:time (x43 / country
+					:name (n5 / name
+						:op1 "Germany")
+					:null_edge "Korea"))))
+211-10
+(x53 / organization
+			:name (n8 / name
+				:op1 "Catalan")
+			:time x21
+			:time x41
+			:time x43
+	:time (x51 / country
+			:name (n7 / name
+				:op1 "Sweden")
+			:time x21
+			:time x41
+	:time (x21 / organization
+				:name (n10 / name
+					:op1 "Finnish"))))
+211-11
+(x25 / country
+			:name (n1 / name
+				:op1 "Japan")
+			:time x41
+			:time x43)
+211-12
+(x23 / country
+			:name (n / name
+				:op1 "Italy")
+			:time (x41 / country
+				:name (n9 / name
+					:op1 "Romania")
+				:null_edge (x43 / country
+					:name (n5 / name
+						:op1 "Germany")
+					:null_edge "Korea"))
+			:time x43)
+211-13
+(x53 / organization
+			:name (n8 / name
+				:op1 "Catalan")
+			:time x21
+			:time x41
+			:time x43)
+213-1
+(x3 / grow-03
+	:ARG1 (x1 / organization
+		:name (n / name
+			:op1 "Firefox"))
+	:manner (x4 / rapid)
+	:location (x6 / popularity)
+	:manner (x11 / release
+		:null_edge (x10 / preview)
+		:ARG1 (x15 / version
+			:quant (x14 / 1.0))
+		:null_edge (x16 / surpassing
+			:ARG1 (x19 / download-01
+				:time (x21 / temporal-quantity
+					:unit (d / day))))))
+214-1
+(x23 / event
+				:name (n / name
+					:op1 "Explorer")
+	:ARG0-of (x27 / hold-01
+					:time (x26 / current)
+					:ARG1 (x32 / share-01
+						:mod (x31 / market)
+						:quant (xap0 / percentage-entity
+							:value 90))))
+214-2
+(x23 / event
+				:name (n / name
+					:op1 "Explorer")
+	:mod (x22 / internet))
+214-3
+(x18 / person
+			:ARG0-of (c / compete-02)
+			:mod (x17 / real)
+			:ARG1 (x23 / event
+				:name (n / name
+					:op1 "Explorer")
+				:poss (x20 / company
+					:name (n1 / name
+						:op1 "Microsoft"))
+				:mod (x22 / internet)
+				:ARG0-of (x27 / hold-01
+					:time (x26 / current)
+					:ARG1 (x32 / share-01
+						:mod (x31 / market)
+						:quant (xap0 / percentage-entity
+							:value 90)))))
+214-4
+(x12 / see-01
+		:ARG0 (x14 / many)
+		:ARG2 (x18 / person
+			:ARG0-of (c / compete-02)
+			:mod (x17 / real)
+			:ARG1 (x23 / event
+				:name (n / name
+					:op1 "Explorer")
+				:poss (x20 / company
+					:name (n1 / name
+						:op1 "Microsoft"))
+				:mod (x22 / internet)
+				:ARG0-of (x27 / hold-01
+					:time (x26 / current)
+					:ARG1 (x32 / share-01
+						:mod (x31 / market)
+						:quant (xap0 / percentage-entity
+							:value 90))))))
+214-5
+(x23 / event
+				:name (n / name
+					:op1 "Explorer")
+	:poss (x20 / company
+					:name (n1 / name
+						:op1 "Microsoft")))
+214-6
+(x23 / event
+				:name (n / name
+					:op1 "Explorer")
+				:poss (x20 / company
+					:name (n1 / name
+						:op1 "Microsoft"))
+				:mod (x22 / internet)
+				:ARG0-of (x27 / hold-01
+					:time (x26 / current)
+					:ARG1 (x32 / share-01
+						:mod (x31 / market)
+						:quant (xap0 / percentage-entity
+							:value 90))))
+219-1
+(x22 / place
+	:condition (x3 / want-01
+		:ARG0 (x2 / you)
+		:ARG1 (x5 / browse-01
+			:ARG1-of (x7 / respect-01
+				:ARG1 (x10 / intelligence
+					:mod (x9 / PC))
+				:ARG1 (x11 / and
+					:op2 (x12 / help-01
+						:ARG1 (x14 / get-01
+							:ARG0 (x13 / you)
+							:ARG1 (x16 / do-02
+								:ARG0 x13
+								:ARG1 (x15 / thing))))))))
+	:domain (x18 / organization
+		:name (n / name
+			:op1 "Firefox"))
+	:mod (x21 / good)
+	:location-of (x24 / start-01))
+227-2
+(x4 / person
+		:name (n / name
+			:op1 "John")
+	:ARG0-of (x3 / have-org-role-91
+			:ARG2 (s / secretary)))
+227-3
+(x4 / person
+		:name (n / name
+			:op1 "John")
+	:null_edge (x2 / null_tag))
+247-2
+(x5 / have-org-role-91
+		:ARG2 (s / secretary)
+		:mod (x2 / political-party
+			:name (n / name
+				:op1 "Tory"))
+		:mod (x3 / organization
+			:name (n1 / name
+				:op1 "Shadow"))
+		:null_edge (x4 / null_tag))
+250-1
+(x10 / organization
+		:name (n / name
+			:op1 "Association")
+		:null_edge "Britain"
+	:null_edge (x9 / null_tag))
+250-2
+(x5 / criticize-01
+	:mod (x3 / also)
+	:ARG0 (x10 / organization
+		:name (n / name
+			:op1 "Association")
+		:null_edge "Britain"
+		:null_edge (x9 / null_tag))
+	:ARG2 (x13 / implement-01
+		:manner (x15 / slow
+			:degree (x14 / too)))
+	:ARG2 (x17 / say-01
+		:ARG1 (x25 / act-02
+			:ARG0 (x20 / life
+				:ARG1-of (x21 / need-01
+					:ARG1 (x22 / save-02)))
+			:ARG0 (x24 / doctor)
+			:time (x26 / immediate))))
+256-1
+(x4 / person
+		:name (n / name
+			:op1 "Hassan")
+		
+		
+		:name (x3 / name
+			:op1 "Margaret")
+	:null_edge (x2 / careworker))
+256-2
+(x4 / person
+		:name (n / name
+			:op1 "Hassan")
+		
+		
+		:name (x3 / name
+			:op1 "Margaret")
+	:null_edge (x1 / organization
+			:name (n1 / name
+				:op1 "British-Iraqi")))
+256-3
+(x6 / kill-01
+	:ARG0 (x4 / person
+		:name (n / name
+			:op1 "Hassan")
+		:null_edge (x1 / organization
+			:name (n1 / name
+				:op1 "British-Iraqi"))
+		:null_edge (x2 / careworker)
+		:name (x3 / name
+			:op1 "Margaret"))
+	:ARG1-of (x5 / report-01))
+256-4
+(x4 / person
+		:name (n / name
+			:op1 "Hassan")
+		:null_edge (x1 / organization
+			:name (n1 / name
+				:op1 "British-Iraqi"))
+		:null_edge (x2 / careworker)
+		:name (x3 / name
+			:op1 "Margaret"))
+259-1
+(x7 / have-org-role-91
+		:ARG1 (g / government-organization
+			:name (n / name
+				:op1 "Ministry"
+				:op2 "of"
+				:op3 "Foreign"
+				:op4 "Affairs"))
+		:mod (x6 / country
+			:name (n1 / name
+				:op1 "Britain")))
+260-2
+(x6 / say-01
+		:ARG1 (x2 / organization
+			:name (n / name
+				:op1 "Jazeera")
+			:null_edge (x1 / null_tag))
+		:mod (x5 / also)
+		:ARG1 (x9 / receive-01
+			:ARG0 x2
+			:ARG1 (x11 / tape)
+			:time (xap0 / before
+				:quant (x12 / temporal-quantity
+					:unit (d / day)))))
+260-3
+(x9 / receive-01
+			:ARG0 x2
+			:ARG1 (x11 / tape)
+			:time (xap0 / before
+				:quant (x12 / temporal-quantity
+					:unit (d / day))))
+260-4
+(x25 / decide-01
+		:ARG0 x2
+		:time (x16 / after
+			:op1 (x17 / delay-01
+				:ARG1 (x19 / confirm-01
+					:ARG1 (x22 / identity
+						:poss (x20 / person
+							:name (n1 / name
+								:op1 "Hassan"))))))
+		:mod (x24 / ultimate)
+		:ARG1 (x28 / broadcast-01
+			:ARG1 (x29 / it)))
+268-1
+(x16 / test-01
+				:mod (x15 / organization
+					:name (n1 / name
+						:op1 "trans-Tasman"))
+				:purpose (x22 / begin-01
+					:location (x24 / country
+						:name (n2 / name
+							:op1 "Brisbane"))
+					:time (x25 / tomorrow)))
+268-4
+(x22 / begin-01
+					:location (x24 / country
+						:name (n2 / name
+							:op1 "Brisbane"))
+					:time (x25 / tomorrow))
+269-1
+(x15 / person
+			:name (n1 / name
+				:op1 "Fleming")
+			
+			:null_edge "Zealand"
+	:null_edge (x13 / have-org-role-91
+				:ARG2 (c / captain)))
+269-2
+(x32 / person
+				:name (n5 / name
+					:op1 "Matthew"
+					:op2 "Hayden")
+				:ARG0-of (x31 / batsman
+					:mod (x30 / country
+						:name (n7 / name
+							:op1 "Australia"))))
+269-3
+(x15 / person
+			:name (n1 / name
+				:op1 "Fleming")
+			
+			:null_edge "Zealand"
+	:null_edge (x11 / null_tag))
+269-4
+(x15 / person
+			:name (n1 / name
+				:op1 "Fleming")
+			
+			:null_edge "Zealand"
+	:null_edge (x14 / person
+				:name (n3 / name
+					:op1 "Stephen")))
+269-5
+(x42 / person
+					:name (n6 / name
+						:op1 "Vettori")
+					
+					:null_edge "Zealand"
+	:null_edge (x41 / null_tag))
+269-8
+(x15 / person
+			:name (n1 / name
+				:op1 "Fleming")
+			:null_edge (x11 / null_tag)
+			:null_edge "Zealand"
+			:null_edge (x13 / have-org-role-91
+				:ARG2 (c / captain))
+			:null_edge (x14 / person
+				:name (n3 / name
+					:op1 "Stephen")))
+269-9
+(x20 / reveal-01
+		:ARG0 (x18 / person
+			:name (n2 / name
+				:op1 "McGrath")
+			:null_edge (x17 / null_tag))
+		:time (x25 / after
+			:op1 (x27 / person
+				:name (n4 / name
+					:op1 "Astle")
+				:null_edge (x26 / name
+					:op1 "Nathan"))))
+269-10
+(x42 / person
+					:name (n6 / name
+						:op1 "Vettori")
+					
+					:null_edge "Zealand"
+	:null_edge (x38 / null_tag))
+270-2
+(x6 / react-01
+		:ARG0 (x2 / city
+			:name (n / name
+				:op1 "New"
+				:op2 "Zealand"
+				:op3 "team"))
+		:ARG1 (x10 / bravado
+			:mod (x8 / this)
+			:mod (x9 / country
+				:name (n1 / name
+					:op1 "Australia"))))
+271-1
+(x14 / person
+			
+			
+			
+			:ARG1 "Zealand"
+			:name (x19 / name
+				:op1 "John"
+				:op2 "Bracewell")
+	:null_edge (x12 / null_tag))
+271-2
+(x10 / say-01
+	:ARG1 (x5 / history
+		:mod (x4 / just)
+		:ARG1-of (x6 / repeat-01))
+	:ARG1 (x15 / and
+		:op1 (x14 / person
+			:ARG0-of (c / coach-01)
+			:time (x11 / former)
+			:null_edge (x12 / null_tag)
+			:ARG1 "Zealand"
+			:name (x19 / name
+				:op1 "John"
+				:op2 "Bracewell"))
+		:op2 (x17 / test-01
+			:time (x16 / former))))
+271-3
+(x14 / person
+			
+			
+			
+			:ARG1 "Zealand"
+			:name (x19 / name
+				:op1 "John"
+				:op2 "Bracewell")
+	:time (x11 / former))
+271-4
+(x14 / person
+			
+			
+			
+			:ARG1 "Zealand"
+			:name (x19 / name
+				:op1 "John"
+				:op2 "Bracewell")
+	:ARG0-of (c / coach-01))
+276-2
+(x6 / win-01
+		:ARG0 x1
+		:ARG1 (x9 / match-03
+			:ARG2-of (x8 / open-01)
+			:quant (x14 / series
+				:mod (x13 / test-01
+					:quant 2)
+				:topic (x31 / and
+					:mod (x16 / especially)
+					:op2 (x19 / country
+						:name (n1 / name
+							:op1 "New"
+							:op2 "Zealand"))
+					:op1 (x27 / person
+						:name (n2 / name
+							:op1 "Franklin")
+						:mod (x24 / frontline)
+						:null_edge (x25 / person
+							:ARG0-of (p / play-01))
+						:null_edge (x26 / person
+							:name (n3 / name
+								:op1 "James")))
+					:op2 (x29 / name
+						:op1 "Darryl"
+						:op2 "Tuffey")
+					:op2 (x32 / name
+						:op1 "Shane"
+						:op2 "Bond")
+					:op2 (x35 / injure-01)))))
+276-3
+(x27 / person
+						:name (n2 / name
+							:op1 "Franklin")
+						:mod (x24 / frontline)
+						:null_edge (x25 / person
+							:ARG0-of (p / play-01))
+						:null_edge (x26 / person
+							:name (n3 / name
+								:op1 "James")))
+276-5
+(x27 / person
+						:name (n2 / name
+							:op1 "Franklin")
+	:mod (x24 / frontline))
+276-7
+(x27 / person
+						:name (n2 / name
+							:op1 "Franklin")
+	:null_edge (x25 / person
+							:ARG0-of (p / play-01)))
+276-8
+(x27 / person
+						:name (n2 / name
+							:op1 "Franklin")
+	:null_edge (x26 / person
+							:name (n3 / name
+								:op1 "James")))
+278-2
+(x2 / newspaper
+		:name (n / name
+			:op1 "Tatars")
+		:mod (x1 / country
+			:name (n1 / name
+				:op1 "Russia")))
+280-1
+(x13 / state
+				:mod (x12 / federal)
+				:location (x15 / country
+					:name (n2 / name
+						:op1 "Tatarstan")))
+280-3
+(x30 / government-organization
+					:ARG0-of (g / govern-01)
+					:null_edge (x29 / federal)
+					:location (x32 / city
+						:name (n3 / name
+							:op1 "Moscow")))
+280-5
+(x9 / live-01
+			:ARG0 (x8 / newspaper
+				:name (n1 / name
+					:op1 "Tatars"))
+			:location (x13 / state
+				:mod (x12 / federal)
+				:location (x15 / country
+					:name (n2 / name
+						:op1 "Tatarstan"))))
+280-6
+(x18 / apply-02
+		:time (x9 / live-01
+			:ARG0 (x8 / newspaper
+				:name (n1 / name
+					:op1 "Tatars"))
+			:location (x13 / state
+				:mod (x12 / federal)
+				:location (x15 / country
+					:name (n2 / name
+						:op1 "Tatarstan"))))
+		:ARG1 (x21 / alphabet
+			:null_edge (x20 / null_tag))
+		:ARG2 (x24 / language
+			:domain (x26 / permit-01
+				:ARG0 (x30 / government-organization
+					:ARG0-of (g / govern-01)
+					:null_edge (x29 / federal)
+					:location (x32 / city
+						:name (n3 / name
+							:op1 "Moscow"))))))
+282-4
+(x22 / have-org-role-91
+					:ARG2 (o / official)
+					:ARG1-of (x25 / design-01
+						:purpose (x27 / protect-01
+							:ARG1 (x31 / heritage
+								:poss (x28 / country
+									:name (n1 / name
+										:op1 "Russia"))
+								:mod (x30 / linguistic)))))
+283-1
+(x7 / cite-01
+	:ARG1 (x4 / government-organization
+		:ARG0-of (g / govern-01)
+		:ARG1 (x2 / country
+			:name (n / name
+				:op1 "Russia"))
+		:mod (x3 / federal))
+	:ARG1 (x9 / consider-02
+		:ARG0 x4
+		:ARG1 (x22 / tendency
+			:ARG1 (x11 / use-01
+				:ARG1 (x15 / alphabet
+					:mod (x14 / organization
+						:name (n1 / name
+							:op1 "non-Cyrillic")))
+				:ARG0 (x18 / state
+					:mod (x17 / federal)))
+			:mod (x21 / separatism))))
+283-2
+(x11 / use-01
+				:ARG1 (x15 / alphabet
+					:mod (x14 / organization
+						:name (n1 / name
+							:op1 "non-Cyrillic")))
+				:ARG0 (x18 / state
+					:mod (x17 / federal)))
+283-3
+(x4 / government-organization
+		:ARG0-of (g / govern-01)
+		:ARG1 (x2 / country
+			:name (n / name
+				:op1 "Russia"))
+		:mod (x3 / federal))
+283-4
+(x9 / consider-02
+		:ARG0 x4
+		:ARG1 (x22 / tendency
+			:ARG1 (x11 / use-01
+				:ARG1 (x15 / alphabet
+					:mod (x14 / organization
+						:name (n1 / name
+							:op1 "non-Cyrillic")))
+				:ARG0 (x18 / state
+					:mod (x17 / federal)))
+			:mod (x21 / separatism)))
+287-1
+(x5 / propose-01
+	:ARG0 (x3 / diet
+		:poss (x1 / country
+			:name (n / name
+				:op1 "Japan")))
+	:ARG1 (x7 / reduce-01
+		:ARG0 x3
+		:ARG1 (x9 / assist-01
+			:mod (x8 / economy)
+			:ARG1-of (x10 / give-01
+				:ARG2 (x12 / country
+					:name (n1 / name
+						:op1 "China"))))))
+287-2
+(x9 / assist-01
+			:mod (x8 / economy)
+			:ARG1-of (x10 / give-01
+				:ARG2 (x12 / country
+					:name (n1 / name
+						:op1 "China"))))
+289-3
+(x5 / develop-02
+		:ARG1 (x8 / economy
+			:poss (x10 / state
+				:ARG1-of (x11 / harm-01
+					:ARG0 (x13 / country
+						:name (n1 / name
+							:op1 "Japan"))
+					:null_edge (x16 / null_tag
+						:null_edge (x15 / game
+							:name (n2 / name
+								:op1 "World")
+							:null_edge "II")))))
+		:ARG2-of (x20 / approach-02
+			:ARG1-of (x26 / contrast-01
+				:ARG2 (x21 / pursue-01
+					:ARG1 (x31 / and
+						:mod (x23 / only)
+						:op1 (x25 / restitution)
+						:op1 (x28 / improve-01
+							:ARG1 (x30 / stability
+								:mod (x29 / region)))
+						:op2 (x33 / secure-01
+							:ARG1 (x36 / resource
+								:mod (x34 / scarce)
+								:mod (x35 / natural-03))
+							:ARG1 (x37 / trade-01)))))))
+293-1
+(x13 / relation-03
+		:ARG0 (x9 / organization
+			:name (n1 / name
+				:op1 "Sino-Japanese"))
+		:ARG2 (x11 / and
+			:op1 (x10 / economy)
+			:op3 (x12 / diplomacy)))
+294-1
+(x3 / begin-01
+	:time (x10 / open-01
+		:ARG0 (x8 / country
+			:name (n / name
+				:op1 "China"))
+		:purpose (x15 / invest-01
+			:mod (x14 / foreign)))
+	:time (xap0 / date-entity
+		:decade 1980))
+295-3
+(x31 / event
+		:name (n / name
+			:op1 "Holocaust")
+		:prep-in (x35 / culture
+			:mod (x34 / world-region
+				:name (n3 / name
+					:op1 "Western"))))
+296-1
+(x5 / see-01
+	:ARG1 (x1 / country
+		:name (n / name
+			:op1 "China"))
+	:ARG1-of (x3 / increase-01)
+	:ARG2 (xap0 / quantity
+		:compared-to (x8 / person
+			:ARG0-of (c / compete-02))))
+299-1
+(x21 / issue-02
+				:ARG0 (x20 / environment)
+				:ARG0-of (x25 / affect-01
+					:ARG0 (x27 / east
+						:part-of (x29 / country
+							:name (n3 / name
+								:op1 "Japan")
+							:ARG1-of (x28 / neighbor-01)))))
+299-2
+(x11 / person
+		:name (n1 / name
+			:op1 "Machimura")
+		
+		
+		:name (x10 / name
+			:op1 "Nobutaka")
+	:null_edge (x7 / country
+			:name (n2 / name
+				:op1 "Japan")))
+299-3
+(x5 / criticize-01
+	:ARG1 (x1 / country
+		:name (n / name
+			:op1 "China"))
+	:mod (x3 / also)
+	:ARG0 (x11 / person
+		:name (n1 / name
+			:op1 "Machimura")
+		:null_edge (x7 / country
+			:name (n2 / name
+				:op1 "Japan"))
+		:null_edge (x9 / have-org-role-91
+			:ARG2 (m / minister)
+			:mod (x8 / foreign))
+		:name (x10 / name
+			:op1 "Nobutaka"))
+	:ARG2 (x16 / cooperate-01
+		:ARG0 x1
+		:ARG0-of (x15 / suffice-01)
+		:ARG2 (x18 / regard-01
+			:ARG1 (x21 / issue-02
+				:ARG0 (x20 / environment)
+				:ARG0-of (x25 / affect-01
+					:ARG0 (x27 / east
+						:part-of (x29 / country
+							:name (n3 / name
+								:op1 "Japan")
+							:ARG1-of (x28 / neighbor-01))))))))
+299-4
+(x11 / person
+		:name (n1 / name
+			:op1 "Machimura")
+		:null_edge (x7 / country
+			:name (n2 / name
+				:op1 "Japan"))
+		:null_edge (x9 / have-org-role-91
+			:ARG2 (m / minister)
+			:mod (x8 / foreign))
+		:name (x10 / name
+			:op1 "Nobutaka"))
+299-5
+(x16 / cooperate-01
+		:ARG0 x1
+		:ARG0-of (x15 / suffice-01)
+		:ARG2 (x18 / regard-01
+			:ARG1 (x21 / issue-02
+				:ARG0 (x20 / environment)
+				:ARG0-of (x25 / affect-01
+					:ARG0 (x27 / east
+						:part-of (x29 / country
+							:name (n3 / name
+								:op1 "Japan")
+							:ARG1-of (x28 / neighbor-01)))))))
+299-6
+(x11 / person
+		:name (n1 / name
+			:op1 "Machimura")
+		
+		
+		:name (x10 / name
+			:op1 "Nobutaka")
+	:null_edge (x9 / have-org-role-91
+			:ARG2 (m / minister)
+			:mod (x8 / foreign)))
+300-1
+(x13 / criticize-01
+	:ARG1 (x9 / person
+		:ARG0-of (l / lead-02)
+		:ARG1 (x2 / country
+			:name (n / name
+				:op1 "People"
+				:op2 "'s"
+				:op3 "Republic"
+				:op4 "of"
+				:op5 "China"))
+		:ARG1 (x8 / communism))
+	:mod (x11 / also)
+	:ARG2 (x20 / and
+		:op1 (x15 / violate-01
+			:ARG1 (x16 / w)
+			:ARG1 (x19 / right
+				:mod (x18 / human)))
+		:op2 (x21 / effect-03
+			:ARG1 (x24 / build-up-05
+				:mod (x23 / military)))))
+300-2
+(x9 / person
+		:ARG0-of (l / lead-02)
+		:ARG1 (x2 / country
+			:name (n / name
+				:op1 "People"
+				:op2 "'s"
+				:op3 "Republic"
+				:op4 "of"
+				:op5 "China"))
+		:ARG1 (x8 / communism))
+303-1
+(x12 / seek-01
+				:ARG0 x8
+				:ARG1 (x17 / membership
+					:duration (x13 / permanent)
+					:ARG1 (x14 / organization
+						:name (n3 / name
+							:op1 "UN"))
+					:null_edge (x15 / null_tag)
+					:null_edge (x16 / null_tag)))
+303-2
+(x20 / newspaper
+		:name (n / name
+			:op1 "The"
+			:op2 "Japan"
+			:op3 "Times")
+		:ARG0-of "Japan")
+304-3
+(x6 / predict-01
+	:ARG0 (x4 / online
+		:null_edge (x2 / null_tag)
+		:mod (x3 / newspaper
+			:name (n / name
+				:op1 "Times")))
+	:ARG1 (x17 / set-08
+		:ARG1 (x12 / fund
+			:ARG1-of (x13 / flow-01
+				:ARG2 (x15 / country
+					:name (n1 / name
+						:op1 "China"))))
+		:ARG2 (x20 / downsizing
+			:degree (x19 / further))))
+306-1
+(x12 / country
+	:name (n / name
+		:op1 "India")
+	:null_edge (x5 / recipient
+		:time (x1 / current)
+		:mod (x4 / big
+			:degree (m / most))
+		:ARG1 (x10 / aid-01
+			:ARG0 (x7 / country
+				:name (n1 / name
+					:op1 "Japan"))
+			:ARG0 (x9 / organization
+				:name (n2 / name
+					:op1 "ODA")))))
+312-2
+(x2 / report
+		:ARG0 (x7 / government-organization
+			:ARG0-of (g / govern-01)
+			:ARG1 (x5 / country
+				:name (n1 / name
+					:op1 "United"
+					:op2 "States")))
+		:ARG0 (x9 / research-institute
+			:name (n / name
+				:op1 "Congressional"
+				:op2 "Research"
+				:op3 "Service"))
+		:ARG0-of (x15 / analyse
+			:ARG1 (x17 / state-01
+				:ARG0 (x16 / criminal-organization
+					:name (n2 / name
+						:op1 "al-Qaeda")))))
+312-3
+(x7 / government-organization
+			:ARG0-of (g / govern-01)
+			:ARG1 (x5 / country
+				:name (n1 / name
+					:op1 "United"
+					:op2 "States")))
+313-1
+(x16 / thing
+					:ARG1-of (s / state-01)
+					:ARG0 (x14 / criminal-organization
+						:name (n / name
+							:op1 "al-Qaeda"))
+					:ARG0 (x15 / public))
+314-2
+(x12 / government-organization
+			:name (n / name
+				:op1 "Congress")
+	:null_edge (x10 / null_tag))
+314-3
+(x12 / government-organization
+			:name (n / name
+				:op1 "Congress")
+	:mod (x11 / state))
+321-2
+(x2 / head-01
+		:ARG1 (x6 / have-org-role-91
+			:ARG1 (o / organization
+				:name (n / name
+					:op1 "Commission"))
+			:null_edge "European")
+		:name (x8 / name
+			:op1 "José"
+			:op2 "Manuel"
+			:op3 "Barroso"))
+321-3
+(x6 / have-org-role-91
+			:ARG1 (o / organization
+				:name (n / name
+					:op1 "Commission"))
+			:null_edge "European")
+322-1
+(x27 / have-org-role-91
+									:ARG2 (m / member)
+									:ARG1 (x31 / government-organization
+										:name (n2 / name
+											:op1 "Parliament")
+										:null_edge (x30 / null_tag)))
+322-2
+(x10 / university
+			:name (n / name
+				:op1 "Rocco"
+				:op2 "Buttiglione")
+	:mod (x9 / country
+				:name (n1 / name
+					:op1 "Italy")))
+322-3
+(x10 / university
+			:name (n / name
+				:op1 "Rocco"
+				:op2 "Buttiglione")
+			:mod (x8 / conservative)
+			:mod (x9 / country
+				:name (n1 / name
+					:op1 "Italy"))
+			:ARG1-of (x16 / position-01
+				:ARG2 (x15 / have-org-role-91
+					:ARG2 (c / commissioner)
+					:mod (x14 / justice))
+				:ARG2 (x24 / and
+					:op2 (x21 / state-01
+						:quant (x20 / several)
+						:topic (x23 / homosexuality))
+					:op2 (x25 / woman
+						:ARG0-of (x32 / object-01
+							:ARG0 (xap0 / person
+								:ARG0-of (x27 / have-org-role-91
+									:ARG2 (m / member)
+									:ARG1 (x31 / government-organization
+										:name (n2 / name
+											:op1 "Parliament")
+										:null_edge (x30 / null_tag)))))))))
+322-5
+(x10 / university
+			:name (n / name
+				:op1 "Rocco"
+				:op2 "Buttiglione")
+	:ARG1-of (x16 / position-01
+				:ARG2 (x15 / have-org-role-91
+					:ARG2 (c / commissioner)
+					:mod (x14 / justice))
+				:ARG2 (x24 / and
+					:op2 (x21 / state-01
+						:quant (x20 / several)
+						:topic (x23 / homosexuality))
+					:op2 (x25 / woman
+						:ARG0-of (x32 / object-01
+							:ARG0 (xap0 / person
+								:ARG0-of (x27 / have-org-role-91
+									:ARG2 (m / member)
+									:ARG1 (x31 / government-organization
+										:name (n2 / name
+											:op1 "Parliament")
+										:null_edge (x30 / null_tag)))))))))
+322-6
+(x10 / university
+			:name (n / name
+				:op1 "Rocco"
+				:op2 "Buttiglione")
+	:mod (x8 / conservative))
+323-2
+(x27 / person
+					:name (n1 / name
+						:op1 "Buttiglione")
+					:mod (x26 / country
+						:name (n2 / name
+							:op1 "Italy"))
+					:null_edge (x30 / organization
+						:name (n3 / name
+							:op1 "Latvian")))
+323-3
+(x27 / person
+					:name (n1 / name
+						:op1 "Buttiglione")
+	:null_edge (x30 / organization
+						:name (n3 / name
+							:op1 "Latvian")))
+323-4
+(x27 / person
+					:name (n1 / name
+						:op1 "Buttiglione")
+	:mod (x26 / country
+						:name (n2 / name
+							:op1 "Italy")))
+324-1
+(x13 / give-01
+		:ARG1 (x15 / and
+			:op1 (x14 / person
+				:name (n1 / name
+					:op1 "Barroso"))
+			:op2 (x17 / person
+				:ARG2-of (s / staff-01)))
+		:ARG1 (x20 / light
+			:ARG1 x15
+			:ARG0 (x19 / person
+				:name (n2 / name
+					:op1 "green")))
+		:purpose (x22 / start-01
+			:ARG1 (xap0 / person
+				:mod (x24 / official)
+				:mod (x25 / event
+					:name (n3 / name
+						:op1 "five-year"))
+				:ARG1 (x27 / start-01
+					:time (xap1 / date-entity
+						:weekday (x29 / monday))))))
+324-4
+(xap0 / person
+				:mod (x24 / official)
+				:mod (x25 / event
+					:name (n3 / name
+						:op1 "five-year"))
+				:ARG1 (x27 / start-01
+					:time (xap1 / date-entity
+						:weekday (x29 / monday))))
+325-2
+(x33 / have-org-role-91
+					:ARG1 (g / government-organization
+						:name (n4 / name
+							:op1 "People"
+							:op2 "'s"
+							:op3 "Party"))
+					:mod "European")
+325-3
+(x23 / party
+			:poss (x20 / government-organization
+				:name (n3 / name
+					:op1 "Parliament"))
+			:mod (x22 / big
+				:degree (m / most))
+			:example (x30 / and
+				:null_edge (x26 / null_tag)
+				:op2 (x29 / person
+					:ARG1-of (l / liberal-02))
+				:op2 (x33 / have-org-role-91
+					:ARG1 (g / government-organization
+						:name (n4 / name
+							:op1 "People"
+							:op2 "'s"
+							:op3 "Party"))
+					:mod "European")))
+328-1
+(x2 / consider-02
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Sharon"))
+	:ARG1 (x5 / coup
+		:mod (x3 / temporary)
+		:mod (x4 / country
+			:name (n1 / name
+				:op1 "Israel")))
+	:time (x7 / date-entity
+		:year 1967))
+331-1
+(x13 / government-organization
+				:ARG0-of (g / govern-01)
+				:ARG1 (x12 / country
+					:name (n2 / name
+						:op1 "Israel")))
+331-4
+(x16 / have-org-role-91
+				:ARG2 (m1 / member)
+				:mod (x15 / other)
+				:ARG1 (x20 / military
+					:mod (x19 / country
+						:name (n3 / name
+							:op1 "Israel"))))
+331-5
+(xap0 / person
+			:mod (x7 / temporary)
+			:ARG0 (x8 / coup)
+			:ARG0 (x13 / government-organization
+				:ARG0-of (g / govern-01)
+				:ARG1 (x12 / country
+					:name (n2 / name
+						:op1 "Israel")))
+			:ARG0-of (x16 / have-org-role-91
+				:ARG2 (m1 / member)
+				:mod (x15 / other)
+				:ARG1 (x20 / military
+					:mod (x19 / country
+						:name (n3 / name
+							:op1 "Israel")))))
+332-1
+(x19 / force
+				:location (x22 / border-01)
+				:ARG1-of (x25 / perceive-01
+					:ARG2 (x30 / threaten-01
+						:ARG0 (x27 / many)
+						:ARG1 (x34 / exist-01
+							:mod (x33 / very)
+							:ARG1 (x36 / country
+								:name (n4 / name
+									:op1 "Israel"))))))
+332-2
+(x30 / threaten-01
+						:ARG0 (x27 / many)
+						:ARG1 (x34 / exist-01
+							:mod (x33 / very)
+							:ARG1 (x36 / country
+								:name (n4 / name
+									:op1 "Israel"))))
+332-4
+(x8 / war
+				:time (x6 / date-entity)
+				:mod (x7 / organization
+					:name (n3 / name
+						:op1 "Arab-Israeli")))
+333-4
+(x14 / thing
+				:manner-of (o / offset-01)
+				:ARG1 (x17 / inferiority
+					:mod (x15 / country
+						:name (n / name
+							:op1 "Israel"))
+					:mod (x16 / numerical)))
+337-1
+(x6 / advise-01
+		:time (x2 / date-entity)
+		:ARG0 (x5 / he)
+		:ARG1 (x12 / person
+			:name (n / name
+				:op1 "Rabin")
+			:null_edge (x8 / chief
+				:mod (x10 / staff))
+			:name (x11 / name
+				:op1 "Yitzhak"))
+		:ARG1 (x16 / possible-01
+			:ARG1 (x18 / detain-01
+				:ARG1 (x15 / cabinet))))
+340-1
+(x7 / ask-02
+		:ARG0 (x5 / we)
+		:frequency (x6 / often)
+		:ARG1 (x15 / possible-01
+			:ARG1 (x16 / arise-02
+				:ARG1 (x18 / situation
+					:poss (x22 / army
+						:poss (x13 / country
+							:name (n / name
+								:op1 "Israel"))
+						:ARG1-of (x24 / control-01))))))
+340-3
+(x2 / explain-01
+	:ARG0 (x1 / he)
+	:ARG1 (x7 / ask-02
+		:ARG0 (x5 / we)
+		:frequency (x6 / often)
+		:ARG1 (x15 / possible-01
+			:ARG1 (x16 / arise-02
+				:ARG1 (x18 / situation
+					:poss (x22 / army
+						:poss (x13 / country
+							:name (n / name
+								:op1 "Israel"))
+						:ARG1-of (x24 / control-01)))))))
+341-1
+(x4 / say-01
+		:ARG0 (x2 / i)
+		:time (x3 / always)
+		:ARG1 (x7 / impossible
+			:null_edge (x11 / possible-01
+				:ARG1 (x10 / this)
+				:null_edge (x18 / country
+					:name (n / name
+						:op1 "Israel")))))
+341-2
+(x11 / possible-01
+				:ARG1 (x10 / this)
+				:null_edge (x18 / country
+					:name (n / name
+						:op1 "Israel")))
+344-1
+(x2 / stress-01
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Sharon"))
+	:ARG1 (x7 / exist-01
+		:ARG1 (x6 / plan-01
+			:polarity -
+			:mod (x5 / definite))))
+347-1
+(x5 / decide-01
+	:ARG0 (x3 / person
+		:name (n / name
+			:op1 "Eshkol")
+		:ARG0-of (x2 / have-org-role-91
+			:ARG2 (m / minister)
+			:mod (x1 / prime)))
+	:time (x4 / late)
+	:ARG1 (x7 / favor-01
+		:ARG1 (x9 / war))
+	:time (x11 / date-entity))
+348-1
+(x3 / serve-01
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Ariel"
+			:op2 "Sharon"))
+	:ARG1 (x6 / have-org-role-91
+		:ARG2 (c / commander)
+		:ARG1 (x10 / event
+			:name (n1 / name
+				:op1 "Division")
+			:location (x9 / country
+				:name (n2 / name
+					:op1 "Southern")))))
+348-2
+(x6 / have-org-role-91
+		:ARG2 (c / commander)
+		:ARG1 (x10 / event
+			:name (n1 / name
+				:op1 "Division")
+			:location (x9 / country
+				:name (n2 / name
+					:op1 "Southern"))))
+348-3
+(x10 / event
+			:name (n1 / name
+				:op1 "Division")
+			:location (x9 / country
+				:name (n2 / name
+					:op1 "Southern")))
+349-1
+(x19 / ministry
+				:mod (x17 / country
+					:name (n / name
+						:op1 "Israel"))
+				:mod (x18 / defense))
+349-2
+(x5 / find-01
+		:ARG1 (x2 / comment-01)
+		:location (x7 / full)
+		:ARG1 (x14 / publication
+			:ARG0 (x19 / ministry
+				:mod (x17 / country
+					:name (n / name
+						:op1 "Israel"))
+				:mod (x18 / defense))))
+351-1
+(x3 / buy-01
+	:ARG0 (x1 / organization
+		:name (n / name
+			:op1 "Kmart"))
+	:ARG1 (x4 / government-organization
+		:name (n1 / name
+			:op1 "Sears")))
+353-3
+(x10 / buy-01
+		:ARG0 x3
+		:ARG1 (x11 / department
+			:name (x14 / name
+				:op1 "Sears"
+				:op2 ","
+				:op3 "Roebuck"
+				:op4 "&"
+				:op5 "Co."
+				:ARG0-of (x13 / operate-01)))
+		:ARG4 (x12 / store))
+355-1
+(x19 / person
+				:ARG0-of (r / retail-01)
+				:mod (x17 / third-largest)
+				:ARG1 (x18 / country
+					:name (n / name
+						:op1 "U.S."))
+				:ARG1 (x23 / and
+					:op1 (x22 / organization
+						:name (n1 / name
+							:op1 "Wal-Mart"))
+					:op2 (x24 / home))
+				:ARG1 (x27 / and
+					:op2 (x28 / replace-01
+						:ARG1 (x31 / number
+							:quant 3))))
+356-1
+(x19 / have-03
+	:ARG0 (x3 / company
+		:mod (x2 / new)
+		:example (x12 / and
+			:op1 (x9 / call-01
+				:ARG2 (x11 / newspaper
+					:name (n / name
+						:op1 "Holdings")
+					:mod (x10 / organization
+						:name (n1 / name
+							:op1 "Sears"))))
+			:op2 (x14 / base-02
+				:ARG1-of (x15 / near-02
+					:ARG2 (x16 / country
+						:name (n2 / name
+							:op1 "Chicago"))))))
+	:null_edge (x26 / and
+		:op2 (x25 / revenue)
+		:op2 (x30 / store
+			:quant (x27 / nearly)
+			:mod (x29 / retail-01))))
+356-2
+(x3 / company
+		:mod (x2 / new)
+		:example (x12 / and
+			:op1 (x9 / call-01
+				:ARG2 (x11 / newspaper
+					:name (n / name
+						:op1 "Holdings")
+					:mod (x10 / organization
+						:name (n1 / name
+							:op1 "Sears"))))
+			:op2 (x14 / base-02
+				:ARG1-of (x15 / near-02
+					:ARG2 (x16 / country
+						:name (n2 / name
+							:op1 "Chicago"))))))
+356-3
+(x11 / newspaper
+					:name (n / name
+						:op1 "Holdings")
+					:mod (x10 / organization
+						:name (n1 / name
+							:op1 "Sears")))
+357-2
+(x10 / become-01
+	:ARG1 (x1 / person
+		:name (n / name
+			:op1 "Edward"
+			:op2 "Lampert")
+		:ARG0-of (x5 / have-org-role-91
+			:ARG2 (c / chairman)
+			:ARG1 (x7 / organization
+				:name (n1 / name
+					:op1 "Kmart"))))
+	:ARG2 (x12 / chairman
+		:ARG1 (x16 / company
+			:mod (x15 / new))
+		:mod (x34 / executive
+			:null_edge (x19 / person
+				:name (n2 / name
+					:op1 "Alan")
+				:ARG0-of (x23 / have-org-role-91
+					:ARG2 (c1 / chairman)
+					:time (x22 / current)
+					:ARG1 (x28 / organization
+						:name (n3 / name
+							:op1 "Sears")
+						:ARG0-of (x26 / executive
+							:mod (x25 / chief)))))
+			:mod (x32 / new)
+			:mod (x33 / chief))))
+357-3
+(x19 / person
+				:name (n2 / name
+					:op1 "Alan")
+				:ARG0-of (x23 / have-org-role-91
+					:ARG2 (c1 / chairman)
+					:time (x22 / current)
+					:ARG1 (x28 / organization
+						:name (n3 / name
+							:op1 "Sears")
+						:ARG0-of (x26 / executive
+							:mod (x25 / chief)))))
+357-5
+(x5 / have-org-role-91
+			:ARG2 (c / chairman)
+			:ARG1 (x7 / organization
+				:name (n1 / name
+					:op1 "Kmart")))
+357-6
+(x1 / person
+		:name (n / name
+			:op1 "Edward"
+			:op2 "Lampert")
+		:ARG0-of (x5 / have-org-role-91
+			:ARG2 (c / chairman)
+			:ARG1 (x7 / organization
+				:name (n1 / name
+					:op1 "Kmart"))))
+357-7
+(x23 / have-org-role-91
+					:ARG2 (c1 / chairman)
+					:time (x22 / current)
+					:ARG1 (x28 / organization
+						:name (n3 / name
+							:op1 "Sears")
+						:ARG0-of (x26 / executive
+							:mod (x25 / chief))))
+358-2
+(x3 / person
+		:name (n / name
+			:op1 "Alan"
+			:op2 "Lacy")
+		:ARG0-of (x2 / CEO
+			:ARG1 (x1 / organization
+				:name (n1 / name
+					:op1 "Sears"))))
+358-4
+(x6 / speak-01
+		:ARG0 x3
+		:ARG1 (x9 / deal-01))
+360-3
+(x17 / organization
+						:name (n / name
+							:op1 "Tools")
+						:mod (x16 / organization
+							:name (n1 / name
+								:op1 "Craftsman")))
+360-5
+(x9 / sell-01
+		:ARG0 (x7 / store
+			:quant 2)
+		:ARG1 (x13 / brand
+			:mod (x11 / other)
+			:ARG2-of (x15 / include-91
+				:ARG1 (x21 / and
+					:op1 (x17 / organization
+						:name (n / name
+							:op1 "Tools")
+						:mod (x16 / organization
+							:name (n1 / name
+								:op1 "Craftsman")))
+					:op2 (x24 / end-01
+						:ARG1 (x22 / lands)
+						:ARG1 (x26 / organization
+							:name (n2 / name
+								:op1 "Sears")))
+					:op2 (x28 / and
+						:op1 (x19 / country
+							:name (n3 / name
+								:op1 "Kenmore"))
+						:op2 (x31 / and
+							:op2 (x29 / person
+								:name (n4 / name
+									:op1 "Martha"))
+							:op4 (x34 / brand
+								:poss (x30 / person
+									:name (n5 / name
+										:op1 "Stewart"))
+								:name (x32 / name
+									:op1 "Joe"
+									:op2 "Boxer"
+									:source (x36 / organization
+										:name (n6 / name
+											:op1 "Kmart"))))))))))
+360-7
+(x4 / allow-01
+	:ARG0 (x2 / purchase-01)
+	:ARG1 (x9 / sell-01
+		:ARG0 (x7 / store
+			:quant 2)
+		:ARG1 (x13 / brand
+			:mod (x11 / other)
+			:ARG2-of (x15 / include-91
+				:ARG1 (x21 / and
+					:op1 (x17 / organization
+						:name (n / name
+							:op1 "Tools")
+						:mod (x16 / organization
+							:name (n1 / name
+								:op1 "Craftsman")))
+					:op2 (x24 / end-01
+						:ARG1 (x22 / lands)
+						:ARG1 (x26 / organization
+							:name (n2 / name
+								:op1 "Sears")))
+					:op2 (x28 / and
+						:op1 (x19 / country
+							:name (n3 / name
+								:op1 "Kenmore"))
+						:op2 (x31 / and
+							:op2 (x29 / person
+								:name (n4 / name
+									:op1 "Martha"))
+							:op4 (x34 / brand
+								:poss (x30 / person
+									:name (n5 / name
+										:op1 "Stewart"))
+								:name (x32 / name
+									:op1 "Joe"
+									:op2 "Boxer"
+									:source (x36 / organization
+										:name (n6 / name
+											:op1 "Kmart")))))))))))
+361-2
+(x4 / consider-01
+		:ARG1 (x2 / move-02)
+		:ARG1 (x6 / boon
+			:ARG1 (x8 / organization
+				:name (n / name
+					:op1 "Sears")
+				:ARG1-of (x14 / confine-01
+					:time (x11 / until
+						:op1 (x12 / recent))
+					:ARG2 (x17 / mall)))))
+361-3
+(x22 / sell-01
+			:time (x21 / now)
+			:ARG1 (x24 / product)
+			:location (x29 / location
+				:quant (x27 / many)
+				:mod (x28 / organization
+					:name (n1 / name
+						:op1 "Kmart"))))
+362-1
+(x20 / gain-02
+	:ARG0 (x5 / soar-01
+		:ARG1 (x1 / share
+			:poss (x4 / company
+				:mod (x3 / both)))
+		:time (x6 / after
+			:op1 (x8 / announce-01))
+		:ARG2 (x14 / percentage-entity
+			:ARG0 (x10 / person
+				:name (n1 / name
+					:op1 "Sears"))
+			:value (x13 / person
+				:op 22))
+		:time (xap0 / date-entity
+			:weekday (x16 / wednesday)))
+	:ARG0 (x19 / organization
+		:name (n / name
+			:op1 "Kmart"))
+	:ARG2 (x22 / percentage-entity
+		:value 15))
+366-2
+(x9 / announce-01
+	:ARG1 (x7 / chain
+		:domain (x1 / organization
+			:name (n / name
+				:op1 "Sainsbury"))
+		:consist-of (x6 / supermarket))
+	:ARG1 (x15 / make-02
+		:null_edge (x18 / ever))
+	:time (xap0 / date-entity
+		:weekday (x11 / wednesday)))
+368-1
+(x16 / organization
+		:name (n / name
+			:op1 "Sainsbury")
+		:ARG0-of (x1 / exclude-01
+			:ARG1 (x6 / item
+				:mod (x3 / country
+					:name (n1 / name
+						:op1 "168m"))
+				:mod (x5 / exceptional)
+				:example (x11 / clear-02
+					:ARG1 (x14 / merchandise
+						:mod (x13 / surplus))))))
+368-2
+(x21 / profit-01
+	:ARG0 (x16 / organization
+		:name (n / name
+			:op1 "Sainsbury")
+		:ARG0-of (x1 / exclude-01
+			:ARG1 (x6 / item
+				:mod (x3 / country
+					:name (n1 / name
+						:op1 "168m"))
+				:mod (x5 / exceptional)
+				:example (x11 / clear-02
+					:ARG1 (x14 / merchandise
+						:mod (x13 / surplus))))))
+	:null_edge 9
+	:time (x32 / year
+		:mod (x31 / finance)))
+372-2
+(x7 / admit-01
+	:ARG0 (x4 / executive
+		:poss (x1 / organization
+			:name (n / name
+				:op1 "Sainsbury"))
+		:mod (x3 / chief)
+		:null_edge (x6 / null_tag
+			:null_edge (x5 / person
+				:name (n1 / name
+					:op1 "Justin"))))
+	:ARG1 (x12 / fail-01
+		:ARG0 (x9 / firm)
+		:ARG2 (x15 / stock-01
+			:ARG0 x9
+			:manner (x14 / proper)
+			:ARG1 (x17 / shelf)
+			:time (x18 / after
+				:op1 (x19 / struggle-02
+					:ARG1 (x23 / system
+						:mod (x21 / faulty)
+						:ARG0-of (x22 / distribute-01)))))))
+373-1
+(x11 / problem
+		:quant (x9 / series)
+		:ARG1-of (x14 / plague-01
+			:ARG1 (x15 / government-organization
+				:name (n / name
+					:op1 "Sainsbury"))
+			:ARG2 (x19 / temporal-quantity
+				:unit (y / year)
+				:mod (x18 / recent))))
+380-3
+(x10 / force-01
+			:null_edge (x7 / country
+				:name (n / name
+					:op1 "Japan"))
+			:null_edge (x9 / self-defence))
+382-1
+(x8 / consider-02
+		:ARG1 (x10 / intrusion)
+		:ARG1 (x12 / act-02
+			:ARG1 (x14 / provoke-01))
+		:ARG0 (xap0 / person
+			:ARG0-of (x3 / have-org-role-91
+				:ARG2 (o / official)
+				:quant (x1 / many)
+				:ARG1 (x2 / country
+					:name (n / name
+						:op1 "Japan"))
+				:ARG1 (x6 / government-organization
+					:name (n1 / name
+						:op1 "Defence"
+						:op2 "Agency")))))
+382-2
+(x3 / have-org-role-91
+				:ARG2 (o / official)
+				:quant (x1 / many)
+				:ARG1 (x2 / country
+					:name (n / name
+						:op1 "Japan"))
+				:ARG1 (x6 / government-organization
+					:name (n1 / name
+						:op1 "Defence"
+						:op2 "Agency")))
+384-1
+(x3 / cause-01
+	:ARG0 (x2 / intrustion)
+	:ARG0 (x10 / alert-01
+		:null_edge (x6 / force-01
+			:null_edge (x4 / country
+				:name (n / name
+					:op1 "Japan"))
+			:null_edge (x5 / self-defense))
+		:ord (xap0 / ordinal-entity
+			:range (x15 / since
+				:op1 (x19 / war
+					:subevent-of (x18 / game
+						:name (n1 / name
+							:op1 "World")))))))
+384-2
+(x6 / force-01
+			:null_edge (x4 / country
+				:name (n / name
+					:op1 "Japan"))
+			:null_edge (x5 / self-defense))
+384-3
+(x10 / alert-01
+		:null_edge (x6 / force-01
+			:null_edge (x4 / country
+				:name (n / name
+					:op1 "Japan"))
+			:null_edge (x5 / self-defense))
+		:ord (xap0 / ordinal-entity
+			:range (x15 / since
+				:op1 (x19 / war
+					:subevent-of (x18 / game
+						:name (n1 / name
+							:op1 "World"))))))
+389-1
+(x4 / begin-01
+	:ARG0 (x1 / country
+		:name (n / name
+			:op1 "China"))
+	:time (x3 / recent)
+	:ARG1 (x7 / modernize-01
+		:ARG1-of (x6 / activity-06)
+		:ARG1 (x10 / military
+			:name (n1 / name
+				:op1 "navy"))))
+390-1
+(x19 / person
+			:name (n1 / name
+				:op1 "Koreshige")
+			:ARG0-of (x15 / have-org-role-91
+				:ARG2 (a / ambassador)
+				:mod (x14 / country
+					:name (n4 / name
+						:op1 "Japan"))
+				:ARG1 (x17 / country
+					:name (n5 / name
+						:op1 "China")))
+			:name (x18 / name
+				:op1 "Anami"))
+390-2
+(x15 / have-org-role-91
+				:ARG2 (a / ambassador)
+				:mod (x14 / country
+					:name (n4 / name
+						:op1 "Japan"))
+				:ARG1 (x17 / country
+					:name (n5 / name
+						:op1 "China")))
+390-3
+(x9 / person
+			:name (n / name
+				:op1 "Wu"
+				:op2 "Daiwei")
+	:location (x5 / country
+				:name (n3 / name
+					:op1 "China")))
+390-4
+(x11 / meet-03
+		:time (x2 / date-entity)
+		:null_edge (x3 / null_tag)
+		:ARG0 (x9 / person
+			:name (n / name
+				:op1 "Wu"
+				:op2 "Daiwei")
+			:location (x5 / country
+				:name (n3 / name
+					:op1 "China"))
+			:ARG0-of (x8 / have-org-role-91
+				:ARG2 (m / minister)
+				:mod (x7 / foreign
+					:mod (x6 / vice))))
+		:ARG1 (x19 / person
+			:name (n1 / name
+				:op1 "Koreshige")
+			:ARG0-of (x15 / have-org-role-91
+				:ARG2 (a / ambassador)
+				:mod (x14 / country
+					:name (n4 / name
+						:op1 "Japan"))
+				:ARG1 (x17 / country
+					:name (n5 / name
+						:op1 "China")))
+			:name (x18 / name
+				:op1 "Anami"))
+		:location (x21 / city
+			:name (n2 / name
+				:op1 "Beijing")))
+390-5
+(x9 / person
+			:name (n / name
+				:op1 "Wu"
+				:op2 "Daiwei")
+	:ARG0-of (x8 / have-org-role-91
+				:ARG2 (m / minister)
+				:mod (x7 / foreign
+					:mod (x6 / vice))))
+390-6
+(x9 / person
+			:name (n / name
+				:op1 "Wu"
+				:op2 "Daiwei")
+			:location (x5 / country
+				:name (n3 / name
+					:op1 "China"))
+			:ARG0-of (x8 / have-org-role-91
+				:ARG2 (m / minister)
+				:mod (x7 / foreign
+					:mod (x6 / vice))))
+391-1
+(x3 / government-organization
+		:name (n / name
+			:op1 "Defence"
+			:op2 "Agency")
+		:poss (x1 / country
+			:name (n1 / name
+				:op1 "Japan")))
+392-1
+(x17 / person
+					:name (n2 / name
+						:op1 "Jintao")
+					:null_edge (x15 / have-org-role-91
+						:ARG2 (p / president)
+						:ARG1 (x14 / country
+							:name (n3 / name
+								:op1 "China"))
+						:ARG1 (x16 / person
+							:name (n4 / name
+								:op1 "Hu"))))
+392-4
+(x10 / wish-01
+		:ARG0 (x9 / he)
+		:ARG1 (x12 / speak-01
+			:ARG0 x9
+			:ARG1 (x20 / and
+				:op1 (x17 / person
+					:name (n2 / name
+						:op1 "Jintao")
+					:null_edge (x15 / have-org-role-91
+						:ARG2 (p / president)
+						:ARG1 (x14 / country
+							:name (n3 / name
+								:op1 "China"))
+						:ARG1 (x16 / person
+							:name (n4 / name
+								:op1 "Hu"))))
+				:op1 (x19 / this)
+				:op2 (x22 / matter-01
+					:mod (x21 / other)
+					:topic (x25 / contend-02
+						:ARG0 (x24 / organization
+							:name (n5 / name
+								:op1 "Sino-Japanese")))
+					:ARG0-of (xap0 / meet-03
+						:mod (x33 / summit
+							:mod (x30 / country
+								:name (n6 / name
+									:op1 "Asia-Pacific"))
+							:mod (x31 / economy)
+							:null_edge (x32 / null_tag)
+							:location (x35 / country
+								:name (n7 / name
+									:op1 "Chile"))
+							:time (x36 / late
+								:op1 (x38 / month
+									:mod (x37 / this)))))))))
+392-5
+(x15 / have-org-role-91
+						:ARG2 (p / president)
+						:ARG1 (x14 / country
+							:name (n3 / name
+								:op1 "China"))
+						:ARG1 (x16 / person
+							:name (n4 / name
+								:op1 "Hu")))
+392-6
+(x4 / person
+		:name (n / name
+			:op1 "Koizumi")
+	:ARG0-of (x3 / have-org-role-91
+			:ARG2 (m / minister)
+			:mod (x2 / prime)))
+392-7
+(x12 / speak-01
+			:ARG0 x9
+			:ARG1 (x20 / and
+				:op1 (x17 / person
+					:name (n2 / name
+						:op1 "Jintao")
+					:null_edge (x15 / have-org-role-91
+						:ARG2 (p / president)
+						:ARG1 (x14 / country
+							:name (n3 / name
+								:op1 "China"))
+						:ARG1 (x16 / person
+							:name (n4 / name
+								:op1 "Hu"))))
+				:op1 (x19 / this)
+				:op2 (x22 / matter-01
+					:mod (x21 / other)
+					:topic (x25 / contend-02
+						:ARG0 (x24 / organization
+							:name (n5 / name
+								:op1 "Sino-Japanese")))
+					:ARG0-of (xap0 / meet-03
+						:mod (x33 / summit
+							:mod (x30 / country
+								:name (n6 / name
+									:op1 "Asia-Pacific"))
+							:mod (x31 / economy)
+							:null_edge (x32 / null_tag)
+							:location (x35 / country
+								:name (n7 / name
+									:op1 "Chile"))
+							:time (x36 / late
+								:op1 (x38 / month
+									:mod (x37 / this))))))))
+392-8
+(x4 / person
+		:name (n / name
+			:op1 "Koizumi")
+	:null_edge (x1 / country
+			:name (n1 / name
+				:op1 "Japan")))
+392-10
+(x4 / person
+		:name (n / name
+			:op1 "Koizumi")
+		:null_edge (x1 / country
+			:name (n1 / name
+				:op1 "Japan"))
+		:ARG0-of (x3 / have-org-role-91
+			:ARG2 (m / minister)
+			:mod (x2 / prime)))
+395-1
+(x8 / see-01
+	:ARG0 (x1 / country
+		:name (n / name
+			:op1 "Japan"))
+	:ARG1 (x9 / country
+		:name (n1 / name
+			:op1 "China"))
+	:ARG2 (x14 / and
+		:op1 (x13 / person
+			:ARG0-of (c / compete-02)
+			:mod (x12 / potential))
+		:op2 (x17 / threaten-01
+			:ARG1-of (x16 / increase-01)
+			:ARG2 (x21 / security
+				:mod (x20 / nation)))))
+396-1
+(x34 / propose-01
+			:ARG0 (x23 / party
+				:poss (x20 / country
+					:name (n2 / name
+						:op1 "Japan"))
+				:ARG0-of (x22 / rule-03)
+				:mod (x29 / or
+					:op2 (x26 / political-party
+						:name (n3 / name
+							:op1 "Liberal"
+							:op2 "Democratic"
+							:op3 "Party"))
+					:op2 (x30 / organization
+						:name (n4 / name
+							:op1 "LDP"))))
+			:time (x33 / recent)
+			:ARG1 (x36 / amend-01
+				:mod (x35 / constitution))
+			:ARG1 (x47 / thing
+				:mod (x46 / other)))
+396-2
+(x38 / give-01
+		:ARG2 (x34 / propose-01
+			:ARG0 (x23 / party
+				:poss (x20 / country
+					:name (n2 / name
+						:op1 "Japan"))
+				:ARG0-of (x22 / rule-03)
+				:mod (x29 / or
+					:op2 (x26 / political-party
+						:name (n3 / name
+							:op1 "Liberal"
+							:op2 "Democratic"
+							:op3 "Party"))
+					:op2 (x30 / organization
+						:name (n4 / name
+							:op1 "LDP"))))
+			:time (x33 / recent)
+			:ARG1 (x36 / amend-01
+				:mod (x35 / constitution))
+			:ARG1 (x47 / thing
+				:mod (x46 / other)))
+		:ARG1 (x43 / capable-01
+			:mod (x40 / military)
+			:ARG0-of (x42 / offense-02
+				:degree (x41 / more))))
+396-3
+(x29 / or
+					:op2 (x26 / political-party
+						:name (n3 / name
+							:op1 "Liberal"
+							:op2 "Democratic"
+							:op3 "Party"))
+					:op2 (x30 / organization
+						:name (n4 / name
+							:op1 "LDP")))
+396-4
+(x3 / law
+		:name (n / name
+			:op1 "Constitution")
+		:mod (x1 / country
+			:name (n1 / name
+				:op1 "Japan")))
+396-6
+(x23 / party
+				:poss (x20 / country
+					:name (n2 / name
+						:op1 "Japan"))
+				:ARG0-of (x22 / rule-03)
+				:mod (x29 / or
+					:op2 (x26 / political-party
+						:name (n3 / name
+							:op1 "Liberal"
+							:op2 "Democratic"
+							:op3 "Party"))
+					:op2 (x30 / organization
+						:name (n4 / name
+							:op1 "LDP"))))
+399-1
+(x20 / report-01
+	:ARG1 (x8 / drop-05
+		:ARG0 (x7 / media
+			:null_edge (x3 / null_tag
+				:null_edge "Korea")
+			:mod (x6 / official)
+			:time (xap0 / date-entity
+				:weekday (x2 / wednesday)))
+		:ARG1 (x14 / title
+			:poss (x11 / person
+				:name (n2 / name
+					:op1 "Il"))
+			:ARG2 (x17 / person
+				:ARG0-of (l / lead-02)
+				:mod (x16 / dear))))
+	:ARG0 (x23 / organization
+		:name (n / name
+			:op1 "Radiopress")
+		:null_edge (x21 / country
+			:name (n1 / name
+				:op1 "Japan"))))
+399-4
+(x23 / organization
+		:name (n / name
+			:op1 "Radiopress")
+		:null_edge (x21 / country
+			:name (n1 / name
+				:op1 "Japan")))
+400-1
+(x11 / report-01
+		:ARG0 (x9 / agency
+			:mod (x8 / news
+				:mod (x7 / country
+					:name (n / name
+						:op1 "Russia")))
+			:name (x10 / name
+				:op1 "Itar-Tass"))
+		:ARG1 (x21 / remove-01
+			:ARG1 (x13 / portrait
+				:poss (x17 / person
+					:name (n1 / name
+						:op1 "Il")))
+			:time (x19 / recent)
+			:ARG2 (x24 / display-01
+				:ARG1-of (x23 / public)
+				:location (x26 / country
+					:name (n2 / name
+						:op1 "North"
+						:op2 "Korea")))))
+400-2
+(x9 / agency
+			:mod (x8 / news
+				:mod (x7 / country
+					:name (n / name
+						:op1 "Russia")))
+			:name (x10 / name
+				:op1 "Itar-Tass"))
+401-4
+(x41 / use-01
+		:ARG0 x33
+		:ARG2 (x46 / person
+			:ARG0-of (l / lead-02)
+			:mod (x45 / dear))
+		:time (x49 / refer-01)
+		:ARG2 (x53 / person
+			:name (n3 / name
+				:op1 "Il")
+			:null_edge (x59 / person
+				:ARG0-of (l1 / lead-02)
+				:ARG1 (x56 / country)
+				:mod (x58 / supreme))))
+402-1
+(x41 / organization
+										:name (n4 / name
+											:op1 "People"
+											:op2 "'s")
+	:null_edge (x40 / null_tag))
+402-2
+(x14 / have-org-role-91
+		:ARG2 (s / secretary)
+		:mod (x13 / general
+			:ARG3 (x26 / have-org-role-91
+				:ARG2 (c / chairman)
+				:null_edge (x29 / country
+					:name (n2 / name
+						:op1 "DPRK")
+					:null_edge (x31 / null_tag
+						:null_edge (x30 / null_tag
+							:null_edge (x37 / have-org-role-91
+								:ARG2 (c1 / commander)
+								:null_edge (x32 / null_tag
+									:null_edge "and/or")
+								:mod (x36 / supreme)
+								:ARG1 (x43 / military
+									:name (n3 / name
+										:op1 "Army")
+									:poss (x41 / organization
+										:name (n4 / name
+											:op1 "People"
+											:op2 "'s")
+										:null_edge (x40 / null_tag)
+										:ARG0-of (x46 / refer-01
+											:ARG0 (x48 / person
+												:name (n5 / name
+													:op1 "Kim")))))))))))
+		:ARG1 (x17 / organization
+			:name (n1 / name
+				:op1 "Workers"
+				:op2 "'"
+				:op3 "Party"
+				:op4 "of"
+				:op5 "Korea"))
+		:null_edge x26)
+402-3
+(x41 / organization
+										:name (n4 / name
+											:op1 "People"
+											:op2 "'s")
+										:null_edge (x40 / null_tag)
+										:ARG0-of (x46 / refer-01
+											:ARG0 (x48 / person
+												:name (n5 / name
+													:op1 "Kim"))))
+402-4
+(x37 / have-org-role-91
+								:ARG2 (c1 / commander)
+								:null_edge (x32 / null_tag
+									:null_edge "and/or")
+								:mod (x36 / supreme)
+								:ARG1 (x43 / military
+									:name (n3 / name
+										:op1 "Army")
+									:poss (x41 / organization
+										:name (n4 / name
+											:op1 "People"
+											:op2 "'s")
+										:null_edge (x40 / null_tag)
+										:ARG0-of (x46 / refer-01
+											:ARG0 (x48 / person
+												:name (n5 / name
+													:op1 "Kim"))))))
+402-5
+(x29 / country
+					:name (n2 / name
+						:op1 "DPRK")
+					:null_edge (x31 / null_tag
+						:null_edge (x30 / null_tag
+							:null_edge (x37 / have-org-role-91
+								:ARG2 (c1 / commander)
+								:null_edge (x32 / null_tag
+									:null_edge "and/or")
+								:mod (x36 / supreme)
+								:ARG1 (x43 / military
+									:name (n3 / name
+										:op1 "Army")
+									:poss (x41 / organization
+										:name (n4 / name
+											:op1 "People"
+											:op2 "'s")
+										:null_edge (x40 / null_tag)
+										:ARG0-of (x46 / refer-01
+											:ARG0 (x48 / person
+												:name (n5 / name
+													:op1 "Kim")))))))))
+402-7
+(x41 / organization
+										:name (n4 / name
+											:op1 "People"
+											:op2 "'s")
+	:ARG0-of (x46 / refer-01
+											:ARG0 (x48 / person
+												:name (n5 / name
+													:op1 "Kim"))))
+402-8
+(x8 / use-01
+	:time (x1 / now)
+	:ARG0 (x3 / media
+		:location (x5 / country
+			:name (n / name
+				:op1 "North"
+				:op2 "Korea")))
+	:mod (x7 / only)
+	:ARG1 (x11 / title
+		:mod (x10 / official))
+	:null_edge (x14 / have-org-role-91
+		:ARG2 (s / secretary)
+		:mod (x13 / general
+			:ARG3 (x26 / have-org-role-91
+				:ARG2 (c / chairman)
+				:null_edge (x29 / country
+					:name (n2 / name
+						:op1 "DPRK")
+					:null_edge (x31 / null_tag
+						:null_edge (x30 / null_tag
+							:null_edge (x37 / have-org-role-91
+								:ARG2 (c1 / commander)
+								:null_edge (x32 / null_tag
+									:null_edge "and/or")
+								:mod (x36 / supreme)
+								:ARG1 (x43 / military
+									:name (n3 / name
+										:op1 "Army")
+									:poss (x41 / organization
+										:name (n4 / name
+											:op1 "People"
+											:op2 "'s")
+										:null_edge (x40 / null_tag)
+										:ARG0-of (x46 / refer-01
+											:ARG0 (x48 / person
+												:name (n5 / name
+													:op1 "Kim")))))))))))
+		:ARG1 (x17 / organization
+			:name (n1 / name
+				:op1 "Workers"
+				:op2 "'"
+				:op3 "Party"
+				:op4 "of"
+				:op5 "Korea"))
+		:null_edge x26))
+402-9
+(x26 / have-org-role-91
+				:ARG2 (c / chairman)
+				:null_edge (x29 / country
+					:name (n2 / name
+						:op1 "DPRK")
+					:null_edge (x31 / null_tag
+						:null_edge (x30 / null_tag
+							:null_edge (x37 / have-org-role-91
+								:ARG2 (c1 / commander)
+								:null_edge (x32 / null_tag
+									:null_edge "and/or")
+								:mod (x36 / supreme)
+								:ARG1 (x43 / military
+									:name (n3 / name
+										:op1 "Army")
+									:poss (x41 / organization
+										:name (n4 / name
+											:op1 "People"
+											:op2 "'s")
+										:null_edge (x40 / null_tag)
+										:ARG0-of (x46 / refer-01
+											:ARG0 (x48 / person
+												:name (n5 / name
+													:op1 "Kim"))))))))))
+403-1
+(x4 / report-01
+	:ARG0 (x2 / name
+		:op1 "Itar-Tass"
+		:time (x1 / early))
+	:mod (x3 / also)
+	:ARG0 (x17 / person
+		:name (n / name
+			:op1 "Il")
+		:null_edge (x11 / diplomat
+			:ARG1-of (x9 / name-01
+				:polarity -)
+			:mod (x10 / foreign)
+			:location (x13 / city
+				:name (n1 / name
+					:op1 "Pyongyang")))
+		:name (x16 / name
+			:op1 "Jong"))
+	:ARG1 (x29 / and
+		:op1 (x23 / take-01
+			:ARG1 (x19 / portrait)
+			:time (x21 / recent)
+			:ARG3 (x27 / display-01
+				:ARG0 (x26 / public))
+			:manner (x28 / secret)
+			:manner (x31 / explain-01))))
+403-2
+(x17 / person
+		:name (n / name
+			:op1 "Il")
+		:null_edge (x11 / diplomat
+			:ARG1-of (x9 / name-01
+				:polarity -)
+			:mod (x10 / foreign)
+			:location (x13 / city
+				:name (n1 / name
+					:op1 "Pyongyang")))
+		:name (x16 / name
+			:op1 "Jong"))
+404-1
+(x8 / have-rel-role-91
+				
+				
+				:name (x11 / name
+					:op1 "Il"
+					:op2 "Sung")
+	:ARG1 (x6 / person
+					:name (n / name
+						:op1 "Kim")))
+404-2
+(xap0 / person
+			:ARG1 (x4 / portrait)
+			:ARG0-of (x8 / have-rel-role-91
+				:ARG2 (f / father)
+				:ARG1 (x6 / person
+					:name (n / name
+						:op1 "Kim"))
+				:name (x11 / name
+					:op1 "Il"
+					:op2 "Sung")))
+404-3
+(xap1 / say-01
+	:ARG1 (x15 / remain-01
+		:mod (x14 / still)
+		:ARG1 (xap0 / person
+			:ARG1 (x4 / portrait)
+			:ARG0-of (x8 / have-rel-role-91
+				:ARG2 (f / father)
+				:ARG1 (x6 / person
+					:name (n / name
+						:op1 "Kim"))
+				:name (x11 / name
+					:op1 "Il"
+					:op2 "Sung"))))
+	:ARG0 (x21 / report
+		:ARG1-of (x20 / same-01)))
+404-4
+(x15 / remain-01
+		:mod (x14 / still)
+		:ARG1 (xap0 / person
+			:ARG1 (x4 / portrait)
+			:ARG0-of (x8 / have-rel-role-91
+				:ARG2 (f / father)
+				:ARG1 (x6 / person
+					:name (n / name
+						:op1 "Kim"))
+				:name (x11 / name
+					:op1 "Il"
+					:op2 "Sung"))))
+404-5
+(x8 / have-rel-role-91
+				:ARG2 (f / father)
+				:ARG1 (x6 / person
+					:name (n / name
+						:op1 "Kim"))
+				:name (x11 / name
+					:op1 "Il"
+					:op2 "Sung"))
+404-6
+(x8 / have-rel-role-91
+				
+				
+				:name (x11 / name
+					:op1 "Il"
+					:op2 "Sung")
+	:ARG2 (f / father))
+406-1
+(x13 / person
+			:ARG0-of (a / analyze-01)
+			:ARG1 (xap0 / attack-01
+				:ARG0-of (x18 / suspect-01
+					:quant (x15 / some)
+					:ARG1 (x21 / possible-01
+						:ARG1 (x24 / sign-02
+							:ARG1 (x35 / struggle-01
+								:ARG2 (x31 / or
+									:op1 (x28 / lose-02
+										:ARG0 (x26 / person
+											:name (n1 / name
+												:op1 "Kim"))
+										:ARG1 (x29 / power)))
+								:ARG2 (x34 / power)
+								:ARG1 (x42 / person
+									:ARG0-of (l / lead-02)
+									:mod (x41 / top)
+									:ARG1 (x46 / state
+										:mod (x45 / totalitarian)))))))))
+406-2
+(x3 / develop-02
+		:mod (x1 / this)
+		:time (x2 / recent)
+		:location (x5 / country
+			:name (n / name
+				:op1 "North"
+				:op2 "Korea")))
+406-4
+(x9 / rise-01
+	:ARG1 (x3 / develop-02
+		:mod (x1 / this)
+		:time (x2 / recent)
+		:location (x5 / country
+			:name (n / name
+				:op1 "North"
+				:op2 "Korea")))
+	:ARG1 (x11 / speculate-01
+		:ARG0 (x13 / person
+			:ARG0-of (a / analyze-01)
+			:ARG1 (xap0 / attack-01
+				:ARG0-of (x18 / suspect-01
+					:quant (x15 / some)
+					:ARG1 (x21 / possible-01
+						:ARG1 (x24 / sign-02
+							:ARG1 (x35 / struggle-01
+								:ARG2 (x31 / or
+									:op1 (x28 / lose-02
+										:ARG0 (x26 / person
+											:name (n1 / name
+												:op1 "Kim"))
+										:ARG1 (x29 / power)))
+								:ARG2 (x34 / power)
+								:ARG1 (x42 / person
+									:ARG0-of (l / lead-02)
+									:mod (x41 / top)
+									:ARG1 (x46 / state
+										:mod (x45 / totalitarian)))))))))))
+406-6
+(x18 / suspect-01
+					:quant (x15 / some)
+					:ARG1 (x21 / possible-01
+						:ARG1 (x24 / sign-02
+							:ARG1 (x35 / struggle-01
+								:ARG2 (x31 / or
+									:op1 (x28 / lose-02
+										:ARG0 (x26 / person
+											:name (n1 / name
+												:op1 "Kim"))
+										:ARG1 (x29 / power)))
+								:ARG2 (x34 / power)
+								:ARG1 (x42 / person
+									:ARG0-of (l / lead-02)
+									:mod (x41 / top)
+									:ARG1 (x46 / state
+										:mod (x45 / totalitarian)))))))
+407-1
+(x13 / order
+			:ARG1 (x7 / portrait)
+			:ARG0 (x17 / person
+				:name (n / name
+					:op1 "Il")
+				:ARG0-of (x23 / try-01
+					:ARG1 (x25 / downsize
+						:ARG1 (x29 / cult
+							:mod (x28 / personality))))))
+408-1
+(x37 / person
+		:name (n / name
+			:op1 "Shinya"
+			:op2 "Kato")
+		:ARG0-of (x41 / editor
+			:ARG1 (x43 / organization
+				:name (n1 / name
+					:op1 "Radiopress"))))
+408-2
+(x36 / say-01
+	:ARG1 (x3 / believe-01
+		:ARG0 (x2 / we)
+		:ARG1 (x5 / change-01
+			:purpose (x12 / soften
+				:ARG1 (x14 / image
+					:example (x17 / person
+						:ARG0-of (l / lead-02)
+						:ARG1 (x21 / cult
+							:mod (x20 / personality))))))
+		:null_edge (x26 / hard-02
+			:ARG1 (x28 / determine-01
+				:ARG1 (x32 / intend-01
+					:mod (x31 / real)))))
+	:ARG0 (x37 / person
+		:name (n / name
+			:op1 "Shinya"
+			:op2 "Kato")
+		:ARG0-of (x41 / editor
+			:ARG1 (x43 / organization
+				:name (n1 / name
+					:op1 "Radiopress")))))
+410-1
+(x9 / state
+		:ARG1-of (x5 / include-91)
+		:quant (x7 / few)
+		:mod (x8 / person
+			:name (n1 / name
+				:op1 "Stalinist"))
+		:ARG1-of (x12 / exist-01
+			:mod (x11 / still)
+			:time (x13 / today)))
+415-1
+(x13 / decide-01
+	:ARG1 (x9 / qualifiers
+		:null_edge (x4 / null_tag)
+		:name (x5 / name
+			:op1 "American")
+		:null_edge (x6 / null_tag)
+		:null_edge (x7 / null_tag)
+		:null_edge (x8 / null_tag))
+	:time (x14 / today)
+	:purpose (x20 / play-08
+		:ARG0 x9
+		:mod (x17 / eleveth)))
+415-2
+(x20 / play-08
+		:ARG0 x9
+		:mod (x17 / eleveth))
+417-1
+(x3 / kill-01
+	:ARG0 (x2 / army
+		:mod (x1 / country
+			:name (n / name
+				:op1 "Israel")))
+	:null_edge 3
+	:time (x8 / incident
+		:mod (x7 / border)))
+419-1
+(x8 / kill-01
+		:ARG1 (x3 / military
+			:name (n / name
+				:op1 "Army")
+			:poss "Israel")
+		:ARG1 (x11 / soldier
+			:quant 3
+			:mod (x10 / country
+				:name (n1 / name
+					:op1 "Egypt")))
+		:time (x15 / incident
+			:mod (x14 / border)))
+420-1
+(x7 / country
+			:name (n / name
+				:op1 "Route")
+			:mod (x6 / country
+				:name (n2 / name
+					:op1 "Philadelphi")))
+421-1
+(x9 / smuggle-01
+		:ARG1 (x8 / arm)
+		:ARG2 (x11 / local-region
+			:name (n / name
+				:op1 "Gaza")))
+421-2
+(x3 / patrol-01
+	:ARG0 (x2 / nation
+		:mod (x1 / both))
+	:ARG1 (x5 / area)
+	:mod (x6 / intensive)
+	:ARG2 (x9 / smuggle-01
+		:ARG1 (x8 / arm)
+		:ARG2 (x11 / local-region
+			:name (n / name
+				:op1 "Gaza"))))
+423-2
+(x12 / say-01
+		:ARG0 x4
+		:ARG1 (x21 / regret-01
+			:ARG1 (x18 / hit-02
+				:ARG1 (x16 / country
+					:name (n1 / name
+						:op1 "Egyptians")))
+			:ARG0 (x20 / we)))
+425-2
+(x2 / want-01
+		:ARG0 (x1 / we)
+		:ARG1 (x5 / relation-03
+			:mod (x3 / good)
+			:ARG2 (x7 / country
+				:name (n / name
+					:op1 "Egypt")))
+		:ARG1 (x13 / hurt-01
+			:ARG1 (x11 / country
+				:name (n1 / name
+					:op1 "Egyptians"))
+			:condition (x17 / go-02
+				:null_edge (x21 / and
+					:op2 (x23 / family)
+					:op2 (x24 / and)
+					:op2 (x27 / people
+						:mod (x26 / country
+							:name (n2 / name
+								:op1 "Egypt")))))))
+425-3
+(x5 / relation-03
+			:mod (x3 / good)
+			:ARG2 (x7 / country
+				:name (n / name
+					:op1 "Egypt")))
+426-1
+(x3 / say-01
+	:ARG0 (x1 / country
+		:name (n / name
+			:op1 "Israel"))
+	:ARG1 (x6 / investigate-01
+		:ARG0 x1
+		:ARG1 (x8 / shooting)
+		:location (x14 / level
+			:mod (x13 / senior
+				:degree (x12 / most)))))
+427-1
+(x4 / say-01
+	:ARG0 (x2 / country
+		:name (n / name
+			:op1 "Egypt"))
+	:ARG1 (x5 / little)
+	:mod (x7 / far))
+430-1
+(x8 / country
+			:name (n / name
+				:op1 "Kancheepuram")
+			:null_edge (x11 / country
+				:name (n1 / name
+					:op1 "Nadu")
+				:mod (x10 / country
+					:name (n3 / name
+						:op1 "Tamil")))
+			:null_edge (x13 / country
+				:name (n2 / name
+					:op1 "India")))
+430-2
+(x8 / country
+			:name (n / name
+				:op1 "Kancheepuram")
+	:null_edge (x13 / country
+				:name (n2 / name
+					:op1 "India")))
+430-3
+(x8 / country
+			:name (n / name
+				:op1 "Kancheepuram")
+	:null_edge (x11 / country
+				:name (n1 / name
+					:op1 "Nadu")
+				:mod (x10 / country
+					:name (n3 / name
+						:op1 "Tamil"))))
+432-3
+(x25 / country
+					:name (n3 / name
+						:op1 "Nadu")
+					:mod (x24 / country
+						:name (n4 / name
+							:op1 "Tamil")))
+432-4
+(x22 / state
+				:location (x20 / country
+					:name (n2 / name
+						:op1 "South"
+						:op2 "India"))
+				:poss (x25 / country
+					:name (n3 / name
+						:op1 "Nadu")
+					:mod (x24 / country
+						:name (n4 / name
+							:op1 "Tamil"))))
+433-1
+(x29 / contrast-01
+					:ARG1 (x28 / activity-06)
+					:ARG2 (x30 / succeed-01
+						:polarity -)
+					:ARG2 (x33 / resolve-01
+						:ARG1 (x36 / dispute-01
+							:ARG2 (x35 / country
+								:name (n / name
+									:op1 "Ayodhya")))))
+433-2
+(x9 / cause-01
+		:ARG0 (x16 / and
+			:op1 (x12 / stature
+				:poss (x15 / mutt)
+				:poss (x23 / person
+					:ARG1-of (d / devote-01)
+					:quant (x21 / number
+						:null_edge (x18 / mutt)
+						:mod (x20 / large)))))
+		:mod (x25 / also
+			:ARG1 (x31 / role
+				:mod (x29 / contrast-01
+					:ARG1 (x28 / activity-06)
+					:ARG2 (x30 / succeed-01
+						:polarity -)
+					:ARG2 (x33 / resolve-01
+						:ARG1 (x36 / dispute-01
+							:ARG2 (x35 / country
+								:name (n / name
+									:op1 "Ayodhya"))))))))
+433-3
+(x7 / person
+	:ARG0-of (l / lead-02)
+	:ARG0 (x1 / he)
+	:mod (x3 / also)
+	:mod (x5 / prominent)
+	:ARG1 (x6 / religion)
+	:ARG1-of (x9 / cause-01
+		:ARG0 (x16 / and
+			:op1 (x12 / stature
+				:poss (x15 / mutt)
+				:poss (x23 / person
+					:ARG1-of (d / devote-01)
+					:quant (x21 / number
+						:null_edge (x18 / mutt)
+						:mod (x20 / large)))))
+		:mod (x25 / also
+			:ARG1 (x31 / role
+				:mod (x29 / contrast-01
+					:ARG1 (x28 / activity-06)
+					:ARG2 (x30 / succeed-01
+						:polarity -)
+					:ARG2 (x33 / resolve-01
+						:ARG1 (x36 / dispute-01
+							:ARG2 (x35 / country
+								:name (n / name
+									:op1 "Ayodhya")))))))))
+434-1
+(x4 / arrest-01
+	:ARG1 (x2 / seer)
+	:time (x6 / date-entity
+		:year 2004)
+	:location (x11 / country
+		:name (n / name
+			:op1 "Mahboobnagar")
+		:location (x17 / city
+			:name (n1 / name
+				:op1 "Hyderabad")
+			:quant 150
+			:ARG0-of (x19 / direct-01
+				:ARG1 (x21 / murder-01
+					:ARG1 (x23 / a.sankararaman
+						:null_edge (x27 / manager
+							:time (x26 / former)
+							:topic (x30 / mutt))))))))
+434-2
+(x17 / city
+			:name (n1 / name
+				:op1 "Hyderabad")
+			:quant 150
+			:ARG0-of (x19 / direct-01
+				:ARG1 (x21 / murder-01
+					:ARG1 (x23 / a.sankararaman
+						:null_edge (x27 / manager
+							:time (x26 / former)
+							:topic (x30 / mutt))))))
+434-3
+(x11 / country
+		:name (n / name
+			:op1 "Mahboobnagar")
+		:location (x17 / city
+			:name (n1 / name
+				:op1 "Hyderabad")
+			:quant 150
+			:ARG0-of (x19 / direct-01
+				:ARG1 (x21 / murder-01
+					:ARG1 (x23 / a.sankararaman
+						:null_edge (x27 / manager
+							:time (x26 / former)
+							:topic (x30 / mutt)))))))
+435-1
+(x6 / person
+		:name (n / name
+			:op1 "Jayalalithaa")
+	:null_edge (x3 / chief))
+435-2
+(x6 / person
+		:name (n / name
+			:op1 "Jayalalithaa")
+	:null_edge (x5 / null_tag))
+435-3
+(x6 / person
+		:name (n / name
+			:op1 "Jayalalithaa")
+	:null_edge (x1 / tamil
+			:mod (x2 / nadu)))
+435-4
+(x6 / person
+		:name (n / name
+			:op1 "Jayalalithaa")
+	:null_edge (x4 / have-org-role-91
+			:ARG2 (m / minister)))
+435-5
+(x7 / say-01
+	:ARG0 (x6 / person
+		:name (n / name
+			:op1 "Jayalalithaa")
+		:null_edge (x1 / tamil
+			:mod (x2 / nadu))
+		:null_edge (x3 / chief)
+		:null_edge (x4 / have-org-role-91
+			:ARG2 (m / minister))
+		:null_edge (x5 / null_tag))
+	:null_edge (x9 / wednesday
+		:null_edge (x11 / name
+			:op1 "November"
+			:op2 "17"
+			:op3 "2004"))
+	:ARG1 (x16 / arrest-01
+		:condition (x21 / have-03
+			:ARG1 (x23 / thing
+				:ARG0-of (e / evidence-01)
+				:ARG1-of (x22 / solid-02)))))
+440-2
+(x5 / announce-01
+	:null_edge (x3 / null_tag
+		:null_edge (x2 / null_tag))
+	:ARG1 (x9 / treaty
+		:mod (x8 / city
+			:name (n / name
+				:op1 "Kyoto"))
+		:ARG1-of (x27 / effect-03)
+		:ARG1-of (xap0 / have-purpose-91
+			:ARG1 (x16 / counter-01
+				:ARG0 (x14 / claim-01
+					:ARG0 (x13 / person
+						:ARG0-of (s / sign-02)))
+				:ARG1 (x20 / and
+					:op2 (x18 / greenhouse)
+					:op3 (x23 / change-01
+						:mod (x21 / globe)
+						:ARG1 (x22 / climate))))))
+	:time (x29 / date-entity
+		:year 2005))
+441-1
+(x13 / sign-02
+					:time (x15 / early)
+					:time (x19 / report-01
+						:ARG0 (x18 / organization
+							:name (n / name
+								:op1 "BBC")))
+					:ARG1-of (x21 / cause-01
+						:ARG0 (x25 / make-02
+							:ARG1 (x36 / emission
+								:ARG1-of (x29 / require-01)
+								:null_edge 55
+								:poss (x34 / world)
+								:ARG1 (x39 / gas
+									:mod (x38 / greenhouse))))))
+441-2
+(x3 / possible-01
+	:ARG1 (x2 / treaty)
+	:ARG1 (x6 / make-02
+		:ARG1 (x8 / binding-07
+			:ARG2 (x11 / country
+				:ARG0-of (x13 / sign-02
+					:time (x15 / early)
+					:time (x19 / report-01
+						:ARG0 (x18 / organization
+							:name (n / name
+								:op1 "BBC")))
+					:ARG1-of (x21 / cause-01
+						:ARG0 (x25 / make-02
+							:ARG1 (x36 / emission
+								:ARG1-of (x29 / require-01)
+								:null_edge 55
+								:poss (x34 / world)
+								:ARG1 (x39 / gas
+									:mod (x38 / greenhouse))))))))))
+442-1
+(x8 / sign-02
+		:ARG0 x4
+		:ARG1 (x10 / treaty))
+443-1
+(x12 / hand-01
+	:ARG0 (x1 / person
+		:name (n / name
+			:op1 "Andrei"
+			:op2 "Denisov")
+		:ARG0-of (x6 / have-org-role-91
+			:ARG2 (a / ambassador)
+			:ARG1 (x4 / country
+				:name (n2 / name
+					:op1 "Russia"))
+			:direction (x7 / to
+				:null_edge (x10 / null_tag
+					:null_edge (x9 / null_tag)))))
+	:ARG2 (x13 / person
+		:name (n1 / name
+			:op1 "Kofi"
+			:op2 "Annan"))
+	:ARG1 (x17 / paper
+		:mod (x16 / official))
+	:time (x18 / today))
+443-2
+(x1 / person
+		:name (n / name
+			:op1 "Andrei"
+			:op2 "Denisov")
+		:ARG0-of (x6 / have-org-role-91
+			:ARG2 (a / ambassador)
+			:ARG1 (x4 / country
+				:name (n2 / name
+					:op1 "Russia"))
+			:direction (x7 / to
+				:null_edge (x10 / null_tag
+					:null_edge (x9 / null_tag)))))
+443-3
+(x6 / have-org-role-91
+			:ARG2 (a / ambassador)
+			:ARG1 (x4 / country
+				:name (n2 / name
+					:op1 "Russia"))
+			:direction (x7 / to
+				:null_edge (x10 / null_tag
+					:null_edge (x9 / null_tag))))
+449-1
+(x2 / person
+				:name (n1 / name
+					:op1 "November"
+					:op2 "18")
+				:name (x8 / name
+					:op1 "William"
+					:op2 "Henry"
+					:op3 "Gates"
+					:op4 "III"
+					:location (x5 / country
+						:name (n5 / name
+							:op1 "USA")))
+	:mod (x13 / just))
+449-2
+(x2 / person
+				:name (n1 / name
+					:op1 "November"
+					:op2 "18")
+				:name (x8 / name
+					:op1 "William"
+					:op2 "Henry"
+					:op3 "Gates"
+					:op4 "III"
+					:location (x5 / country
+						:name (n5 / name
+							:op1 "USA")))
+	:mod (x15 / person
+					:name (n3 / name
+						:op1 "Gates")
+					:null_edge (x14 / person
+						:name (n6 / name
+							:op1 "Bill"))))
+449-3
+(x2 / person
+				:name (n1 / name
+					:op1 "November"
+					:op2 "18")
+				:name (x8 / name
+					:op1 "William"
+					:op2 "Henry"
+					:op3 "Gates"
+					:op4 "III"
+					:location (x5 / country
+						:name (n5 / name
+							:op1 "USA")))
+				:mod (x13 / just)
+				:mod (x15 / person
+					:name (n3 / name
+						:op1 "Gates")
+					:null_edge (x14 / person
+						:name (n6 / name
+							:op1 "Bill"))))
+449-4
+(x20 / receive-01
+		:ARG0 (x12 / or
+			:op1 (x2 / person
+				:name (n1 / name
+					:op1 "November"
+					:op2 "18")
+				:name (x8 / name
+					:op1 "William"
+					:op2 "Henry"
+					:op3 "Gates"
+					:op4 "III"
+					:location (x5 / country
+						:name (n5 / name
+							:op1 "USA")))
+				:mod (x13 / just)
+				:mod (x15 / person
+					:name (n3 / name
+						:op1 "Gates")
+					:null_edge (x14 / person
+						:name (n6 / name
+							:op1 "Bill"))))
+			:op2 (x18 / found-01
+				:ARG1 (x17 / company
+					:name (n4 / name
+						:op1 "Microsoft"))))
+		:ARG2 (x25 / email-01
+			:ARG2 (x27 / temporal-quantity
+				:unit (y / year)))
+		:ARG1 (x37 / or
+			:op1 (x35 / junk
+				:ARG1-of (x31 / include-91
+					:ARG3 (x30 / most)))
+			:op2 (x39 / spam)))
+449-5
+(x12 / or
+			:op1 (x2 / person
+				:name (n1 / name
+					:op1 "November"
+					:op2 "18")
+				:name (x8 / name
+					:op1 "William"
+					:op2 "Henry"
+					:op3 "Gates"
+					:op4 "III"
+					:location (x5 / country
+						:name (n5 / name
+							:op1 "USA")))
+				:mod (x13 / just)
+				:mod (x15 / person
+					:name (n3 / name
+						:op1 "Gates")
+					:null_edge (x14 / person
+						:name (n6 / name
+							:op1 "Bill"))))
+			:op2 (x18 / found-01
+				:ARG1 (x17 / company
+					:name (n4 / name
+						:op1 "Microsoft"))))
+449-6
+(x47 / person
+		:name (n / name
+			:op1 "Ballmer")
+		:null_edge (x45 / CEO
+			:ARG1 (x44 / company
+				:name (n2 / name
+					:op1 "Microsoft")))
+		:name (x46 / name
+			:op1 "Steve"))
+454-1
+(x3 / know
+	:null_edge (x2 / they)
+	:ARG1 (x6 / festival
+		:name (n / name
+			:op1 "Christmas")))
+455-1
+(x2 / launch-01
+	:manner (x3 / simultaneous)
+	:time (x4 / today)
+	:ARG0 (x11 / and
+		:op1 (x10 / country
+			:name (n / name
+				:op1 "UK")
+			:null_edge (x9 / several)
+			:ARG2-of (x15 / include-91
+				:quant 4
+				:ARG1 (x30 / and
+					:op2 (x19 / government-organization
+						:name (n2 / name
+							:op1 "BBC"
+							:op2 "Two")
+						:mod (x16 / have-org-role-91
+							:ARG1 (c / company
+								:name (n4 / name
+									:op1 "BBC")))
+						:null_edge (x31 / null_tag))
+					:op2 (x22 / organization
+						:name (n3 / name
+							:op1 "RTE")
+						:quant 1)
+					:op2 (x25 / itv1)
+					:op2 (x27 / channel))))
+		:op2 (x14 / channel
+			:quant x9
+			:poss (x12 / country
+				:name (n1 / name
+					:op1 "Ireland"))
+			:mod (x13 / television)))
+	:time (xap0 / date-entity
+		:weekday (x6 / thursday)))
+455-2
+(x14 / channel
+			:quant x9
+			:poss (x12 / country
+				:name (n1 / name
+					:op1 "Ireland"))
+			:mod (x13 / television))
+455-3
+(x10 / country
+			:name (n / name
+				:op1 "UK")
+	:null_edge (x9 / several))
+455-4
+(x22 / organization
+						:name (n3 / name
+							:op1 "RTE")
+						:quant 1)
+455-5
+(x10 / country
+			:name (n / name
+				:op1 "UK")
+			:null_edge (x9 / several)
+			:ARG2-of (x15 / include-91
+				:quant 4
+				:ARG1 (x30 / and
+					:op2 (x19 / government-organization
+						:name (n2 / name
+							:op1 "BBC"
+							:op2 "Two")
+						:mod (x16 / have-org-role-91
+							:ARG1 (c / company
+								:name (n4 / name
+									:op1 "BBC")))
+						:null_edge (x31 / null_tag))
+					:op2 (x22 / organization
+						:name (n3 / name
+							:op1 "RTE")
+						:quant 1)
+					:op2 (x25 / itv1)
+					:op2 (x27 / channel))))
+455-6
+(x19 / government-organization
+						:name (n2 / name
+							:op1 "BBC"
+							:op2 "Two")
+						:mod (x16 / have-org-role-91
+							:ARG1 (c / company
+								:name (n4 / name
+									:op1 "BBC")))
+						:null_edge (x31 / null_tag))
+455-7
+(x10 / country
+			:name (n / name
+				:op1 "UK")
+	:ARG2-of (x15 / include-91
+				:quant 4
+				:ARG1 (x30 / and
+					:op2 (x19 / government-organization
+						:name (n2 / name
+							:op1 "BBC"
+							:op2 "Two")
+						:mod (x16 / have-org-role-91
+							:ARG1 (c / company
+								:name (n4 / name
+									:op1 "BBC")))
+						:null_edge (x31 / null_tag))
+					:op2 (x22 / organization
+						:name (n3 / name
+							:op1 "RTE")
+						:quant 1)
+					:op2 (x25 / itv1)
+					:op2 (x27 / channel))))
+455-8
+(x19 / government-organization
+						:name (n2 / name
+							:op1 "BBC"
+							:op2 "Two")
+	:mod (x16 / have-org-role-91
+							:ARG1 (c / company
+								:name (n4 / name
+									:op1 "BBC"))))
+455-9
+(x19 / government-organization
+						:name (n2 / name
+							:op1 "BBC"
+							:op2 "Two")
+	:null_edge (x31 / null_tag))
+457-2
+(x5 / record-01
+	:ARG1 (x2 / song)
+	:mod (x4 / original)
+	:time (x7 / date-entity
+		:year 1984)
+	:ARG0 (x9 / several
+		:op1 (x13 / artist
+			:mod (x12 / big
+				:degree (m / most))
+			:mod (x16 / time)
+			:ARG2-of (x17 / include-91
+				:ARG1 (x25 / and
+					:op1 (x18 / person
+						:name (n / name
+							:op1 "Bono"))
+					:op2 (x21 / person
+						:name (n1 / name
+							:op1 "Geldof")
+						:null_edge (x20 / person
+							:name (n3 / name
+								:op1 "Bob")))
+					:op2 (x23 / name
+						:op1 "Paul"
+						:op2 "McCartney")
+					:op2 (x26 / person
+						:name (n2 / name
+							:op1 "George")))))))
+457-3
+(x21 / person
+						:name (n1 / name
+							:op1 "Geldof")
+						:null_edge (x20 / person
+							:name (n3 / name
+								:op1 "Bob")))
+460-2
+(x14 / raise-01
+		:ARG0 x2
+		:ARG0 x9
+		:ARG1 (x15 / fund
+			:purpose (x21 / region
+				:poss (x17 / country
+					:name (n / name
+						:op1 "Sudan"))
+				:ARG1-of (x19 / trouble-01))))
+460-3
+(x6 / launch-01
+	:ARG1 (x2 / song)
+	:mod (x4 / also)
+	:manner (x9 / charity
+		:mod (x11 / phone
+			:ARG1-of (x10 / mobile-02)))
+	:purpose (x14 / raise-01
+		:ARG0 x2
+		:ARG0 x9
+		:ARG1 (x15 / fund
+			:purpose (x21 / region
+				:poss (x17 / country
+					:name (n / name
+						:op1 "Sudan"))
+				:ARG1-of (x19 / trouble-01)))))
+461-1
+(x2 / say-01
+	:ARG0 (x1 / organization
+		:name (n / name
+			:op1 "Mycokemusic.com"))
+	:ARG1 (x7 / put-01
+		:ARG1 (x9 / track)
+		:ARG1 (x17 / profit-01
+			:quant (x16 / all)
+			:ARG1-of (x20 / donate-01
+				:ARG2 (x22 / charity))
+			:time (xap0 / date-entity
+				:weekday (x14 / thursday)))))
+464-1
+(x7 / serve-01
+			:null_edge "MSN"
+			:null_edge (x6 / null_tag)
+			:null_edge (x9 / company
+				:name (n / name
+					:op1 "Microsoft")))
+466-1
+(x1 / country
+	:name (n / name
+		:op1 "REDMOND")
+	:null_edge (x3 / city
+		:name (n1 / name
+			:op1 "Washington")))
+467-1
+(x8 / service
+		:mod (x5 / new)
+		:mod (x6 / product
+			:name (n1 / name
+				:op1 "MSN"))
+		:ARG0-of (x7 / search-01))
+467-2
+(x3 / release-01
+	:ARG0 (x1 / company
+		:name (n / name
+			:op1 "Microsoft"))
+	:ARG1 (x8 / service
+		:mod (x5 / new)
+		:mod (x6 / product
+			:name (n1 / name
+				:op1 "MSN"))
+		:ARG0-of (x7 / search-01)))
+468-1
+(x5 / release-01
+	:ARG1 (x4 / press
+		:name (x3 / company
+			:name (n / name
+				:op1 "Microsoft")))
+	:ARG1 (x11 / offer-01
+		:ARG0 (x10 / search-01
+			:mod (x8 / new)
+			:mod (x9 / product
+				:name (n1 / name
+					:op1 "MSN")))
+		:ARG1 (x13 / large
+			:degree (m / most))
+		:ARG1 (x21 / and
+			:op1 (x18 / select-01
+				:ARG1 (x17 / date)
+				:ARG3 (x20 / information))
+			:op2 (x24 / class
+				:mod (x23 / new)
+				:poss (x27 / tool
+					:mod (x26 / search-01)))
+			:op2 (x29 / reduce-01
+				:ARG1 (x31 / and
+					:op1 (x30 / time
+						:ARG1-of (x33 / require-01
+							:ARG1 (x37 / find-01
+								:ARG1 (x38 / information))))
+					:op2 (x32 / effort))))))
+468-3
+(x11 / offer-01
+		:ARG0 (x10 / search-01
+			:mod (x8 / new)
+			:mod (x9 / product
+				:name (n1 / name
+					:op1 "MSN")))
+		:ARG1 (x13 / large
+			:degree (m / most))
+		:ARG1 (x21 / and
+			:op1 (x18 / select-01
+				:ARG1 (x17 / date)
+				:ARG3 (x20 / information))
+			:op2 (x24 / class
+				:mod (x23 / new)
+				:poss (x27 / tool
+					:mod (x26 / search-01)))
+			:op2 (x29 / reduce-01
+				:ARG1 (x31 / and
+					:op1 (x30 / time
+						:ARG1-of (x33 / require-01
+							:ARG1 (x37 / find-01
+								:ARG1 (x38 / information))))
+					:op2 (x32 / effort)))))
+469-1
+(x3 / thing
+		:ARG2-of (c / characteristic-02)
+		:quant (x1 / some)
+		:ARG1-of (x2 / major-02)
+		:ARG1 (x9 / serve-01
+			:mod (x6 / new)
+			:mod (x7 / product
+				:name (n / name
+					:op1 "MSN"))
+			:ARG0-of (x8 / search-01)))
+469-3
+(x9 / serve-01
+			:mod (x6 / new)
+			:mod (x7 / product
+				:name (n / name
+					:op1 "MSN"))
+			:ARG0-of (x8 / search-01))

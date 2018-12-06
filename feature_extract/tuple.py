@@ -19,19 +19,13 @@ class subGraph():
 	def __repr__(self):
 		return "{}\t{}\t{}\t{}\t{}".format(self.raw_text, self.articleId, self.sentenceId, self.graph, self.annotation)
 
-
-
-def main(mode, filename):
-	lino = 0
-	subGraphs = []
-	if mode == '-train':
-		annotationFilePath = "../feature_extract/annotation.xlsx"
-		subgraph = open('../subgraph/PART-amr-release-1.0-training-proxy-subgraph.txt','r').read().split('-'*50+'\n')[2:]
+class data2tuple:
+	def combine(subgraph, annotationPath):
+		'''
+		This function is used for training data specifically
+		'''
 		annotation = xlrd.open_workbook(annotationFilePath).sheets()[0]
 		maxrows = annotation.nrows
-
-		k = open('./knowledge.txt','w')
-		knowledge_num = 0
 
 		for s in subgraph:
 			line = s.split('\n')
@@ -70,40 +64,16 @@ def main(mode, filename):
 						i += 1
 					if annotation.row(lino+i)[3].value == 'y' or annotation.row(lino+i)[3].value == 'yes':
 						y = 1.0
-						knowledge_num += 1
-						k.write(str(aid) + '.' + str(sid)+'\n')
-						k.write(graph)
-						k.write('\n\n')
 					else:
 						y = 0.0
 				except IndexError:
 					print(aid+'.'+sid)
 				subGraphs.append(subGraph(raw_text,graph,aid,sid,y))
-		# print(subGraphs)
-		print("Processing %d tuples in total" % len(subGraphs))
-		print("There are %d piece of knowledge among them" % knowledge_num)
-		with open('./tuple.pkl','wb') as p:		#the output file need to be open as wb if list
-			pickle.dump(subGraphs,p)
+		return subGraphs
 
-		#produce fixed test dataset
-		# with open('./test_data.txt','w') as f:
-		# 	random.shuffle(subGraphs)
-		# 	test_data = subGraphs[0:TEST_DATASET_SIZE]
-		# 	for e in test_data:
-		# 		f.write(e.graph+'\n'+str(e.annotation)+'\n\n')
-
-
-
-	elif mode == '-predict':
-		subgraphFilePath = './subgraph/'+filename.split('/')[-1]+'.sbg'
-		subgraph = open(subgraphFilePath, 'r').read().split('-' * 50 + '\n')[1:]
+	def ProduceTuple(subgraph):
 		for s in subgraph:
 			line = s.split('\n')
-			# index = re.search("id\s(\S+)\.(\d+)", line[0])  # /d can only match one digit
-			# if not index:
-			# 	continue
-			# aid = index.group(1)
-			# sid = index.group(2)
 			raw_text = ""
 			for i in range(len(line)):
 				if line[i].startswith('#'):
@@ -117,7 +87,6 @@ def main(mode, filename):
 			if not sg:
 				continue
 			sg = sg.split('\n\n')[:-1]
-
 			for e in sg:
 				r = re.search("\((\d+)\)", e)
 				if not r:
@@ -125,14 +94,32 @@ def main(mode, filename):
 				ind = int(r.group(1))  # a integer
 				graph = e[r.end(1) + 1:]
 				subGraphs.append(subGraph(raw_text,graph,None,None,None))
+		return subGraphs
+
+
+def main(mode, filename):
+	lino = 0
+	subGraphs = []
+	converter = data2tuple()
+	if mode == '-train':
+		annotationFilePath = "../feature_extract/annotation.xlsx"
+		subGraphPath = '../subgraph/PART-amr-release-1.0-training-proxy-subgraph.txt'
+		converter.combine(subgraph, annotationFilePath)
+
+		print("Processing %d tuples in total" % len(subGraphs))
+		with open('./tuple.pkl','wb') as p:		#the output file need to be open as wb if list
+			pickle.dump(subGraphs,p)
+
+	elif mode == '-predict':
+		subgraphFilePath = './subgraph/'+filename.split('/')[-1]+'.sbg'
+		subgraph = open(subgraphFilePath, 'r').read().split('-' * 50 + '\n')[1:]
+		subGraphs = converter.ProduceTuple(subgraph)
+
 		print("Processing %d tuples in total" % len(subGraphs))
 		with open('./feature_extract/'+filename.split('/')[-1]+'.tp.pkl','wb') as p:
 			pickle.dump(subGraphs, p)
 	else:
 		raise Exception('Invalid Parameter')
-
-
-
 
 if __name__ == '__main__':
 	mode = sys.argv[1]

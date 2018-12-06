@@ -32,7 +32,7 @@ def train():
 	y_test = y[s:]
 
 
-	net = Net(X.size(1), 128, 128, 2)
+	net = Net(X.size(1), 128, 2)
 	net.double()
 	net.to(device)	
 
@@ -70,6 +70,9 @@ def train():
 
 	print('Accuracy:%d %%' % (100*correct / total))
 	print('Recall:%d %%' % (100*recall / total))
+	
+
+	
 
 if __name__ == '__main__':
 	train()

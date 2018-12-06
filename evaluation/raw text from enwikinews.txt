@@ -1,0 +1,143 @@
+ARTICLE 876
+
+British-Iraqi careworker Margaret Hassan reportedly killed
+
+November 16, 2004
+
+The British-Iraqi careworker Margaret Hassan, who was kidnapped in Iraq over a month ago, may have been killed by her kidnappers, according to the husband of the 59-year-old.
+ARG1:Margaret Hassan REL: have-org-role ARG2:British-Iraqi careworker
+ARG1:Margaret Hassan REL: was kidnapped in place ARG2: Iraq
+
+He was informed by the British Ministry of Foreign Affairs after analysis of a videotape showing the execution of a blindfolded woman. "
+
+Al Jazeera" was also said to have received the tape days ago, but after delaying to confirm Hassan's identity, ultimately decided not to broadcast it.
+
+The international organization CARE was shocked by the news.
+
+Hassan led the CARE-department in Iraq for years.
+ARG1: Hassan REL:have-org-role ARG2: leader of CARE-department in Iraq
+
+Since her kidnapping on October 19, 2004, has appeared on several tapes pleading for her life.
+ARG1: Hassan REL: kidnapped at time ARG2:October 19, 2004
+
+She made a personal request addressed to Prime Minister Tony Blair to remove British troops from Iraq to meet her kidnappers demands.
+
+
+ARTICLE 998
+
+Chinese submarine enters Japanese waters
+
+November 18, 2004
+
+Tenuous relations between Japan and the People's Republic of China were strained last week when a Chinese nuclear-powered submarine entered Japanese territorial waters southwest of Okinawa.
+
+The intrusion occurred on 10 November, Japanese time (UTC+9).
+
+The submarine was quickly spotted by Japan's Self-Defence Forces and was tracked by helicopter as it wandered in Japanese waters for two hours before moving north-west.
+
+International law requires a tracked submarine to surface and identify its nationality in times of peace; the submarine did not do so.
+
+Many Japanese officials in the Defence Agency considered the intrusion an act of provocation and "showing off," as the submarine in question was a particularly noisy model.
+
+It continued traveling very slowly after being spotted, and remained in shallow waters.
+
+The intrustion caused Japanese Self-Defense Forces to go on alert for the second time since the Second World War.
+
+The submarine in question is believed to be a Type 09-1 Han Class attack submarine.
+
+It is a nuclear-powered submarine designed in the 1950s and first built in the 1974.
+ARG1: 09-1 Han Class attack submarine REL:designed date ARG2: 1050s
+ARG1: 09-1 Han Class attack submarine REL:first built date ARG2: 1974
+
+This class of submarine is thought to suffer numerous defects, including radiation leakage, noise, and an inability to fire missiles while submerged.
+
+Only two of five submarines are thought to be operational.
+
+China has recently begun an active modernization of its navy.
+
+On 17 November, Chinese Vice Foreign Minister Wu Daiwei met with the Japanese ambassador to China Anami Koreshige in Beijing and offered an apology for the incident, stating that the submarine was on a training mission and the intrusion was due to a "technical error" and was "regrettable."
+ARG1: Wu Daiwei REL: have-org-role ARG2: Chinese Vice Foreign Minister
+ARG2: Anami Koreshige REL: have-org-role ARG2: ambassador to China
+
+Japan's Defence Agency is studying whether "technical errors" is a feasible explanation for the incident.
+
+Japanese Prime Minister Koizumi Junichiro has publicly stated he wishes to speak with Chinese President Hu Jintao about this and other matters of Sino-Japanese contention at the upcoming annual Asia-Pacific Economic Cooperation summit in Chile later this month.
+ARG1: Koizumi Junichiro REL: have-org-role ARG2: Japanese Prime Minister
+
+Despite the increasingly close economic ties between the two nations, distrust has long exisited between Japan and China.
+
+Many Chinese people still resent the Japanese invasion and occupation of China during World War II and Japan's refusal to formally apologise.
+ARG1: China REL: was invaded and occupied ARG2: Japan TIME: World War II
+
+Japan, on the other hand, sees China as a potential competitor and an increasing threat to its national security.
+
+Japan's Constitution forbids the nation from exercising military strength in matters other than that of self-defence, but Japan's ruling party, the Liberal Democratic Party or LDP, has recently proposed constitutional amendments to give the military more offensive capabilities, among other things.
+ARG1: Liberal Democratic Party REL: ruling-party-of ARG2: Japan
+
+ARTICLE 1003
+
+Israeli army kills three Egyptians in border incident
+
+November 18, 2004
+
+The Israeli Army is believed to have killed three Egyptian soldiers in a border incident.
+ARG1: Amy REL: from country ARG2: Israel
+
+The shootings occurred near the Philadelphi Route on the Gaza-Egypt border.
+
+Both nations patrol the area intensively for arms smuggling into Gaza.
+
+An Israeli tank apparently mistook Egyptian troops for smugglers.
+
+Foreign ministry spokesman Mark Regev has apologized for the incident, saying: "If Egyptians were hit then we regret it.
+ARG1: Mark Regev REL: have-org-role ARG2: Israel's foreign ministry spokesman
+
+This was not our intention.
+
+We want good co-operative relations with Egypt ... and if Egyptians were hurt then our thoughts go out to them and their families and the Egyptian people."
+
+Israel has said it is investigating the shootings "at the most senior level.
+" Egypt has said little so far.
+
+
+ARTICLE 1038
+
+World's most-spammed man
+
+"November 18, USA" - William Henry Gates III or just Bill Gates, Microsoft founder, receives up to four million emails a year, and most of it is "junk" or "spam," according to Microsoft CEO Steve Ballmer.
+ARG1: William Henry Gates REL: also named ARG2: Bill Gates
+ARG1: Bill Gates REL: is founder of ARG2: Microsoft
+ARG1: Steve Ballmer REL: have-org-rolw ARG2: Microsoft CEO
+
+An entire department filters the unsolicited emails.
+
+ARTICLE 1041
+
+New Band Aid music video is launched
+
+In the United Kingdom, the music video for this Christmas' remake of the charity single "
+
+Do They Know It's Christmas?"
+
+was launched simultaneously today (Thursday) on several UK and Irish television channels including BBC One, BBC Two, RTE 1, ITV1, Channel 4, and Sky One.
+ARG1: "Do They Know It's Christmas?" REL: is-a ARG2: music video
+ARG1: "Do They Know It's Christmas?" REL: launched at ARG2: UK and Irish television channels including BBC One, BBC Two, RTE 1, ITV1, Channel 4, and Sky One TIME: today (Thursday)
+
+The debut was made at 17:55 GMT.
+ARG1: "Do They Know It's Christmas?"'s debut REL: made time ARG2: 17:55 GMT today
+
+The song was originally recorded in 1984 by several of the biggest artists of the time including Bono, Bob Geldof, Paul McCartney and George Michael.
+ARG1: 1984's biggest artists REL: include ARG2: Bono, Bob Geldof, Paul McCartney and George Michael
+
+This year, in celebration of 20 years since the first single, the song has been remade by over 50 of today's best selling artists, including Coldplay frontman Chris Martin, Robbie Williams, Bono, Justin Hawkins of The Darkness and Dido.
+ARG1: today's best selling artists REL: include Coldplay frontman Chris Martin, Robbie Williams, Bono, Justin Hawkins of The Darkness and Dido
+
+The song, which is in aid of charity, is already tipped to be the Christmas No. 1 in the UK and Ireland.
+
+The song will also be launched as a charity mobile phone ringtone to raise funds for Sudan's troubled Darfur region.
+
+Mycokemusic.com said it was going to put the track on its website from Thursday with all profits to be donated to charity.
+
+The single will be available to buy in shops from the 29 November.
+ARG1: Single REL: be available at ARG2: 29 November
+
