@@ -13,7 +13,7 @@ transform = transforms.Compose(transforms.ToTensor())
 import sys
 import amr2subgraph
 import Record
-from Record import record
+from Record import record as subGraph
 import feature
 import xlrd
 import predict
@@ -38,8 +38,10 @@ def train():
 
 	X = data[:,:-1]
 	y = data[:,-1:].type(torch.LongTensor).squeeze(1)  #CrossEntropy just receive 1-D tensor, even [32,1] need to be squeenze
+	print("y")
+	print(sum(y) / len(y))
 
-	net = Net(X.size(1), 128, 2)
+	net = Net(X.size(1),256, 2)
 	net.double()
 	net.to(device)
 
@@ -47,7 +49,7 @@ def train():
 	optimizer = optim.Adam(net.parameters(), lr = learning_rate)
 
 
-	for epoch in range(500):
+	for epoch in range(2000):
 		running_loss = 0.0
 		optimizer.zero_grad()
 
@@ -58,7 +60,7 @@ def train():
 
 		optimizer.step()
 		running_loss = loss.item()
-		print(running_loss)
+		# print(running_loss)
 
 
 	torch.save(net, './models/classifier.pth')
@@ -131,8 +133,17 @@ def main(filename):
 	# l = floor(0.8 * file_len)
 	# train_set = train_rec[:l]
 	# test_set = train_rec[l:]
+	# with open('./data/tuple.pkl', 'rb') as p:
+	# 	old_train_records = pickle.load(p)
+	# np.random.shuffle(old_train_records)
+	# l = floor(0.7* len(old_train_records))
+	# train_rec = old_train_records[:l]
+	# test_rec = old_train_records[l:]
+	# train(train_rec)
+	# test(test_rec)
 
-	train()
+	# train()
+	# test()
 def test():
 	with open('./data/test_samples.pkl', 'rb') as p:
 		test_set = pickle.load(p)
@@ -164,10 +175,10 @@ def evaluate(y_pred, records):
 	FN_list = []
 
 	for i in range(len(y_pred)):
-		if y_pred[1] == 1 and records[i].annotation == 1:
+		if y_pred[i] == 1 and records[i].annotation == 1:
 			TP += 1
 			TP_list.append(records[i].graph)
-		elif y_pred[1] == 1 and records[i].annotation == 0:
+		elif y_pred[i] == 1 and records[i].annotation == 0:
 			FP +=  1
 			FP_list.append(records[i].graph)
 		elif y_pred[i] == 0 and records[i].annotation == 1:

@@ -270,6 +270,7 @@ def process(records, featCombination):
 	attrs = ['id','PredClass', 'SayTerm', 'TempMod', 'WishTerm', 'neMark']
 	for e in records:
 		lst = [getattr(e,a) for a in attrs] + e.labelNum + e.struc
+		lst.append(e.annotation)
 		traindata.append(lst)
 	
 	traindata = np.array(traindata,dtype = 'float64')
